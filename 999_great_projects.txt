@@ -1,0 +1,107 @@
+Cirno_GreatProject1 = { #ç÷Â¶ÅµÄÝæ«
+	date = 9999.09.09 time = { months = 0 } build_cost = 0 can_be_moved = no starting_tier = 0 type = monument
+	build_trigger = { 
+		has_global_flag = Cirno_GreatProject1 
+		has_province_flag = Cirno_GreatProject_flag1
+	}
+	on_built = {
+		has_global_flag = Cirno_GreatProject1 
+		has_province_flag = Cirno_GreatProject_flag1
+	}
+	tier_0 = { upgrade_time = { months = 0 } cost_to_upgrade = { factor = 0 } }
+	tier_1 = {
+		upgrade_time = { months = 333 } cost_to_upgrade = { factor = 999 }
+		province_modifiers = {
+			local_tax_modifier = 0.333
+			province_trade_power_value = 333
+		}
+		on_upgraded = {
+		  add_base_tax = 33 add_base_production = 33 add_base_manpower = 33
+			region = { add_base_tax = -1 add_base_production = -1 add_base_manpower = -1 }
+		}
+	}
+	tier_2 = {
+		upgrade_time = { months = 333 } cost_to_upgrade = { factor = 999 }
+		province_modifiers = {
+			local_tax_modifier = 0.666
+			province_trade_power_value = 666
+		}
+		on_upgraded = {
+		  add_base_tax = 33 add_base_production = 33 add_base_manpower = 33
+			region = { add_base_tax = -1 add_base_production = -1 add_base_manpower = -1 }
+		}
+	}
+	tier_3 = {
+		upgrade_time = { months = 333 } cost_to_upgrade = { factor = 999 }
+		province_modifiers = {
+			local_tax_modifier = 0.999
+			province_trade_power_value = 999
+		}
+		on_upgraded = {
+		  add_base_tax = 33 add_base_production = 33 add_base_manpower = 33
+			region = { add_base_tax = -1 add_base_production = -1 add_base_manpower = -1 }
+		}
+	}
+}
+
+Cirno_GreatProject2 = { #Ó¢ÐÛ¾Æ¹Ý
+	date = 9999.09.09 time = { months = 0 } build_cost = 0 can_be_moved = no starting_tier = 0 type = monument
+	build_trigger = { 
+		has_global_flag = Cirno_GreatProject2
+		has_province_flag = Cirno_GreatProject_flag2
+	}
+	on_built = {
+		has_global_flag = Cirno_GreatProject2
+		has_province_flag = Cirno_GreatProject_flag2
+	}
+	tier_0 = { upgrade_time = { months = 0 } cost_to_upgrade = { factor = 0 } }
+	tier_1 = {
+		upgrade_time = { months = 12 } cost_to_upgrade = { factor = 1000 }
+		country_modifiers = {
+			free_leader_pool = 1
+		}
+		on_upgraded = {
+		  owner = {
+		    country_event = { id = Cirno_GreatProject.1 } 
+		    hidden_effect = { 
+		      set_country_flag = Cirno_GreatProject2_tier1 
+		    }
+		  }
+		}
+	}
+	tier_2 = {
+		upgrade_time = { months = 12 } cost_to_upgrade = { factor = 1000 }
+		province_modifiers = {
+			army_tradition = 0.5
+			free_leader_pool = 2
+		}
+		on_upgraded = {
+		  owner = { 
+		    country_event = { id = Cirno_GreatProject.1 } 
+		    custom_tooltip = Cirno_GreatProject2_tier2_tooltip
+		    hidden_effect = { 
+		      country_event = { id = Cirno_Leader.100 days = 1 }  #Éý¼¶¼ì²é
+		      set_country_flag = Cirno_GreatProject2_tier2
+		    }
+		  }
+		}
+	}
+	tier_3 = {
+		upgrade_time = { months = 12 } cost_to_upgrade = { factor = 1000 }
+		province_modifiers = {
+			army_tradition = 1
+			free_leader_pool = 3
+			yearly_army_professionalism = 0.1
+		}
+		on_upgraded = {
+		  owner = { 
+		    country_event = { id = Cirno_GreatProject.1 } 
+		    custom_tooltip = Cirno_GreatProject2_tier3_tooltip
+		    hidden_effect = { 
+		      country_event = { id = Cirno_Leader.100 days = 1 }
+		      set_country_flag = Cirno_GreatProject2_tier3
+		    }
+		  }
+		}
+	}
+}
