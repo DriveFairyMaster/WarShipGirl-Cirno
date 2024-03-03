@@ -23,6 +23,7 @@ country_decisions = {
 			mil_power_cost = 99
 			capital_scope = {
 				add_great_project = { type = Cirno_GreatProject1 instant = yes }
+				set_province_flag = Cirno_GreatProject_flag1
 			}	
     	hidden_effect = { set_global_flag = Cirno_GreatProject1 }
 		}
@@ -44,6 +45,7 @@ country_decisions = {
 			mil_power_cost = 99
 			capital_scope = {
 				add_great_project = { type = Cirno_GreatProject2 instant = yes }
+				set_province_flag = Cirno_GreatProject_flag2
 			}	
     	hidden_effect = { set_global_flag = Cirno_GreatProject2 }
 		}
