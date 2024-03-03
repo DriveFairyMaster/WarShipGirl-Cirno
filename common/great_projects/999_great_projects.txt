@@ -1,6 +1,13 @@
-Cirno_GreatProject1 = { #ç÷Â¶ÅµÄİæ«
+Cirno_GreatProject1 = { #ï¦¹ì¨‹í‚µì½œè¼¿
 	date = 9999.09.09 time = { months = 0 } build_cost = 0 can_be_moved = no starting_tier = 0 type = monument
-	build_trigger = { has_global_flag = Cirno_GreatProject1 }
+	build_trigger = { 
+		has_global_flag = Cirno_GreatProject1 
+		has_province_flag = Cirno_GreatProject_flag1
+	}
+	on_built = {
+		has_global_flag = Cirno_GreatProject1 
+		has_province_flag = Cirno_GreatProject_flag1
+	}
 	tier_0 = { upgrade_time = { months = 0 } cost_to_upgrade = { factor = 0 } }
 	tier_1 = {
 		upgrade_time = { months = 333 } cost_to_upgrade = { factor = 999 }
@@ -37,9 +44,16 @@ Cirno_GreatProject1 = { #ç÷Â¶ÅµÄİæ«
 	}
 }
 
-Cirno_GreatProject2 = { #Ó¢ĞÛ¾Æ¹İ
+Cirno_GreatProject2 = { #äº¶è¡¿ì•„ë°˜
 	date = 9999.09.09 time = { months = 0 } build_cost = 0 can_be_moved = no starting_tier = 0 type = monument
-	build_trigger = { has_global_flag = Cirno_GreatProject2 }
+	build_trigger = { 
+		has_global_flag = Cirno_GreatProject2
+		has_province_flag = Cirno_GreatProject_flag2
+	}
+	on_built = {
+		has_global_flag = Cirno_GreatProject2
+		has_province_flag = Cirno_GreatProject_flag2
+	}
 	tier_0 = { upgrade_time = { months = 0 } cost_to_upgrade = { factor = 0 } }
 	tier_1 = {
 		upgrade_time = { months = 12 } cost_to_upgrade = { factor = 1000 }
@@ -66,7 +80,7 @@ Cirno_GreatProject2 = { #Ó¢ĞÛ¾Æ¹İ
 		    country_event = { id = Cirno_GreatProject.1 } 
 		    custom_tooltip = Cirno_GreatProject2_tier2_tooltip
 		    hidden_effect = { 
-		      country_event = { id = Cirno_Leader.100 days = 1 }  #Éı¼¶¼ì²é
+		      country_event = { id = Cirno_Leader.100 days = 1 }  #îœì„¬ì‡±ê¿´
 		      set_country_flag = Cirno_GreatProject2_tier2
 		    }
 		  }
