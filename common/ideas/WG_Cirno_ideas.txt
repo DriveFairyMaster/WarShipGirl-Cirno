@@ -1,0 +1,206 @@
+#行政
+hm_warshipgirls_adm_ideas = {
+	category = ADM
+	trigger = { ai = no }
+	hm_warshipgirls_adm_idea1 = {
+		core_creation = -0.2
+	}
+	hm_warshipgirls_adm_idea2 = {
+		development_cost_modifier = -0.1
+	}
+	hm_warshipgirls_adm_idea3 = {
+		global_unrest = -2
+	}
+	hm_warshipgirls_adm_idea4 = {
+		all_power_cost = -0.05
+		global_tax_modifier = 0.2
+	}
+	hm_warshipgirls_adm_idea5 = {
+		global_missionary_strength = 0.03
+	}
+	hm_warshipgirls_adm_idea6 = {
+		global_spy_defence = 0.5
+	}
+	hm_warshipgirls_adm_idea7 = {
+		administrative_efficiency = 0.05
+	}
+	bonus = {
+		country_admin_power = 1
+	}
+	ai_will_do = { factor = 0 }
+}
+
+#外交
+hm_warshipgirls_dip_ideas = { 
+	category = DIP
+	trigger = { ai = no }
+	hm_warshipgirls_dip_idea1 = {
+		culture_conversion_cost = -0.25
+		culture_conversion_time = -0.50
+	}
+	hm_warshipgirls_dip_idea2 = {
+		movement_speed_in_fleet_modifier = 20
+	}
+	hm_warshipgirls_dip_idea3 = {
+		sailor_maintenance_modifer = -0.25
+		naval_maintenance_modifier = -0.25
+	}
+	hm_warshipgirls_dip_idea4 = {
+		naval_morale_constant = 1
+		warshipgirls999_loyalty_modifier = 0.05
+	}
+	hm_warshipgirls_dip_idea5 = {
+		heavy_ship_number_of_cannons_modifier = 3.81
+		heavy_ship_cost = 3.81
+	}
+	hm_warshipgirls_dip_idea6 = {
+		hull_size_modifier = 0.5
+	}
+	hm_warshipgirls_dip_idea7 = {
+		diplomatic_reputation = 2
+	}
+	bonus = {
+		country_diplomatic_power = 1
+	}
+	ai_will_do = {factor = 0 }
+}
+
+#军事理念
+hm_warshipgirls_mil_ideas = { 
+	category = MIL
+	trigger = { ai = no }
+	hm_warshipgirls_mil_idea1 = {
+		army_tradition = 0.5
+		land_morale_constant = 0.5
+	}
+	hm_warshipgirls_mil_idea2 = {
+		loot_amount = -2
+		discipline = 0.05
+		years_of_nationalism = -10
+	}
+	hm_warshipgirls_mil_idea3 = {
+		can_bypass_forts = yes
+		military_tactics = 0.25
+	}
+	hm_warshipgirls_mil_idea4 = {
+		siege_ability = 0.2
+	}
+	hm_warshipgirls_mil_idea5 = {
+		war_exhaustion = -0.05
+		stability_cost_to_declare_war = -1
+	}
+	hm_warshipgirls_mil_idea6 = {
+		fire_damage = -0.5
+		shock_damage = -0.5
+		morale_damage = -0.5
+		global_attacker_dice_roll_bonus = 5
+		global_defender_dice_roll_bonus = 5
+	}
+	hm_warshipgirls_mil_idea7 = {
+		fire_damage_received = -0.1
+		shock_damage_received = -0.1
+	}
+	bonus = {
+		country_military_power = 1
+	}
+	ai_will_do = {factor = 0 }
+}
+
+#献忠理念
+hm_warshipgirls_xianzhong_ideas = {
+	category = MIL
+	trigger = { 
+		#ai = no
+		tag = CXI
+	}
+	hm_warshipgirls_xianzhong_idea1 = {
+		diplomatic_reputation = -100
+		morale_damage_received = -0.5
+		sunk_ship_morale_hit_recieved = -0.5
+	}
+	hm_warshipgirls_xianzhong_idea2 = {
+		ae_impact = 1
+		core_creation = -0.25
+		years_of_nationalism = -30
+		global_missionary_strength = 0.05
+	}
+	hm_warshipgirls_xianzhong_idea3 = {
+		manpower_recovery_speed = -0.25
+		siege_ability = 0.5
+		leader_siege = 3
+	}
+	hm_warshipgirls_xianzhong_idea4 = {
+		global_unrest = 2
+		reinforce_speed = 1
+		leader_land_manuever = 3
+		reinforce_cost_modifier = -1
+	}
+	hm_warshipgirls_xianzhong_idea5 = {
+		global_tax_modifier = -0.5
+		production_efficiency = -0.5
+		global_regiment_cost = -0.5
+		naval_maintenance_modifier = -0.5
+	}
+	hm_warshipgirls_xianzhong_idea6 = {
+		leader_land_fire = 3
+		fire_damage = 0.5
+		fire_damage_received = 0.25
+	}
+	hm_warshipgirls_xianzhong_idea7 = {
+		leader_land_shock = 3
+		shock_damage = 0.5
+		shock_damage_received = 0.25
+	}
+	bonus = {
+		global_manpower_modifier = 0.5
+		global_sailors_modifier = 0.5
+		land_forcelimit_modifier = 0.5
+		naval_forcelimit_modifier = 0.5
+		development_cost_modifier = 1
+	}
+	ai_will_do = {factor = 0 }
+}
+
+#大明黑科技理念
+hm_warshipgirls_Ming_Black_Technology_ideas = {
+	category = MIL
+	trigger = { 
+		#ai = no
+		or = {
+		  tag = MNG
+		  tag = M0G
+		}
+	}
+	hm_warshipgirls_MingBT_idea1 = {
+		military_tactics = 0.1
+		global_defender_dice_roll_bonus = 2
+	}
+	hm_warshipgirls_MingBT_idea2 = {
+		morale_damage = 0.1
+		global_attacker_dice_roll_bonus = 2
+	}
+	hm_warshipgirls_MingBT_idea3 = {
+		number_of_cannons = 6
+	}
+	hm_warshipgirls_MingBT_idea4 = {
+		infantry_fire = 1
+		morale_damage = 0.15
+	}
+	hm_warshipgirls_MingBT_idea5 = {
+		cavalry_cost = 0.5
+		cavalry_fire = 2
+		cavalry_shock = 1
+	}
+	hm_warshipgirls_MingBT_idea6 = {
+		fire_damage = 0.25
+		movement_speed = 0.25
+	}
+	hm_warshipgirls_MingBT_idea7 = {
+		fire_damage = 0.25
+		morale_damage = 0.25
+	}
+	bonus = {
+		mil_tech_cost_modifier = -0.6
+	}
+	ai_will_do = {factor = 0 }
+}

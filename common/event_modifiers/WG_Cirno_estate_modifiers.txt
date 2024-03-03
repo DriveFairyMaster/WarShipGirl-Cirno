@@ -1,0 +1,193 @@
+#港口加成/海岸/海岸沙滩
+estate_warshipgirls_port_mod1 = {
+	local_ship_repair = 0.5
+	ship_recruit_speed = -0.2
+	local_sailors_modifier = 1
+	local_manpower_modifier = -1
+	local_development_cost = -0.25
+	monthly_militarized_society = 0.01
+	local_culture_conversion_cost = -0.25
+}
+estate_warshipgirls_port_mod2 = {
+	local_ship_repair = 0.5
+	ship_recruit_speed = -0.2
+	local_sailors_modifier = 1
+	local_manpower_modifier = -1
+	local_development_cost = -0.5
+	monthly_militarized_society = 0.01
+	local_culture_conversion_cost = -0.25
+}
+estate_warshipgirls_port_mod3 = {
+	local_ship_repair = 0.5
+	ship_recruit_speed = -0.2
+	local_sailors_modifier = 1
+	local_manpower_modifier = -1
+	local_development_cost = -0.6
+	monthly_militarized_society = 0.01
+	local_culture_conversion_cost = -0.25
+}
+#特雷森学院 草原/稀树草原/大草原
+estate_warshipgirls_uma_mod1 = {
+  tax_income = -1
+  amount_of_hussars = 0.1
+  local_years_of_nationalism = -5
+  local_culture_conversion_cost = -0.2
+  local_culture_conversion_time = -0.2
+}
+estate_warshipgirls_uma_mod2 = {
+  tax_income = -1
+  amount_of_hussars = 0.1
+  local_years_of_nationalism = -5
+  local_culture_conversion_cost = -0.2
+  local_culture_conversion_time = -0.2
+	local_development_cost = -0.15
+}
+estate_warshipgirls_uma_mod3 = {
+  tax_income = -1
+  amount_of_hussars = 0.1
+  local_years_of_nationalism = -5
+  local_culture_conversion_cost = -0.2
+  local_culture_conversion_time = -0.2
+	local_development_cost = -0.2
+}
+
+#水之心
+estate_warshipgirls_fisher_mod = {
+	trade_goods_size = 1
+	local_development_cost = -0.5
+}
+#大饭堂
+estate_warshipgirls_canteen_mod = {
+	land_forcelimit = 1
+	local_development_cost = -0.5
+	local_production_efficiency = 0.5
+}
+#萨拉可乐
+estate_warshipgirls_saracola_mod = {
+	local_development_cost = -0.5
+	local_production_efficiency = 0.5
+}
+#建造船坞
+estate_warshipgirls_navy_dock_mod = {
+	reinforce_speed = 0.01
+	local_development_cost = -0.5
+	local_production_efficiency = 0.5
+}
+#戒指工厂
+estate_warshipgirls_ring_factory_mod = {
+	inflation_reduction = 0.01
+	local_development_cost = -0.5
+	local_production_efficiency = 0.5
+}
+#小裙子作坊
+estate_warshipgirls_jiangnan_leather_mod = {
+	local_development_cost = -0.5
+	local_production_efficiency = 0.5
+	province_trade_power_modifier = 0.5
+}
+#妖巴克咖啡
+estate_warshipgirls_starsapphire_bucks_coffee_mod = {
+	local_development_cost = -0.5
+	local_production_efficiency = 0.5
+}
+#同人本作坊
+estate_warshipgirls_patronage_of_the_arts_Tirpitz_mod = {
+	local_institution_spread = 1
+	local_development_cost = -0.5
+	local_missionary_strength = 0.1
+	local_production_efficiency = 0.5
+}
+
+
+#海军陆战队-舰娘武士
+hm_warshipgirls_marine0 = {
+	fire_damage = 2               #比同期炮兵更强
+	shock_damage = 2              #比同期骑兵更强
+	shock_damage_received = -0.1  #原版陆战队受到冲伤+10
+	land_attrition = -1
+	reinforce_speed = -0.8
+	land_maintenance_modifier = 2
+	is_marine_modifier = yes
+}
+#数万吨的淑女.受到伤害-20%
+hm_warshipgirls_marine1 = {
+	fire_damage = 2
+	shock_damage = 2
+	fire_damage_received = -0.2
+	shock_damage_received = -0.3
+	land_attrition = -1
+	reinforce_speed = -0.8
+	land_maintenance_modifier = 2
+	is_marine_modifier = yes
+}
+#战利品活动.20士气 20士气打击
+hm_warshipgirls_marine2 = {
+	land_morale = 0.2
+	morale_damage = 0.2
+	fire_damage = 2
+	shock_damage = 2
+	fire_damage_received = -0.2
+	shock_damage_received = -0.3
+	land_attrition = -1
+	reinforce_speed = -0.8
+	land_maintenance_modifier = 2
+	is_marine_modifier = yes
+}
+#损管.280增援效率
+hm_warshipgirls_marine3 = {
+	land_morale = 0.2
+	morale_damage = 0.2
+	fire_damage = 2
+	shock_damage = 2
+	fire_damage_received = -0.2
+	shock_damage_received = -0.3
+	land_attrition = -1
+	reinforce_speed = 2
+	land_maintenance_modifier = 3
+	is_marine_modifier = yes
+}
+#凯旋之歌.100士气防御
+hm_warshipgirls_marine4 = {
+	land_morale = 0.2
+	morale_damage = 0.2
+	morale_damage_received = -1
+	fire_damage = 2
+	shock_damage = 2
+	fire_damage_received = -0.2
+	shock_damage_received = -0.3
+	land_attrition = -1
+	reinforce_speed = 2
+	land_maintenance_modifier = 3
+	is_marine_modifier = yes
+}
+#浴血婚纱.25训
+hm_warshipgirls_marine5 = {
+	land_morale = 0.2
+	morale_damage = 0.2
+	morale_damage_received = -1
+	fire_damage = 2
+	shock_damage = 2
+	discipline = 0.25
+	fire_damage_received = -0.2
+	shock_damage_received = -0.3
+	land_attrition = -1
+	reinforce_speed = 1
+	land_maintenance_modifier = 4
+	is_marine_modifier = yes
+}
+
+
+
+#政策buff
+hm_warshipgirls_dip_policy1_hidden_buff = {
+	trade_efficiency = -0.9
+}
+hm_warshipgirls_mil_policy2_hidden_buff = {
+	land_maintenance_modifier = -1
+	is_marine_modifier = yes
+}
+hm_warshipgirls_mil_policy3_hidden_buff = {
+	discipline = 0.1
+	land_maintenance_modifier = -0.5
+	is_marine_modifier = yes
+}

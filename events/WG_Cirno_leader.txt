@@ -1,0 +1,234 @@
+namespace = Cirno_Leader
+country_event = {
+  id = Cirno_Leader.1
+  hidden = yes
+  is_triggered_only = yes
+  trigger = { ai = no }
+  immediate = {
+    kill_leader = { type = "‹|	NS–Y" }
+		if = {
+			limit = { 
+				has_country_flag = Cirno_GreatProject2_tier1 
+				NOT = { has_country_flag = Cirno_GreatProject2_tier2 } 
+				NOT = { has_country_flag = Cirno_GreatProject2_tier3 } 
+			}
+			define_conquistador = { name = "‹|	NS–Y" female = yes trait = WG_CIRNO_leader_trait_MIMIMI fire = 0 shock = 0 manuever = 6 siege = 6 }
+		}
+		if = {
+			limit = { 
+				has_country_flag = Cirno_GreatProject2_tier2
+				NOT = { has_country_flag = Cirno_GreatProject2_tier3 } 
+			}
+			define_conquistador = { name = "‹|	NS–Y" female = yes trait = WG_CIRNO_leader_trait_MIMIMI fire = 1 shock = 1 manuever = 7 siege = 7 }
+		}
+		if = {
+			limit = { has_country_flag = Cirno_GreatProject2_tier3 }
+			define_conquistador = { name = "‹|	NS–Y" female = yes trait = WG_CIRNO_leader_trait_MIMIMI fire = 3 shock = 3 manuever = 9 siege = 9 }
+		}
+	}
+  option = { name = Cirno_hidden_event.1.a }
+}
+country_event = {
+  id = Cirno_Leader.2
+  hidden = yes
+  is_triggered_only = yes
+  trigger = { ai = no }
+  immediate = {
+		if = {
+			limit = { 
+				has_country_flag = Cirno_GreatProject2_tier1 
+				NOT = { has_country_flag = Cirno_GreatProject2_tier2 } 
+				NOT = { has_country_flag = Cirno_GreatProject2_tier3 } 
+			}
+			define_conquistador = { name = "'k9h≤Nãs" female = yes trait = WG_CIRNO_leader_trait_PrinzEugen fire = 5 shock = 5 manuever = 1 siege = 1 }
+		}
+		if = {
+			limit = { 
+				has_country_flag = Cirno_GreatProject2_tier2
+				NOT = { has_country_flag = Cirno_GreatProject2_tier3 } 
+			}
+			define_conquistador = { name = "'k9h≤Nãs" female = yes trait = WG_CIRNO_leader_trait_PrinzEugen fire = 6 shock = 6 manuever = 2 siege = 2 }
+		}
+		if = {
+			limit = { has_country_flag = Cirno_GreatProject2_tier3 }
+			define_conquistador = { name = "'k9h≤Nãs" female = yes trait = WG_CIRNO_leader_trait_PrinzEugen fire = 8 shock = 8 manuever = 4 siege = 4 }
+		}
+  }
+  option = { name = Cirno_hidden_event.1.a }
+}
+country_event = {
+  id = Cirno_Leader.3
+  hidden = yes
+  is_triggered_only = yes
+  trigger = { ai = no }
+  immediate = {
+		if = {
+			limit = { 
+				has_country_flag = Cirno_GreatProject2_tier1 
+				NOT = { has_country_flag = Cirno_GreatProject2_tier2 } 
+				NOT = { has_country_flag = Cirno_GreatProject2_tier3 } 
+			}
+			define_conquistador = { name = "ç∑V" female = yes trait = WG_CIRNO_leader_trait_JoanofArc fire = 3 shock = 6 manuever = 3 siege = 0 }
+		}
+		if = {
+			limit = { 
+				has_country_flag = Cirno_GreatProject2_tier2
+				NOT = { has_country_flag = Cirno_GreatProject2_tier3 } 
+			}
+			define_conquistador = { name = "ç∑V" female = yes trait = WG_CIRNO_leader_trait_JoanofArc fire = 4 shock = 7 manuever = 4 siege = 1 }
+		}
+		if = {
+			limit = { has_country_flag = Cirno_GreatProject2_tier3 }
+			define_conquistador = { name = "ç∑V" female = yes trait = WG_CIRNO_leader_trait_JoanofArc fire = 6 shock = 9 manuever = 6 siege = 3 }
+		}
+  }
+  option = { name = Cirno_hidden_event.1.a }
+}
+country_event = {
+  id = Cirno_Leader.4
+  hidden = yes
+  is_triggered_only = yes
+  trigger = { ai = no }
+  immediate = {
+		if = {
+			limit = { 
+				has_country_flag = Cirno_GreatProject2_tier1 
+				NOT = { has_country_flag = Cirno_GreatProject2_tier2 } 
+				NOT = { has_country_flag = Cirno_GreatProject2_tier3 } 
+			}
+			define_conquistador = { name = "IÉNﬁò" female = yes trait = WG_CIRNO_leader_trait_GrassWonder fire = 0 shock = 6 manuever = 6 siege = 0 }
+		}
+		if = {
+			limit = { 
+				has_country_flag = Cirno_GreatProject2_tier2
+				NOT = { has_country_flag = Cirno_GreatProject2_tier3 } 
+			}
+			define_conquistador = { name = "IÉNﬁò" female = yes trait = WG_CIRNO_leader_trait_GrassWonder fire = 1 shock = 7 manuever = 7 siege = 1 }
+		}
+		if = {
+			limit = { has_country_flag = Cirno_GreatProject2_tier3 }
+			define_conquistador = { name = "IÉNﬁò" female = yes trait = WG_CIRNO_leader_trait_GrassWonder fire = 3 shock = 9 manuever = 9 siege = 3 }
+		}
+  }
+  option = { name = Cirno_hidden_event.1.a }
+}
+country_event = {
+  id = Cirno_Leader.5
+  hidden = yes
+  is_triggered_only = yes
+  trigger = { ai = no }
+  immediate = {
+		if = {
+			limit = { 
+				has_country_flag = Cirno_GreatProject2_tier1 
+				NOT = { has_country_flag = Cirno_GreatProject2_tier2 } 
+				NOT = { has_country_flag = Cirno_GreatProject2_tier3 } 
+			}
+			define_conquistador = { name = "âRm…b" female = yes trait = WG_CIRNO_leader_trait_Angela fire = 3 shock = 3 manuever = 3 siege = 3 }
+		}
+		if = {
+			limit = { 
+				has_country_flag = Cirno_GreatProject2_tier2
+				NOT = { has_country_flag = Cirno_GreatProject2_tier3 } 
+			}
+			define_conquistador = { name = "âRm…b" female = yes trait = WG_CIRNO_leader_trait_Angela fire = 4 shock = 4 manuever = 4 siege = 4 }
+		}
+		if = {
+			limit = { has_country_flag = Cirno_GreatProject2_tier3 }
+			define_conquistador = { name = "âRm…b" female = yes trait = WG_CIRNO_leader_trait_Angela fire = 6 shock = 6 manuever = 6 siege = 6 }
+		}
+  }
+  option = { name = Cirno_hidden_event.1.a }
+}
+country_event = {
+  id = Cirno_Leader.6
+  hidden = yes
+  is_triggered_only = yes
+  trigger = { ai = no }
+  immediate = {
+		if = {
+			limit = { 
+				has_country_flag = Cirno_GreatProject2_tier1 
+				NOT = { has_country_flag = Cirno_GreatProject2_tier2 } 
+				NOT = { has_country_flag = Cirno_GreatProject2_tier3 } 
+			}
+			define_conquistador = { name = "ÚNck" female = yes trait = WG_CIRNO_leader_trait_ChiangKaiShek fire = 3 shock = 3 manuever = 6 siege = 0 }
+		}
+		if = {
+			limit = { 
+				has_country_flag = Cirno_GreatProject2_tier2
+				NOT = { has_country_flag = Cirno_GreatProject2_tier3 } 
+			}
+			define_conquistador = { name = "ÚNck" female = yes trait = WG_CIRNO_leader_trait_ChiangKaiShek fire = 4 shock = 4 manuever = 7 siege = 1 }
+		}
+		if = {
+			limit = { has_country_flag = Cirno_GreatProject2_tier3 }
+			define_conquistador = { name = "ÚNck" female = yes trait = WG_CIRNO_leader_trait_ChiangKaiShek fire = 6 shock = 6 manuever = 9 siege = 3 }
+		}
+  }
+  option = { name = Cirno_hidden_event.1.a }
+}
+
+
+country_event = {
+  id = Cirno_Leader.99
+  title = Cirno_Leader.99.title
+  hidden = yes
+  is_triggered_only = yes
+  trigger = { ai = no }
+  immediate = {
+		define_ruler = {
+    	female = no
+    	name = "–ccw"
+    	dynasty = "0ÇZKNIN"
+    	culture = ROOT
+    	religion = ROOT
+    	age = 16
+    	adm = 9
+    	dip = 9
+    	mil = 9
+		}
+		set_ruler_flag = WarShipBoy
+		add_ruler_personality = immortal_personality
+    add_ruler_modifier = { name = Cirno_evtmod_TD duration = -1 hidden = yes }
+  }
+  option = { name = hidden_event_option }
+}
+country_event = { #GY?GS?u?h?g
+  id = Cirno_Leader.100
+  hidden = yes
+  is_triggered_only = yes
+  trigger = { ai = no }
+  immediate = {
+    kill_leader = { type = "‹|	NS–Y" }
+    kill_leader = { type = "'k9h≤Nãs" }
+    kill_leader = { type = "ç∑V" }
+    kill_leader = { type = "IÉNﬁò" }
+    kill_leader = { type = "âRm…b" }
+    kill_leader = { type = "ÚNck" }
+    if = { limit = { has_country_flag = Cirno_Leader1 } country_event = { id = Cirno_Leader.1 } }
+    if = { limit = { has_country_flag = Cirno_Leader2 } country_event = { id = Cirno_Leader.2 } }
+    if = { limit = { has_country_flag = Cirno_Leader3 } country_event = { id = Cirno_Leader.3 } }
+    if = { limit = { has_country_flag = Cirno_Leader4 } country_event = { id = Cirno_Leader.4 } }
+    if = { limit = { has_country_flag = Cirno_Leader5 } country_event = { id = Cirno_Leader.5 } }
+    if = { limit = { has_country_flag = Cirno_Leader6 } country_event = { id = Cirno_Leader.6 } }
+  }
+  option = { name = hidden_event_option }
+}
+
+country_event = {
+  id = Cirno_Leader.101
+  title = Cirno_Leader.101.title
+  hidden = yes
+  is_triggered_only = yes
+  trigger = { ai = no }
+  immediate = {
+    if = { limit = { has_country_flag = Cirno_Leader1 NOT = { has_leader = "‹|	NS–Y" } } country_event = { id = Cirno_Leader.1 } }
+		if = { limit = { has_country_flag = Cirno_Leader2 NOT = { has_leader = "'k9h≤Nãs" } } country_event = { id = Cirno_Leader.2 } }
+		if = { limit = { has_country_flag = Cirno_Leader3 NOT = { has_leader = "ç∑V"     } } country_event = { id = Cirno_Leader.3 } }
+    if = { limit = { has_country_flag = Cirno_Leader4 NOT = { has_leader = "IÉNﬁò"   } } country_event = { id = Cirno_Leader.4 } }
+    if = { limit = { has_country_flag = Cirno_Leader5 NOT = { has_leader = "âRm…b"   } } country_event = { id = Cirno_Leader.5 } }
+    if = { limit = { has_country_flag = Cirno_Leader6 NOT = { has_leader = "ÚNck"     } } country_event = { id = Cirno_Leader.6 } }
+  }
+  option = { name = Cirno_hidden_event.1.a }
+}

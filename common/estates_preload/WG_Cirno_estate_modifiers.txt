@@ -1,0 +1,26 @@
+#Define estate loyalty and influence modifiers here
+
+
+estate_warshipgirls999 = {
+	modifier_definition = {
+		type = loyalty
+		key = warshipgirls999_loyalty_modifier
+		trigger = {
+			has_estate = estate_warshipgirls999
+		}
+	}
+	modifier_definition = {
+		type = influence
+		key = warshipgirls999_influence_modifier
+		trigger = {
+			has_estate = estate_warshipgirls999
+		}
+	}
+	modifier_definition = {
+		type = privileges
+		key = warshipgirls999_privilege_slots
+		trigger = {
+			has_estate = estate_warshipgirls999
+		}
+	}
+}

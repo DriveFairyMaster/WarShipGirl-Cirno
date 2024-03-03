@@ -1,0 +1,26 @@
+namespace = Cirno_policy_event
+country_event = { 
+  id = Cirno_policy_event.1
+  title = Cirno_policy_event.1.t
+  desc = Cirno_policy_event.1.desc
+  picture = Cirno_policy_eventPicture1
+  major = yes
+  is_triggered_only = yes
+  immediate = { set_country_flag = Cirno_policy_event1 }
+  option = {
+    name = Cirno_policy_event.1.a
+    custom_tooltip = Cirno_policy_event_1a_tooltip
+    hidden_effect = { 
+      country_event = { id = Cirno_Leader.99 } 
+    }
+  }
+  option = {
+    name = Cirno_policy_event.1.b
+    custom_tooltip = Cirno_policy_event_1b_tooltip
+    hidden_effect = {
+      set_ruler_flag = WarShipBoy
+		  add_ruler_personality = immortal_personality
+      add_ruler_modifier = { name = Cirno_evtmod_TD duration = -1 hidden = yes }
+    }
+  }
+}

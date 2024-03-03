@@ -1,0 +1,98 @@
+on_startup = {
+	events = {
+		Cirno_hidden_event.999
+	}
+}
+on_siege_won_country = { #围攻胜利
+	events = {
+		Cirno_sex_event.1
+	}
+}
+
+on_province_owner_change = { #在省份拥有者改变时
+	if = {
+  	limit = {
+			OR = {
+				has_great_project = { type = Cirno_GreatProject1 tier = 1 }
+				has_great_project = { type = Cirno_GreatProject1 tier = 2 }
+				has_great_project = { type = Cirno_GreatProject1 tier = 3 }
+			}
+		}
+    add_base_tax = -33 add_base_production = -33 add_base_manpower = -33
+  }
+	if = {
+  	limit = { 
+    	owner = { has_estate_privilege = estate_warshipgirls_uma }
+			OR = {
+				has_terrain = steppe     #大草原
+				has_terrain = savannah   #稀树草原
+				has_terrain = grasslands #草原
+			}
+		}
+    add_province_triggered_modifier = estate_warshipgirls_uma_ptmod1 
+    add_province_triggered_modifier = estate_warshipgirls_uma_ptmod2 
+    add_province_triggered_modifier = estate_warshipgirls_uma_ptmod3 
+  }
+}
+on_five_year_pulse_4 = { #五年脉冲4
+	events = {
+		Cirno_hidden_event.3
+	}
+}
+
+#on_startup = { every_province = { add_province_triggered_modifier = hm_idea_1 } } #会变卡 抛弃
+#on_new_monarch = { #新皇帝
+#	limit = { or = { } }
+#	country_event = { id = hmi_wsg_gov.1 }
+#}
+#on_new_consort = { #新太后
+#	limit = { or = { } }
+#	country_event = { id = hmi_wsg_gov.2 }
+#}
+#on_new_heir = { #新太子
+#	limit = { or = { } }
+#	country_event = { id = hmi_wsg_gov.3 }
+#}
+#on_monarch_death = { #皇帝死球
+#	limit = { or = { } }
+#	country_event = { id = hmi_wsg_gov.1 }
+#}
+#on_queen_death = { #太后死球
+#	limit = { or = { } }
+#	country_event = { id = hmi_wsg_gov.2 }
+#}
+#on_heir_death = { #太子死球
+#	limit = { or = { } }
+#	country_event = { id = hmi_wsg_gov.3 }
+#}
+#on_religion_change
+#on_secondary_religion_change #次要宗教
+#new_term_election            #新任期选举
+#death_election               #死亡选举
+#on_replace_governor
+#on_diplomatic_annex 
+#government_change
+#on_overextension_pulse = { #过度扩张
+#	random_events = {
+#		100 = overextension.1
+#		100 = overextension.2
+#		100 = overextension.3
+#		100 = overextension.4
+#		100 = overextension.5
+#		100 = overextension.6
+#		100 = overextension.7
+#		100 = overextension.8
+#		100 = overextension.9
+#		100 = overextension.10
+#	}
+#}
+#on_monthly_pulse = {
+#on_yearly_pulse = {
+#on_yearly_pulse_2 = {
+#on_yearly_pulse_3 = {
+#on_yearly_pulse_4 = {
+#on_yearly_pulse_5 = {
+#on_bi_yearly_pulse
+#on_thri_yearly_pulse
+#on_four_year_pulse
+#on_five_year_pulse

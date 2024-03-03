@@ -1,0 +1,195 @@
+namespace = Cirno_sex_event
+country_event = {
+	id = Cirno_sex_event.1
+	title = Cirno_sex_event.1.title
+	desc = Cirno_sex_event.1.desc
+	picture = Cirno_sex_eventPicture1
+	goto = from
+	is_triggered_only = yes
+	trigger = {
+	  ai = no
+		#NOT = { has_country_flag = Cirno_sex_event_flag1 } #仅触发一次
+		FROM = {
+			fort_level = 1
+			development = 20
+			owner = { NOT = { tag = ROOT } }
+			OR = { #五十年一次
+				NOT = { has_country_flag = Cirno_sex_event_flag1 }
+				had_country_flag = { flag = Cirno_sex_event_flag1 days = 18250 }
+			}
+			OR = { #被围攻省份五十年内不能再次触发
+				NOT = { has_province_flag = Cirno_SexSiegeWon_province_flag }
+				had_province_flag = { flag = Cirno_SexSiegeWon_province_flag days = 18250 }
+			}
+		}
+	}
+	immediate = {
+		hidden_effect = {
+			set_country_flag = Cirno_sex_event_flag1
+			FROM = { set_province_flag = Cirno_SexSiegeWon_province_flag }
+		}
+	}
+	#mean_time_to_happen = { days = 1 }
+	option = {
+		name = Cirno_sex_event.1.a
+		add_dip_power = 6
+		add_sailors = 1
+	}
+	option = {
+		name = Cirno_sex_event.1.b
+		add_mil_power = 6
+		add_sailors = 1
+	}
+	option = {
+		name = Cirno_sex_event.1.c
+		add_mil_power = 8
+	}
+}
+country_event = {
+	id = Cirno_sex_event.2
+	title = Cirno_sex_event.2.title
+	desc = Cirno_sex_event.2.desc
+	picture = Cirno_sex_eventPicture2
+	goto = from
+	is_triggered_only = yes
+	trigger = {
+	  ai = no
+		FROM = {
+			fort_level = 1
+			development = 20
+			owner = { NOT = { tag = ROOT } }
+			OR = { #五十年一次
+				NOT = { has_country_flag = Cirno_sex_event_flag2 }
+				had_country_flag = { flag = Cirno_sex_event_flag2 days = 18250 }
+			}
+			OR = { #被围攻省份五十年内不能再次触发
+				NOT = { has_province_flag = Cirno_SexSiegeWon_province_flag }
+				had_province_flag = { flag = Cirno_SexSiegeWon_province_flag days = 18250 }
+			}
+		}
+	}
+	immediate = {
+		hidden_effect = {
+			set_country_flag = Cirno_sex_event_flag2
+			FROM = { set_province_flag = Cirno_SexSiegeWon_province_flag }
+		}
+	}
+	option = {
+		name = Cirno_sex_event.2.a
+		add_dip_power = 10
+	}
+	option = {
+		name = Cirno_sex_event.2.b
+		add_treasury = 20
+	}
+	option = {
+		name = Cirno_sex_event.2.c
+		add_mil_power = 10
+		add_sailors = 1
+	}
+}
+
+country_event = {
+	id = Cirno_sex_event.3
+	title = Cirno_sex_event.3.title
+	desc = Cirno_sex_event.3.desc
+	picture = Cirno_sex_eventPicture3
+	goto = from
+	is_triggered_only = yes
+	trigger = {
+	  ai = no
+		FROM = {
+			fort_level = 1
+			development = 30
+			owner = { NOT = { tag = ROOT } }
+			OR = { #五十年一次
+				NOT = { has_country_flag = Cirno_sex_event_flag3 }
+				had_country_flag = { flag = Cirno_sex_event_flag3 days = 18250 }
+			}
+			OR = { #被围攻省份五十年内不能再次触发
+				NOT = { has_province_flag = Cirno_SexSiegeWon_province_flag }
+				had_province_flag = { flag = Cirno_SexSiegeWon_province_flag days = 18250 }
+			}
+		}
+	}
+	immediate = {
+		hidden_effect = {
+			set_country_flag = Cirno_sex_event_flag3
+			FROM = { set_province_flag = Cirno_SexSiegeWon_province_flag }
+		}
+	}
+	option = {
+		name = Cirno_sex_event.3.a
+		add_dip_power = 10
+	}
+	option = {
+		name = Cirno_sex_event.3.b
+		add_dip_power = 10
+	}
+	option = {
+		name = Cirno_sex_event.3.c
+		add_mil_power = 10
+		add_sailors = 1
+	}
+	option = {
+		name = Cirno_sex_event.3.d
+		add_mil_power = 10
+	}
+}
+
+country_event = {
+	id = Cirno_sex_event.100
+	title = Cirno_sex_event.100.title
+	desc = Cirno_sex_event.100.desc
+	picture = Cirno_sex_eventPicture100
+  major = yes
+  trigger = {
+	  ai = no
+    NOT = { has_country_flag = Cirno_sex_event_flag100 }         #尚未触发此事件
+    had_country_flag = { flag = WarShipGirl_Cirno days = 18250 } #已开局五十年
+  }
+  mean_time_to_happen = { months = 240 }
+	immediate = { hidden_effect = { set_country_flag = Cirno_sex_event_flag100 } }
+	option = {
+		name = Cirno_sex_event.100.a
+    country_event = { id = Cirno_sex_event.101 }
+	}
+	option = {
+		name = Cirno_sex_event.100.b
+	}
+}
+
+country_event = {
+	id = Cirno_sex_event.101
+	title = Cirno_sex_event.101.title
+	desc = Cirno_sex_event.101.desc
+	picture = Cirno_sex_eventPicture101
+  major = yes
+  is_triggered_only = yes
+	option = {
+		name = Cirno_sex_event.101.a
+    custom_tooltip = Cirno_sex_event.101a_tooltip
+  	trigger = { dip = 6 }
+  	dip_power_cost = 5
+	}
+	option = {
+		name = Cirno_sex_event.101.b
+  	trigger = { NOT = { dip = 6 } }
+    custom_tooltip = Cirno_sex_event.101b_tooltip
+    adm_power_cost = 200
+    dip_power_cost = 200
+    mil_power_cost = 200
+	}
+	option = {
+		name = Cirno_sex_event.101.c
+  	trigger = { has_ruler_modifier = Cirno_evtmod_TD }
+    custom_tooltip = Cirno_sex_event.101c_tooltip
+		add_sailors = 1
+    add_dip_power = 100
+  	add_country_modifier = {
+    	name = Cirno_evtmod_hypnotize
+    	duration = -1
+    	hidden = yes
+    }
+	}
+}

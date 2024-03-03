@@ -1,0 +1,129 @@
+namespace = Cirno_GreatProject
+country_event = {
+  id = Cirno_GreatProject.1
+  title = Cirno_GreatProject.1.title
+  desc = Cirno_GreatProject.1.desc
+  picture = Cirno_GreatProjectPicture1
+  major = yes
+  trigger = { 
+    ai = no 
+    NOT = { has_country_flag = Cirno_GreatProject2_over }
+  }
+  is_triggered_only = yes
+  option = { 
+    name = Cirno_GreatProject.1.a
+    trigger = { hidden_trigger = { NOT = { has_country_flag = Cirno_Leader1 } } }
+		if = {
+			limit = { NOT = { has_country_flag = Cirno_GreatProject2_tier3 } }
+    	hidden_effect = { 
+    		set_country_flag = Cirno_Leader1 
+    		country_event = { id = Cirno_Leader.1 } 
+    	}
+		}
+		else_if = {
+			limit = { has_country_flag = Cirno_GreatProject2_tier3 }
+    	hidden_effect = { 
+    		set_country_flag = Cirno_Leader1
+    		set_country_flag = Cirno_GreatProject2_over
+    		country_event = { id = Cirno_Leader.1 } 
+    	}
+		}
+    hidden_effect = { set_country_flag = Cirno_Leader1 country_event = { id = Cirno_Leader.1 } }
+  }
+  option = { 
+    name = Cirno_GreatProject.1.b
+    trigger = { hidden_trigger = { NOT = { has_country_flag = Cirno_Leader2 } } }
+    
+		if = {
+			limit = { NOT = { has_country_flag = Cirno_GreatProject2_tier3 } }
+    	hidden_effect = { 
+    		set_country_flag = Cirno_Leader2
+    		country_event = { id = Cirno_Leader.2 } 
+    	}
+		}
+		else_if = {
+			limit = { has_country_flag = Cirno_GreatProject2_tier3 }
+    	hidden_effect = { 
+    		set_country_flag = Cirno_Leader2
+    		set_country_flag = Cirno_GreatProject2_over
+    		country_event = { id = Cirno_Leader.2 } 
+    	}
+		}
+  }
+  option = { 
+    name = Cirno_GreatProject.1.c
+    trigger = { hidden_trigger = { NOT = { has_country_flag = Cirno_Leader3 } } }
+		if = {
+			limit = { NOT = { has_country_flag = Cirno_GreatProject2_tier3 } }
+    	hidden_effect = { 
+    		set_country_flag = Cirno_Leader3
+    		country_event = { id = Cirno_Leader.3 } 
+    	}
+		}
+		else_if = {
+			limit = { has_country_flag = Cirno_GreatProject2_tier3 }
+    	hidden_effect = { 
+    		set_country_flag = Cirno_Leader3
+    		set_country_flag = Cirno_GreatProject2_over
+    		country_event = { id = Cirno_Leader.3 } 
+    	}
+		}
+  }
+  option = { 
+    name = Cirno_GreatProject.1.d
+    trigger = { hidden_trigger = { NOT = { has_country_flag = Cirno_Leader4 } } }
+		if = {
+			limit = { NOT = { has_country_flag = Cirno_GreatProject2_tier3 } }
+    	hidden_effect = { 
+    		set_country_flag = Cirno_Leader4
+     		country_event = { id = Cirno_Leader.4 } 
+    	}
+		}
+		else_if = {
+			limit = { has_country_flag = Cirno_GreatProject2_tier3 }
+    	hidden_effect = { 
+    		set_country_flag = Cirno_Leader4
+    		set_country_flag = Cirno_GreatProject2_over
+    		country_event = { id = Cirno_Leader.4 } 
+    	}
+		}
+  }
+  option = { 
+    name = Cirno_GreatProject.1.e
+    trigger = { hidden_trigger = { NOT = { has_country_flag = Cirno_Leader5 } } }
+		if = {
+			limit = { NOT = { has_country_flag = Cirno_GreatProject2_tier3 } }
+    	hidden_effect = { 
+    		set_country_flag = Cirno_Leader5
+     		country_event = { id = Cirno_Leader.5 } 
+    	}
+		}
+		else_if = {
+			limit = { has_country_flag = Cirno_GreatProject2_tier3 }
+    	hidden_effect = { 
+    		set_country_flag = Cirno_Leader5
+    		set_country_flag = Cirno_GreatProject2_over
+    		country_event = { id = Cirno_Leader.5 } 
+    	}
+		}
+  }
+  option = { 
+    name = Cirno_GreatProject.1.f
+    trigger = { hidden_trigger = { NOT = { has_country_flag = Cirno_Leader6 } } }
+		if = {
+			limit = { NOT = { has_country_flag = Cirno_GreatProject2_tier3 } }
+    	hidden_effect = { 
+    		set_country_flag = Cirno_Leader6
+     		country_event = { id = Cirno_Leader.6 } 
+    	}
+		}
+		else_if = {
+			limit = { has_country_flag = Cirno_GreatProject2_tier3 }
+    	hidden_effect = { 
+    		set_country_flag = Cirno_Leader6
+    		set_country_flag = Cirno_GreatProject2_over
+    		country_event = { id = Cirno_Leader.6 } 
+    	}
+		}
+  }
+}

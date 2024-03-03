@@ -1,0 +1,90 @@
+#波纹气功
+Cirno_evtmod_Hamon = {
+	heir_chance = 1                   #无情的播种机器
+	monarch_lifespan = 0.5            #波纹能延年益寿
+	administrative_efficiency = 0.05  #精力充沛的统治者
+	diplomatic_reputation = 2         #通过波纹来装神弄鬼
+}
+#吸穴鬼
+Cirno_evtmod_Vampire = {
+	heir_chance = 1                   #屌爷的一群儿子
+	administrative_efficiency = 0.05  #精力充沛的统治者
+	diplomatic_reputation = 2         #超凡武力
+	country_admin_power = -1
+	country_diplomatic_power = -1     #无法沐浴阳光带来的诸多不便
+	country_military_power = 1        #吸穴鬼的力量
+}
+
+#咲夜
+Cirno_evtmod_sakuya1 = {
+	governing_capacity = 100
+	yearly_corruption = -0.05
+	administrative_efficiency = 0.025
+	monthly_reform_progress_modifier = 0.1
+}
+Cirno_evtmod_sakuya2 = {
+	diplomats = 1
+	ae_impact = -0.1
+	envoy_travel_time = -0.25
+	diplomatic_reputation = 1
+}
+Cirno_evtmod_sakuya3 = {
+	all_power_cost = -0.025
+	global_spy_defence = 0.25
+	all_estate_loyalty_equilibrium = 0.1
+	all_estate_influence_modifier = -0.05
+}
+#爱的力量是无限的！
+Cirno_evtmod_sakuya_Power_of_Love1 = {
+	governing_capacity = 200
+	yearly_corruption = -0.1
+	administrative_efficiency = 0.05
+	monthly_reform_progress_modifier = 0.2
+}
+Cirno_evtmod_sakuya_Power_of_Love2 = {
+	diplomats = 2
+	ae_impact = -0.2
+	envoy_travel_time = -0.5
+	diplomatic_reputation = 2
+}
+Cirno_evtmod_sakuya_Power_of_Love3 = {
+	all_power_cost = -0.05
+	global_spy_defence = 0.5
+	all_estate_loyalty_equilibrium = 0.2
+	all_estate_influence_modifier = -0.1
+	
+}
+
+Cirno_evtmod_TD = {
+	heir_chance = 2           #无限火力
+	diplomatic_reputation = 9 #万雌王
+	all_power_cost = -0.1     #现实扭曲者
+}
+Cirno_evtmod_IDEAL1 = {
+	ae_impact = -0.25
+}
+Cirno_evtmod_IDEAL2 = {
+	all_power_cost = -0.2
+	administrative_efficiency = 0.2
+}
+Cirno_evtmod_Lyleen = {
+	global_unrest = -5
+	development_cost_modifier = -0.25
+}
+
+#肾虚
+Kidney_deficiency_mod = {
+	heir_chance = -0.5
+	monarch_lifespan = -0.2 #舍命陪淑女
+}
+#CD
+WarGirl_loan_mod = {}
+#马娘经济
+Cirno_evtmod_uma1 = {
+	global_tax_income = 24
+}
+#催眠
+Cirno_evtmod_hypnotize = {
+	unjustified_demands = -0.5
+	improve_relation_modifier = 1
+}

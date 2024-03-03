@@ -1,0 +1,43 @@
+country_decisions = {
+	#-?pNYIm^
+	decisions_Cirno_revive = {
+		major = yes
+		potential = {
+			ai = no
+			OR = {
+				AND = { has_country_flag = Cirno_Leader1 NOT = { has_leader = "‹|	NS–Y" } }
+				AND = { has_country_flag = Cirno_Leader2 NOT = { has_leader = "'k9h≤Nãs" } }
+				AND = { has_country_flag = Cirno_Leader3 NOT = { has_leader = "ç∑V" } }
+				AND = { has_country_flag = Cirno_Leader4 NOT = { has_leader = "IÉNﬁò" } }
+				AND = { has_country_flag = Cirno_Leader5 NOT = { has_leader = "âRm…b" } }
+				AND = { has_country_flag = Cirno_Leader6 NOT = { has_leader = "ÚNck" } }
+			}
+		}
+		allow = { ai = no }
+		effect = {
+    	if = {
+				limit = { NOT = { has_ruler_modifier = Cirno_evtmod_TD } }
+				mil_power_cost = 50
+				country_event = { id = Cirno_Leader.101 } 
+			}
+			else_if = {
+				limit = { has_ruler_modifier = Cirno_evtmod_TD }
+				country_event = { id = Cirno_Leader.101 } 
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	
+	decisions_Cirno_policy_ruler = {
+		major = yes
+		potential = {
+			has_country_flag = Cirno_policy_event1
+			not = { has_ruler_flag = WarShipBoy }
+		}
+		allow = { ai = no }
+		effect = {
+			country_event = { id = Cirno_Leader.99 } 
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

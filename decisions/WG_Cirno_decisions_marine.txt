@@ -1,0 +1,133 @@
+country_decisions = {
+  #数万吨的淑女
+	decisions_warshipgirls_marine1 = { 
+		major = yes
+		potential = {
+			ai = no
+			has_estate_privilege = estate_warshipgirls_marine
+			has_country_modifier = hm_warshipgirls_marine0
+			NOT = {
+			  OR = {
+			    has_country_modifier = hm_warshipgirls_marine1
+			    has_country_modifier = hm_warshipgirls_marine2
+			    has_country_modifier = hm_warshipgirls_marine3
+			    has_country_modifier = hm_warshipgirls_marine4
+			    has_country_modifier = hm_warshipgirls_marine5
+			  }
+			}
+		}
+		allow = {
+			mil_power = 200
+			army_professionalism = 0.25
+		}
+		effect = {
+			add_mil_power = -200
+			army_professionalism = -0.25
+			remove_country_modifier = hm_warshipgirls_marine0
+			add_country_modifier = { name = hm_warshipgirls_marine1 duration = -1 }
+		}
+		ai_will_do = { factor = 1 }
+	}
+	#战利品活动
+	decisions_warshipgirls_marine2 = { 
+		major = yes
+		potential = {
+			ai = no
+			has_estate_privilege = estate_warshipgirls_marine
+			has_country_modifier = hm_warshipgirls_marine1
+			NOT = {
+			  OR = {
+			    has_country_modifier = hm_warshipgirls_marine2
+			    has_country_modifier = hm_warshipgirls_marine3
+			    has_country_modifier = hm_warshipgirls_marine4
+			    has_country_modifier = hm_warshipgirls_marine5
+			  }
+			}
+		}
+		allow = {
+			mil_power = 200
+			army_professionalism = 0.5
+		}
+		effect = {
+			add_mil_power = -200
+			army_professionalism = -0.5
+			remove_country_modifier = hm_warshipgirls_marine1
+			add_country_modifier = { name = hm_warshipgirls_marine2 duration = -1 }
+		}
+		ai_will_do = { factor = 1 }
+	}
+	#损管小组
+	decisions_warshipgirls_marine3 = { 
+		major = yes
+		potential = {
+			ai = no
+			has_estate_privilege = estate_warshipgirls_marine
+			has_country_modifier = hm_warshipgirls_marine2
+			NOT = {
+			  OR = {
+			    has_country_modifier = hm_warshipgirls_marine3
+			    has_country_modifier = hm_warshipgirls_marine4
+			    has_country_modifier = hm_warshipgirls_marine5
+			  }
+			}
+		}
+		allow = {
+			mil_power = 200
+			army_professionalism = 1
+		}
+		effect = {
+			add_mil_power = -200
+			add_army_professionalism = -1
+			remove_country_modifier = hm_warshipgirls_marine2
+			add_country_modifier = { name = hm_warshipgirls_marine3 duration = -1 }
+		}
+		ai_will_do = { factor = 1 }
+	}
+	#凯旋之歌
+	decisions_warshipgirls_marine4 = { 
+		major = yes
+		potential = {
+			ai = no
+			has_estate_privilege = estate_warshipgirls_marine
+			has_country_modifier = hm_warshipgirls_marine3
+			NOT = {
+			  OR = {
+			    has_country_modifier = hm_warshipgirls_marine4
+			    has_country_modifier = hm_warshipgirls_marine5
+			  }
+			}
+		}
+		allow = {
+			mil_power = 200
+			army_professionalism = 1
+		}
+		effect = {
+			add_mil_power = -200
+			add_army_professionalism = -1
+			remove_country_modifier = hm_warshipgirls_marine3
+			add_country_modifier = { name = hm_warshipgirls_marine4 duration = -1 }
+		}
+		ai_will_do = { factor = 1 }
+	}
+	#浴血婚纱
+	decisions_warshipgirls_marine5 = { 
+		major = yes
+		potential = {
+			ai = no
+			has_estate_privilege = estate_warshipgirls_marine
+			has_country_modifier = hm_warshipgirls_marine4
+			NOT = { has_country_modifier = hm_warshipgirls_marine5 }
+		}
+		allow = {
+			mil_power = 500
+			army_professionalism = 1
+		}
+		effect = {
+			add_mil_power = -500
+			army_professionalism = -1
+			remove_country_modifier = hm_warshipgirls_marine4
+			add_country_modifier = { name = hm_warshipgirls_marine5 duration = -1 }
+		}
+		ai_will_do = { factor = 1 }
+	}
+}

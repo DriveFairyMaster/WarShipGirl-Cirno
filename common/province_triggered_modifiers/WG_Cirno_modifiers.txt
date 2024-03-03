@@ -1,0 +1,30 @@
+#estate_warshipgirls_uma_ptmod3 = {
+#	potential = { development = 30 }
+#	trigger = { development = 30 }
+#	amount_of_hussars = 1
+#  local_years_of_nationalism = -5
+#  local_culture_conversion_cost = -0.2
+#  local_culture_conversion_time = -0.2
+#}
+
+#jungle         丛林     35
+#forest         森林     20
+#woods          树林     15
+
+#mountain       山脉     35
+#highlands      高原     20
+#hills          丘陵     25
+
+#glacier        冰川     50
+
+#desert         沙漠     50
+#drylands       旱地     5
+
+#coastal_desert 海岸沙滩 35
+#coastline      海岸     25
+#marsh          沼泽     25
+
+#steppe         大草原   20
+#savannah       稀树草原 15
+#grasslands     草原
+#farmlands      农田     -5

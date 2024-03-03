@@ -1,0 +1,69 @@
+estate_warshipgirls999 = {
+	icon = 2
+	trigger = {
+		or = {
+			ai = no
+			has_country_flag = WarShipGirl_Cirno
+		}
+	}
+	country_modifier_happy = {
+		all_power_cost = -0.1
+		sailors_recovery_speed = 0.25
+		sailor_maintenance_modifer = -0.25
+	}
+	country_modifier_neutral = {
+		sailors_recovery_speed = 0.2
+		sailor_maintenance_modifer = -0.2
+	}
+	country_modifier_angry = {
+		global_unrest = 5
+		sailors_recovery_speed = -1
+	}
+	land_ownership_modifier = {
+		warshipgirls999_loyalty_modifier = 0.2
+	}
+	province_independence_weight = {
+		factor = 0
+	}
+	
+	base_influence = 0
+
+	privileges = {
+		estate_warshipgirls_6h                             #六小时工作
+		estate_warshipgirls_12h                            #夺命电子厂
+		estate_warshipgirls_port                           #镇守府
+		estate_warshipgirls_sangti                         #桑提经商
+		estate_warshipgirls_fisher                         #水之心
+		estate_warshipgirls_canteen                        #大饭堂
+		estate_warshipgirls_saracola                       #萨拉可乐
+		estate_warshipgirls_navy_dock                      #建造船坞
+		estate_warshipgirls_ring_factory                   #戒指工厂
+		estate_warshipgirls_jiangnan_leather               #裙子工厂
+		estate_warshipgirls_liberation_of_slaves           #奴隶解放
+		estate_warshipgirls_starsapphire_bucks_coffee      #妖巴克咖啡
+		estate_warshipgirls_The_Knights_of_Paediatrics     #炼铜骑士团
+		estate_warshipgirls_patronage_of_the_arts_Tirpitz  #提尔比茨
+		
+		estate_warshipgirls_marine                         #舰娘陆战队
+		estate_warshipgirls_uma                            #晃眼！好马闺女
+	}
+	agendas = {
+		estate_warshipgirls_develop_x
+		estate_warshipgirls_build_trade_building_in_y
+		estate_warshipgirls_build_port_building_in_y
+		estate_warshipgirls_build_production_building_in_y
+		estate_warshipgirls_build_university_in_y
+		estate_warshipgirls_build_manufactory_in_y
+		estate_warshipgirls_pay_off_loans
+		estate_warshipgirls_restore_currency
+		estate_warshipgirls_access_sea
+		estate_warshipgirls_build_a_fleet
+		estate_warshipgirls_bigger_fleet_than_rival
+		estate_warshipgirls_reduce_corruption
+		estate_warshipgirls_hire_advisor
+		estate_warshipgirls_fire_advisor
+	}
+	color = { 25 25 100 }
+	
+	influence_from_dev_modifier = 1.0
+}

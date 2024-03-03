@@ -1,0 +1,52 @@
+country_decisions = {
+  #奇观
+  decisions_WarShipGirlCirno_GreatProject1 = { #琪露诺妮娅
+		color = { 192 56 127 }
+		potential = {
+			ai = no
+			has_estate = estate_warshipgirls999
+			NOT = { has_global_flag = Cirno_GreatProject1 }
+		}
+		allow = {
+			is_at_war = no     #不在战争状态
+			capital_scope = {
+				or = {           #港口，草原或农田
+					has_port = yes
+					has_terrain = farmlands
+					has_terrain = grasslands
+				}
+			}
+		}
+		effect = {
+			adm_power_cost = 99
+			dip_power_cost = 99
+			mil_power_cost = 99
+			capital_scope = {
+				add_great_project = { type = Cirno_GreatProject1 instant = yes }
+			}	
+    	hidden_effect = { set_global_flag = Cirno_GreatProject1 }
+		}
+		ai_will_do = {factor = 0 }
+	}
+  decisions_WarShipGirlCirno_GreatProject2 = { #酒馆
+		color = { 192 56 127 }
+		potential = {
+			ai = no
+			has_estate = estate_warshipgirls999
+			NOT = { has_global_flag = Cirno_GreatProject2 }
+		}
+		allow = {
+			is_at_war = no     #不在战争状态
+		}
+		effect = {
+			adm_power_cost = 99
+			dip_power_cost = 99
+			mil_power_cost = 99
+			capital_scope = {
+				add_great_project = { type = Cirno_GreatProject2 instant = yes }
+			}	
+    	hidden_effect = { set_global_flag = Cirno_GreatProject2 }
+		}
+		ai_will_do = {factor = 0 }
+	}
+}

@@ -1,0 +1,21 @@
+country_decisions = {
+	decisions_warshipgirls_removeideagroup = { 
+		major = yes
+		potential = {
+			ai = yes
+		}
+		allow = {
+			OR = {
+				has_idea_group = hm_warshipgirls_adm_ideas
+				has_idea_group = hm_warshipgirls_dip_ideas
+				has_idea_group = hm_warshipgirls_mil_ideas
+			}
+		}
+		effect = {
+			remove_idea_group = hm_warshipgirls_adm_ideas
+			remove_idea_group = hm_warshipgirls_dip_ideas
+			remove_idea_group = hm_warshipgirls_mil_ideas
+		}
+		ai_will_do = { factor = 999999999 }
+	}
+}

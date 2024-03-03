@@ -1,0 +1,99 @@
+namespace = Cirno_hidden_event
+#好马闺女特权
+country_event = {
+  id = Cirno_hidden_event.1
+  hidden = yes
+  is_triggered_only = yes
+  trigger = { ai = no }
+  immediate = {
+  	every_owned_province = {
+			limit = {
+				OR = {
+					has_terrain = grasslands #草原
+					has_terrain = savannah   #稀树草原
+					has_terrain = steppe     #大草原
+				}
+			}
+    	add_province_triggered_modifier = estate_warshipgirls_uma_ptmod1
+    	add_province_triggered_modifier = estate_warshipgirls_uma_ptmod2
+    	add_province_triggered_modifier = estate_warshipgirls_uma_ptmod3
+		}
+	}
+  option = {
+    name = Cirno_hidden_event.1.a
+  }
+}
+country_event = {
+  id = Cirno_hidden_event.2
+  hidden = yes
+  is_triggered_only = yes
+  trigger = { 
+		ai = yes
+		OR = {
+			has_idea_group = hm_warshipgirls_adm_ideas
+			has_idea_group = hm_warshipgirls_dip_ideas
+			has_idea_group = hm_warshipgirls_mil_ideas
+		}
+  }
+  immediate = {
+		remove_idea_group = hm_warshipgirls_adm_ideas
+		remove_idea_group = hm_warshipgirls_dip_ideas
+		remove_idea_group = hm_warshipgirls_mil_ideas
+	}
+  option = {
+    name = Cirno_hidden_event.1.a
+  }
+}
+country_event = {
+  id = Cirno_hidden_event.3
+  hidden = yes
+  is_triggered_only = yes
+  trigger = {
+		has_country_flag = Cirno_evtmod_sakuya4
+		has_country_flag = Cirno_evtmod_sakuya_Power_of_Love4
+  }
+  immediate = {
+    kill_leader = { type = "Sakuya.Izayoi" }
+    country_event = { id = Cirno_hidden_event.4 days = 1 }
+	}
+  option = {
+    name = Cirno_hidden_event.1.a
+  }
+}
+country_event = {
+  id = Cirno_hidden_event.4
+  hidden = yes
+  is_triggered_only = yes
+  trigger = {
+		has_country_flag = Cirno_evtmod_sakuya4
+		has_country_flag = Cirno_evtmod_sakuya_Power_of_Love4
+  }
+  immediate = {
+    define_conquistador = {
+      name = Sakuya.Izayoi
+      trait = WG_CIRNO_leader_trait_sakuya
+      female = yes
+      shock = 4
+      fire = 4
+      manuever = 4
+      siege = 4
+    }
+	}
+  option = {
+    name = Cirno_hidden_event.1.a
+  }
+}
+country_event = {
+  id = Cirno_hidden_event.999
+  hidden = yes
+  is_triggered_only = yes
+  trigger = {
+    ai = no 
+  }
+  immediate = {
+    set_country_flag = WarShipGirl_Cirno
+	}
+  option = {
+    name = Cirno_hidden_event.1.a
+  }
+}

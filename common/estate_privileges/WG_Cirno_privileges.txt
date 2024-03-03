@@ -1,0 +1,511 @@
+#六小时工作
+estate_warshipgirls_6h = {
+	icon = GFX_estate_warshipgirls_6h
+	loyalty = 0.1
+	is_valid = { NOT = { has_estate_privilege = estate_warshipgirls_12h } }
+	#与夺命电子厂互斥，如果同时点了俩个一天后就会消失 笑死
+	penalties = { 
+		global_tax_modifier = -0.1
+		production_efficiency = -0.1
+	}
+	benefits = {
+		idea_cost = -0.1
+		technology_cost = -0.1
+		development_cost = -0.1
+		years_of_nationalism = -5
+	}
+	cooldown_years = 50 #至少50年
+	ai_will_do = { factor = 0 }
+}
+
+#夺命电子厂
+estate_warshipgirls_12h = {
+	icon = GFX_estate_warshipgirls_12h
+	loyalty = -0.1
+	is_valid = { NOT = { has_estate_privilege = estate_warshipgirls_6h } } 
+	penalties = {
+		mercenary_manpower = -0.2
+		global_manpower_modifier = -0.2
+	}
+	benefits = {
+		global_tax_modifier = 0.5
+		production_efficiency = 0.2
+		global_trade_goods_size_modifier = 0.2
+	}
+	cooldown_years = 50
+	ai_will_do = { factor = 0 }
+}
+
+#镇守府
+estate_warshipgirls_port = {
+	icon = GFX_estate_warshipgirls_port
+	influence = 0.1
+	benefits = { warshipgirls999_privilege_slots = 14 }
+	on_granted = { custom_tooltip = estate_warshipgirls_port_tooltip }
+	on_granted_province = {
+		if = {
+			limit = { has_port = yes NOT = { has_terrain = coastline } NOT = { has_terrain = coastal_desert } }
+			add_province_modifier = { name = estate_warshipgirls_port_mod1 duration = -1 }
+		}
+		else_if = { #海岸线
+			limit = { has_port = yes has_terrain = coastline }
+			add_province_modifier = { name = estate_warshipgirls_port_mod2 duration = -1 }
+		}
+		else_if = { #海岸沙滩
+			limit = { has_port = yes has_terrain = coastal_desert }
+			add_province_modifier = { name = estate_warshipgirls_port_mod3 duration = -1 }
+		}
+	}
+	on_revoked_province = {
+		if = {
+			limit = { has_port = yes }
+			remove_province_modifier = estate_warshipgirls_port_mod1
+			remove_province_modifier = estate_warshipgirls_port_mod2
+			remove_province_modifier = estate_warshipgirls_port_mod3
+		}
+	}
+	on_invalid_province = {
+		if = {
+			limit = { has_port = yes }
+			remove_province_modifier = estate_warshipgirls_port_mod1
+			remove_province_modifier = estate_warshipgirls_port_mod2
+			remove_province_modifier = estate_warshipgirls_port_mod3
+		}
+	}
+	ai_will_do = { factor = 0 }
+}
+
+#桑提经商
+estate_warshipgirls_sangti = {
+	icon = GFX_estate_warshipgirls_sangti
+	loyalty = -0.2
+	influence = 0.1
+	penalties = {
+		global_unrest = 2
+		yearly_corruption = 0.20          #官商勾结
+		years_of_nationalism = 10         #转移矛盾
+		manpower_recovery_speed = -0.2    #羊吃人
+		land_forcelimit_modifier = -0.2   #军队经商
+	}
+	benefits = {
+		light_ship_cost = -0.5
+		trade_efficiency = 0.2
+		global_tax_modifier = 0.5
+		global_ship_trade_power = 2
+		global_trade_goods_size = 0.2
+	}
+	cooldown_years = 50
+	ai_will_do = { factor = 0 }
+}
+
+#水之心
+estate_warshipgirls_fisher = {
+	icon = GFX_estate_warshipgirls_fisher
+	influence = 0.05
+ 	is_valid = { 
+		OR = { 
+ 	  	fish = 1     #鱼
+ 	  }
+ 	}
+	on_granted = { custom_tooltip = estate_warshipgirls_fisher_tooltip }
+	on_granted_province = {
+		if = {
+			limit = { 
+				OR = { 
+			  	trade_goods = fish  #鱼
+			  }
+			}
+			add_province_modifier = { name = estate_warshipgirls_fisher_mod duration = -1 }
+		}
+		else_if = {
+			limit = { has_province_modifier = estate_warshipgirls_fisher_mod }
+			remove_province_modifier = estate_warshipgirls_fisher_mod
+		}
+	}
+	on_revoked_province = { if = { limit = { has_province_modifier = estate_warshipgirls_fisher_mod } remove_province_modifier = estate_warshipgirls_fisher_mod } }
+	on_invalid_province = { if = { limit = { has_province_modifier = estate_warshipgirls_fisher_mod } remove_province_modifier = estate_warshipgirls_fisher_mod } }
+	ai_will_do = { factor = 0 }
+}
+
+#大饭堂
+estate_warshipgirls_canteen = {
+	icon = GFX_estate_warshipgirls_canteen
+	influence = 0.05
+ 	is_valid = { 
+		OR = { 
+ 	  	salt = 1      #盐
+ 	  	wine = 1      #酒
+ 	  	grain = 1     #谷物
+ 	  	spices = 1    #香料
+ 	  	incense = 1   #熏香
+ 	  	tobacco = 1   #烟草
+ 		}
+ 	}
+	on_granted = {
+		custom_tooltip = estate_warshipgirls_canteen_tooltip 
+		hidden_effect = { country_event = { id = Cirno_estate_event.2 } }
+	}
+	on_granted_province = {
+		if = {
+			limit = { 
+				OR = { 
+			  	trade_goods = salt      #盐
+			  	trade_goods = wine      #酒
+			  	trade_goods = grain     #谷物
+			  	trade_goods = spices    #香料
+ 	  	  	trade_goods = incense   #熏香
+			  	trade_goods = tobacco   #烟草
+ 	  		} 
+			}
+			add_province_modifier = { name = estate_warshipgirls_canteen_mod duration = -1 }
+		}
+		else_if = {
+			limit = { has_province_modifier = estate_warshipgirls_canteen_mod }
+			remove_province_modifier = estate_warshipgirls_canteen_mod
+		}
+	}
+	on_revoked_province = { if = { limit = { has_province_modifier = estate_warshipgirls_canteen_mod } remove_province_modifier = estate_warshipgirls_canteen_mod } }
+	on_invalid_province = { if = { limit = { has_province_modifier = estate_warshipgirls_canteen_mod } remove_province_modifier = estate_warshipgirls_canteen_mod } }
+	ai_will_do = { factor = 0 }
+}
+
+#萨拉可乐
+estate_warshipgirls_saracola = {
+	icon = GFX_estate_warshipgirls_saracola
+	loyalty = 0.05
+	influence = 0.05
+ 	is_valid = { 
+ 	  OR = { 
+ 	    sugar = 1   #糖
+ 	    cloves = 1  #丁香
+ 	  } 
+ 	}
+	on_granted = { custom_tooltip = estate_warshipgirls_saracola_tooltip }
+	on_granted_province = {
+		if = {
+			limit = { 
+				OR = { 
+					trade_goods = sugar   #糖
+					trade_goods = cloves  #丁香
+				} 
+			}
+			add_province_modifier = { name = estate_warshipgirls_saracola_mod duration = -1 }
+		}
+		else_if = {
+			limit = { has_province_modifier = estate_warshipgirls_saracola_mod }
+			remove_province_modifier = estate_warshipgirls_saracola_mod
+		}
+	}
+	on_revoked_province = { if = { limit = { has_province_modifier = estate_warshipgirls_saracola_mod } remove_province_modifier = estate_warshipgirls_saracola_mod } }
+	on_invalid_province = { if = { limit = { has_province_modifier = estate_warshipgirls_saracola_mod } remove_province_modifier = estate_warshipgirls_saracola_mod } }
+	ai_will_do = { factor = 0 }
+}
+
+
+#建造船坞
+estate_warshipgirls_navy_dock = {
+	icon = GFX_estate_warshipgirls_navy_dock
+	loyalty = 0.05
+	influence = 0.05
+ 	is_valid = { 
+ 	  OR = { 
+ 	 	  iron = 1             #铁
+ 	 	  coal = 1             #煤
+ 	 	  copper = 1	         #铜
+ 	 	  tropical_wood = 1    #热带木材
+ 	 	  naval_supplies = 1   #船具
+ 	 	}
+ 	}
+	on_granted = { custom_tooltip = estate_warshipgirls_navy_dock_tooltip }
+	on_granted_province = {
+		if = {
+			limit = { 
+ 	      OR = { 
+			    trade_goods = iron           #铁
+			    trade_goods = coal           #煤
+			    trade_goods = copper	       #铜
+			    trade_goods = tropical_wood  #热带木材
+			    trade_goods = naval_supplies #船具
+ 	     	}
+			}
+			add_province_modifier = { name = estate_warshipgirls_navy_dock_mod duration = -1 }
+		}
+		else_if = {
+			limit = { has_province_modifier = estate_warshipgirls_navy_dock_mod }
+			remove_province_modifier = estate_warshipgirls_navy_dock_mod
+		}
+	}
+	on_revoked_province = { if = { limit = { has_province_modifier = estate_warshipgirls_navy_dock_mod } remove_province_modifier = estate_warshipgirls_navy_dock_mod } }
+	on_invalid_province = { if = { limit = { has_province_modifier = estate_warshipgirls_navy_dock_mod } remove_province_modifier = estate_warshipgirls_navy_dock_mod } }
+	ai_will_do = { factor = 0 }
+}
+
+#戒指工厂
+estate_warshipgirls_ring_factory = {
+	icon = GFX_estate_warshipgirls_ring_factory
+	loyalty = 0.1
+	influence = 0.05
+ 	is_valid = { 
+ 		OR = { 
+ 			gems = 1   #宝石
+ 			gold = 1   #金矿
+ 			ring = 1   #幻萌戒指
+ 		}
+ 	}
+	on_granted = { custom_tooltip = estate_warshipgirls_ring_factory_tooltip }
+	on_granted_province = {
+		if = {
+			limit = { 
+				OR = { 
+					trade_goods = gems #宝石
+					trade_goods = gold #金矿
+					trade_goods = ring #幻萌戒指
+				} 
+			}
+			add_province_modifier = { name = estate_warshipgirls_ring_factory_mod duration = -1 }
+		}
+		else_if = {
+			limit = { has_province_modifier = estate_warshipgirls_ring_factory_mod }
+			remove_province_modifier = estate_warshipgirls_ring_factory_mod
+		}
+	}
+	on_revoked_province = { if = { limit = { has_province_modifier = estate_warshipgirls_ring_factory_mod } remove_province_modifier = estate_warshipgirls_ring_factory_mod } }
+	on_invalid_province = { if = { limit = { has_province_modifier = estate_warshipgirls_ring_factory_mod } remove_province_modifier = estate_warshipgirls_ring_factory_mod } }
+	ai_will_do = { factor = 0 }
+}
+
+#江南皮革厂
+estate_warshipgirls_jiangnan_leather = {
+	icon = GFX_estate_warshipgirls_jiangnan_leather
+	loyalty = 0.1
+	influence = 0.05
+ 	is_valid = { 
+ 		OR = { 
+ 		  fur = 1     #毛皮
+ 		  wool = 1    #羊毛
+ 		  dyes = 1    #染料
+ 			silk = 1    #丝绸
+ 			cloth = 1   #布料
+ 		  glass = 1   #玻璃
+ 		  cotton = 1  #棉花
+ 			skirts = 1  #幻萌小裙子
+ 		}
+ 	}
+	on_granted = { custom_tooltip = estate_warshipgirls_jiangnan_leather_tooltip }
+	on_granted_province = {
+		if = {
+			limit = { 
+				OR = { 
+ 		      trade_goods = fur     #毛皮
+ 		      trade_goods = wool    #羊毛
+ 		      trade_goods = dyes    #染料
+ 			    trade_goods = silk    #丝绸
+ 			    trade_goods = cloth   #布料
+ 		      trade_goods = glass   #玻璃
+ 		      trade_goods = cotton  #棉花
+ 			    trade_goods = skirts  #幻萌小裙子
+				} 
+			}
+			add_province_modifier = { name = estate_warshipgirls_jiangnan_leather_mod duration = -1 }
+		}
+		else_if = {
+			limit = { has_province_modifier = estate_warshipgirls_jiangnan_leather_mod }
+			remove_province_modifier = estate_warshipgirls_jiangnan_leather_mod
+		}
+	}
+	on_revoked_province = { if = { limit = { has_province_modifier = estate_warshipgirls_jiangnan_leather_mod } remove_province_modifier = estate_warshipgirls_jiangnan_leather_mod } }
+	on_invalid_province = { if = { limit = { has_province_modifier = estate_warshipgirls_jiangnan_leather_mod } remove_province_modifier = estate_warshipgirls_jiangnan_leather_mod } }
+	ai_will_do = { factor = 0 }
+}
+
+#奴隶解放
+estate_warshipgirls_liberation_of_slaves = {
+	icon = GFX_estate_warshipgirls_liberation_of_slaves
+	on_granted = { custom_tooltip = estate_warshipgirls_liberation_of_slaves_tooltip }
+	on_granted_province = {
+		if = { limit = { trade_goods = ivory }  change_trade_goods = gems }   #象牙
+		if = { limit = { trade_goods = slaves } change_trade_goods = cotton } #奴隶
+	}
+	benefits = {
+		land_morale = 0.1
+		global_unrest = -1
+		years_of_nationalism = -5
+	}
+	ai_will_do = { factor = 0 }
+}
+
+#妖巴克咖啡
+estate_warshipgirls_starsapphire_bucks_coffee = {
+	icon = GFX_estate_warshipgirls_starsapphire_bucks_coffee
+	loyalty = 0.05
+	influence = 0.05
+ 	is_valid = { 
+ 		OR = { 
+ 		  tea = 1        #茶叶
+ 		  cocoa = 1      #可可
+ 		  coffee = 1     #咖啡
+ 			livestock = 1  #牲畜
+ 		}
+ 	}
+	on_granted = { custom_tooltip = estate_warshipgirls_starsapphire_bucks_coffee_tooltip }
+	on_granted_province = {
+		if = {
+			limit = { 
+				OR = { 
+ 		   		trade_goods = tea       #茶叶
+ 		   		trade_goods = cocoa     #可可
+ 		   		trade_goods = coffee    #咖啡
+ 			 		trade_goods = livestock #牲畜
+				} 
+			}
+			add_province_modifier = { name = estate_warshipgirls_starsapphire_bucks_coffee_mod duration = -1 }
+		}
+		else_if = {
+			limit = { has_province_modifier = estate_warshipgirls_starsapphire_bucks_coffee_mod }
+			remove_province_modifier = estate_warshipgirls_starsapphire_bucks_coffee_mod
+		}
+	}
+	on_revoked_province = { if = { limit = { has_province_modifier = estate_warshipgirls_starsapphire_bucks_coffee_mod } remove_province_modifier = estate_warshipgirls_starsapphire_bucks_coffee_mod } }
+	on_invalid_province = { if = { limit = { has_province_modifier = estate_warshipgirls_starsapphire_bucks_coffee_mod } remove_province_modifier = estate_warshipgirls_starsapphire_bucks_coffee_mod } }
+	ai_will_do = { factor = 0 }
+}
+
+#联通骑士团
+estate_warshipgirls_The_Knights_of_Paediatrics = {
+	icon = GFX_estate_warshipgirls_The_Knights_of_Paediatrics
+	loyalty = 0.05
+	influence = 0.05
+	penalties = {
+		prestige = -1               #鄙视联通崽
+		heir_chance = -0.25         #榨榨你的
+	}
+	benefits = {
+		allowed_marine_fraction = 0.25 
+		global_sailors_modifier = 0.25 #小舰娘加入战场
+	}
+	cooldown_years = 50
+	ai_will_do = { factor = 0 }
+}
+
+#赞助北宅
+estate_warshipgirls_patronage_of_the_arts_Tirpitz = {
+	icon = GFX_estate_warshipgirls_patronage_of_the_arts_Tirpitz
+	loyalty = -0.01                       #猫猫抗议
+	influence = -0.05                     #有损形象
+ 	is_valid = { 
+ 		OR = { 
+ 			paper = 1     #纸
+ 			chinaware = 1 #瓷器
+ 		}
+ 	}
+	penalties = {
+		prestige = -1                       #有损形象
+		global_tax_modifier = -0.1          #北宅经费
+	}
+	benefits = {
+		warshipgirls999_loyalty_modifier = 0.11   #北宅创作的提督本子得到了众多来历不明的好评
+	}
+	on_granted = {
+		if = { limit = { prestige = -50 } add_prestige = -10 }     #已经很丢脸了
+		else_if = { limit = { prestige = 0 } add_prestige = -15 }
+		else_if = { limit = { prestige = 25 } add_prestige = -20 }
+		else_if = { limit = { prestige = 50 } add_prestige = -25 }
+		else = { add_prestige = -30 }
+		add_adm_power = -100
+		custom_tooltip = estate_warshipgirls_patronage_of_the_arts_Tirpitz_tooltip
+	}
+	on_granted_province = {
+		if = {
+			limit = { 
+				OR = { 
+ 		   		trade_goods = paper
+ 		   		trade_goods = chinaware
+				} 
+			}
+			add_province_modifier = { name = estate_warshipgirls_patronage_of_the_arts_Tirpitz_mod duration = -1 }
+		}
+		else_if = {
+			limit = { has_province_modifier = estate_warshipgirls_patronage_of_the_arts_Tirpitz_mod }
+			remove_province_modifier = estate_warshipgirls_patronage_of_the_arts_Tirpitz_mod
+		}
+	}
+	on_revoked_province = { if = { limit = { has_province_modifier = estate_warshipgirls_patronage_of_the_arts_Tirpitz_mod } remove_province_modifier = estate_warshipgirls_patronage_of_the_arts_Tirpitz_mod } }
+	on_invalid_province = { if = { limit = { has_province_modifier = estate_warshipgirls_patronage_of_the_arts_Tirpitz_mod } remove_province_modifier = estate_warshipgirls_patronage_of_the_arts_Tirpitz_mod } }
+	ai_will_do = { factor = 0 }
+}
+
+#舰娘陆战队
+estate_warshipgirls_marine = {
+	icon = GFX_estate_warshipgirls_marine
+	influence = 0.1
+	can_select = { mil_power = 200 }
+	can_revoke = { always = no }
+	benefits = {
+		allowed_marine_fraction = 0.25
+	}
+	on_granted = { add_mil_power = -200 add_country_modifier = { name = hm_warshipgirls_marine0 duration = -1 } }
+	ai_will_do = { factor = 0 }
+}
+
+#晃眼！好马闺女
+estate_warshipgirls_uma = {
+	icon = GFX_estate_warshipgirls_uma
+	influence = 0.1
+ 	can_select = { mil_power = 200 }
+	can_revoke = { always = no }
+	benefits = {
+		cavalry_cost = -0.2
+		can_recruit_hussars = yes
+	}
+	on_granted = { 
+		add_mil_power = -200 
+		custom_tooltip = estate_warshipgirls_uma_tooltip 
+		hidden_effect = { country_event = { id = Cirno_estate_event.1 } }
+	}
+	on_granted_province = {
+		if = {
+			limit = { has_terrain = grasslands } #草原
+			add_province_modifier = { name = estate_warshipgirls_uma_mod1 duration = -1 }
+		}
+		if = {
+			limit = { has_terrain = savannah }   #稀树草原
+			add_province_modifier = { name = estate_warshipgirls_uma_mod2 duration = -1 }
+		}
+		if = {
+			limit = { has_terrain = steppe }     #大草原
+			add_province_modifier = { name = estate_warshipgirls_uma_mod3 duration = -1 }
+		}
+	}
+	ai_will_do = { factor = 0 }
+}
+
+		#hidden_effect = {
+		#	every_owned_province = {
+		#		limit = { religion = root }
+		#		add_province_modifier = { name = estate_warshipgirls_guaranteed_autonomy_mod duration = -1 }
+		#	}
+		#}
+		
+		
+
+#jungle         丛林     35
+#forest         森林     20
+#woods          树林     15
+
+#mountain       山脉     35
+#highlands      高原     20
+#hills          丘陵     25
+
+#glacier        冰川     50
+
+#desert         沙漠     50
+#drylands       旱地     5
+
+#coastal_desert 海岸沙滩 35
+#coastline      海岸     25
+#marsh          沼泽     25
+
+#steppe         大草原   20
+#savannah       稀树草原 15
+#grasslands     草原
+#farmlands      农田     -5

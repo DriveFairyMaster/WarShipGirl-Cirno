@@ -1,0 +1,32 @@
+namespace = Cirno_estate_event
+#ÂíÄï¾­¼Ã
+country_event = {
+  id = Cirno_estate_event.1
+  title = Cirno_estate_event.1.t
+  desc = Cirno_estate_event.1.desc
+  picture = Cirno_estate_eventPicture1
+  major = yes
+	is_triggered_only = yes
+	
+  option = {
+    name = Cirno_estate_event.1.a
+    custom_tooltip = Cirno_estate_event_1a_tooltip
+    add_country_modifier = { name = Cirno_evtmod_uma duration = -1 hidden = yes }
+  }
+}
+
+country_event = {
+  id = Cirno_estate_event.2
+  title = Cirno_estate_event.2.t
+  desc = Cirno_estate_event.2.desc
+  picture = Cirno_estate_eventPicture2
+  major = yes
+	is_triggered_only = yes
+	
+  option = {
+    name = Cirno_estate_event.2.a
+    add_adm_power = 50
+    add_dip_power = 50
+    add_mil_power = 50
+  }
+}

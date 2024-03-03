@@ -1,0 +1,358 @@
+namespace = Cirno_yuyu_damaoxian_event
+#海贼 王路飞的大秘宝
+country_event = { 
+  id = Cirno_yuyu_damaoxian_event.1
+  title = Cirno_yuyu_damaoxian_event.1.t
+  desc = Cirno_yuyu_damaoxian_event.1.desc
+  picture = Cirno_yuyu_damaoxian_eventPicture1
+  major = yes
+  trigger = {
+    ai = no
+    has_estate = estate_warshipgirls999
+    NOT = { has_country_flag = Cirno_yuyu_damaoxian_event1 }
+  }
+  mean_time_to_happen = { months = 240 }
+  immediate = { hidden_effect = { set_country_flag = Cirno_yuyu_damaoxian_event1 } }
+  option = {
+    name = Cirno_yuyu_damaoxian_event.1.a
+    add_inflation = 5
+    add_treasury = 3280
+  }
+  option = { #虔诚或狂热
+		trigger = { 
+		  OR = { 
+		    ruler_has_personality = zealot_personality
+		    ruler_has_personality = pious_personality
+		  } 
+		}
+    name = Cirno_yuyu_damaoxian_event.1.b
+    custom_tooltip = Cirno_yuyu_damaoxian_event_1b_tooltip
+    add_adm_power = 328
+    add_dip_power = 328
+    add_mil_power = 328
+  }
+}
+
+#DIO的棺材
+country_event = { 
+  id = Cirno_yuyu_damaoxian_event.2
+  title = Cirno_yuyu_damaoxian_event.2.t
+  desc = Cirno_yuyu_damaoxian_event.2.desc
+  picture = Cirno_yuyu_damaoxian_eventPicture2
+  major = yes
+  trigger = {
+    ai = no
+    has_estate = estate_warshipgirls999
+    NOT = { has_country_flag = Cirno_yuyu_damaoxian_event2 }
+  }
+  mean_time_to_happen = { months = 240 }
+  immediate = { hidden_effect = { set_country_flag = Cirno_yuyu_damaoxian_event2 } }
+  option = {
+    name = Cirno_yuyu_damaoxian_event.2.a
+    country_event = { id = Cirno_yuyu_damaoxian_event.3 }
+  }
+  option = {
+    name = Cirno_yuyu_damaoxian_event.2.b
+    country_event = { id = Cirno_yuyu_damaoxian_event.4 }
+  }
+  option = {
+    name = Cirno_yuyu_damaoxian_event.2.c
+    country_event = { id = Cirno_yuyu_damaoxian_event.6 }
+  }
+  option = { #开了女仆
+    name = Cirno_yuyu_damaoxian_event.2.d
+		trigger = { has_estate = estate_maid }
+    country_event = { id = Cirno_yuyu_damaoxian_event.7 }
+  }
+}
+
+#血之宿命的终结
+country_event = {
+  id = Cirno_yuyu_damaoxian_event.3
+  title = Cirno_yuyu_damaoxian_event.3.t
+  desc = Cirno_yuyu_damaoxian_event.3.desc
+  picture = Cirno_yuyu_damaoxian_eventPicture3
+  major = yes
+  is_triggered_only = yes
+  
+  option = {
+    name = Cirno_yuyu_damaoxian_event.3.a
+    add_mil_power = 200
+  }
+} 
+
+#吸血鬼大乔
+country_event = { 
+  id = Cirno_yuyu_damaoxian_event.4
+  title = Cirno_yuyu_damaoxian_event.4.t
+  desc = Cirno_yuyu_damaoxian_event.4.desc
+  picture = Cirno_yuyu_damaoxian_eventPicture4
+  major = yes
+  is_triggered_only = yes
+  
+  option = {
+    name = Cirno_yuyu_damaoxian_event.4.a
+    country_event = { id = Cirno_yuyu_damaoxian_event.5 }
+  }
+  option = {
+    name = Cirno_yuyu_damaoxian_event.4.b
+    add_mil_power = 200
+  }
+} 
+
+#波纹气功
+country_event = { 
+  id = Cirno_yuyu_damaoxian_event.5
+  title = Cirno_yuyu_damaoxian_event.5.t
+  desc = Cirno_yuyu_damaoxian_event.5.desc
+  picture = Cirno_yuyu_damaoxian_eventPicture5
+  major = yes
+  is_triggered_only = yes
+  
+  option = {
+    name = Cirno_yuyu_damaoxian_event.5.a
+    change_adm = 1
+    change_dip = 1
+    change_mil = 1
+    add_country_modifier = { 
+      name = Cirno_evtmod_Hamon
+      duration = -1 
+    }
+  }
+}
+
+#石鬼面
+country_event = { 
+  id = Cirno_yuyu_damaoxian_event.6
+  title = Cirno_yuyu_damaoxian_event.6.t
+  desc = Cirno_yuyu_damaoxian_event.6.desc
+  picture = Cirno_yuyu_damaoxian_eventPicture6
+  major = yes
+  is_triggered_only = yes
+  
+  option = {
+    name = Cirno_yuyu_damaoxian_event.6.a
+    add_ruler_personality = immortal_personality
+    add_ruler_modifier = { 
+      name = Cirno_evtmod_Vampire
+      duration = -1
+    }
+  }
+  option = {
+    name = Cirno_yuyu_damaoxian_event.6.b
+    add_mil_power = 200
+  }
+} 
+
+#咲夜
+country_event = { 
+  id = Cirno_yuyu_damaoxian_event.7
+  title = Cirno_yuyu_damaoxian_event.7.t
+  desc = Cirno_yuyu_damaoxian_event.7.desc
+  picture = Cirno_yuyu_damaoxian_eventPicture7
+  major = yes
+  is_triggered_only = yes
+  
+  option = {
+    name = Cirno_yuyu_damaoxian_event.7.a
+    add_country_modifier = {
+      name = Cirno_evtmod_sakuya1
+			duration = 7300
+    }
+    hidden_effect = { 
+      set_country_flag = Cirno_evtmod_sakuya1
+      country_event = { id = Cirno_yuyu_damaoxian_event.8 days = 7301 } 
+    }
+  }
+  option = {
+    name = Cirno_yuyu_damaoxian_event.7.b
+    add_country_modifier = {
+      name = Cirno_evtmod_sakuya2
+			duration = 7300
+    }
+    hidden_effect = { 
+      set_country_flag = Cirno_evtmod_sakuya2
+      country_event = { id = Cirno_yuyu_damaoxian_event.8 days = 7301 } 
+    }
+  }
+  option = {
+    name = Cirno_yuyu_damaoxian_event.7.c
+    add_country_modifier = {
+      name = Cirno_evtmod_sakuya3
+			duration = 7300
+    }
+    hidden_effect = { 
+      set_country_flag = Cirno_evtmod_sakuya3
+      country_event = { id = Cirno_yuyu_damaoxian_event.8 days = 7301 } 
+    }
+  }
+  option = {
+    name = Cirno_yuyu_damaoxian_event.7.d
+    define_conquistador = {
+      name = Sakuya.Izayoi
+      trait = WG_CIRNO_leader_trait_sakuya
+      female = yes
+      shock = 4
+      fire = 4
+      manuever = 4
+      siege = 4
+    }
+    hidden_effect = { 
+      set_country_flag = Cirno_evtmod_sakuya4
+      country_event = { id = Cirno_yuyu_damaoxian_event.8 days = 1460 } 
+    }
+  }
+} 
+
+# 咲夜的终点
+country_event = { 
+  id = Cirno_yuyu_damaoxian_event.8
+  title = Cirno_yuyu_damaoxian_event.8.t
+  desc = Cirno_yuyu_damaoxian_event.8.desc
+  picture = Cirno_yuyu_damaoxian_eventPicture8
+  major = yes
+  is_triggered_only = yes
+  
+  immediate = { kill_leader = { type = "Sakuya.Izayoi" } }
+  
+  option = {
+    name = Cirno_yuyu_damaoxian_event.8.a
+    country_event = { id = Cirno_yuyu_damaoxian_event.9 } 
+  }
+  option = {
+		trigger = { 
+			or = {
+				adm_power = 999
+				dip_power = 999
+				mil_power = 999
+			}
+		}
+    name = Cirno_yuyu_damaoxian_event.8.b
+    custom_tooltip = Cirno_yuyu_damaoxian_event_8b_tooltip
+		if = {
+			limit = { has_country_flag = Cirno_evtmod_sakuya1 }
+			add_country_modifier = { name = Cirno_evtmod_sakuya_Power_of_Love1 duration = -1 }
+		}
+		else_if = {
+			limit = { has_country_flag = Cirno_evtmod_sakuya2 }
+			add_country_modifier = { name = Cirno_evtmod_sakuya_Power_of_Love2 duration = -1 }
+		}
+		else_if = {
+			limit = { has_country_flag = Cirno_evtmod_sakuya3 }
+			add_country_modifier = { name = Cirno_evtmod_sakuya_Power_of_Love3 duration = -1 }
+		}
+		#↑双倍buff
+		#↓自动打赢复活赛
+		else_if = {
+			limit = { has_country_flag = Cirno_evtmod_sakuya4 }
+			set_country_flag = Cirno_evtmod_sakuya_Power_of_Love4
+		}
+  }
+} 
+# 直到死亡将你我分离
+country_event = { 
+  id = Cirno_yuyu_damaoxian_event.9
+  title = Cirno_yuyu_damaoxian_event.9.t
+  desc = Cirno_yuyu_damaoxian_event.9.desc
+  picture = Cirno_yuyu_damaoxian_eventPicture9
+  major = yes
+  is_triggered_only = yes
+  option = {
+    name = Cirno_yuyu_damaoxian_event.9.a
+    add_adm_power = 16
+    add_dip_power = 16
+    add_mil_power = 16
+  }
+  option = {
+    name = Cirno_yuyu_damaoxian_event.9.b
+    country_event = { id = Cirno_yuyu_damaoxian_event.10 } 
+    add_adm_power = -99
+    add_dip_power = -99
+    add_mil_power = -99
+  }
+} 
+  
+# 湖中妖精
+country_event = { 
+  id = Cirno_yuyu_damaoxian_event.10
+  title = Cirno_yuyu_damaoxian_event.10.t
+  desc = Cirno_yuyu_damaoxian_event.10.desc
+  picture = Cirno_yuyu_damaoxian_eventPicture10
+  major = yes
+  is_triggered_only = yes
+  option = {
+    name = Cirno_yuyu_damaoxian_event.10.a
+    custom_tooltip = Cirno_yuyu_damaoxian_event_10a_tooltip
+    set_country_flag = Cirno_Over_Intelligence_IDEAL
+    hidden_effect = { country_event = { id = Cirno_yuyu_damaoxian_event.11 } }
+		add_country_modifier = { name = Cirno_evtmod_IDEAL1 duration = -1 }
+		add_country_modifier = { name = Cirno_evtmod_IDEAL2 duration = -1 }
+  }
+  option = {
+    name = Cirno_yuyu_damaoxian_event.10.b
+    hidden_effect = { country_event = { id = Cirno_yuyu_damaoxian_event.11 } }
+		add_country_modifier = { name = Cirno_evtmod_Lyleen duration = -1 }
+  }
+  option = {
+    name = Cirno_yuyu_damaoxian_event.10.c
+    hidden_effect = { country_event = { id = Cirno_yuyu_damaoxian_event.12 } }
+  }
+} 
+
+# bad boy
+country_event = { 
+  id = Cirno_yuyu_damaoxian_event.11
+  title = Cirno_yuyu_damaoxian_event.11.t
+  desc = Cirno_yuyu_damaoxian_event.11.desc
+  picture = Cirno_yuyu_damaoxian_eventPicture11
+  major = yes
+  is_triggered_only = yes
+  
+  immediate = { 
+    clr_country_flag = Cirno_Over_Intelligence_IDEAL
+    remove_country_modifier = Cirno_evtmod_IDEAL1
+    remove_country_modifier = Cirno_evtmod_IDEAL2
+    remove_country_modifier = Cirno_evtmod_Lyleen
+  }
+  
+  option = {
+    name = Cirno_yuyu_damaoxian_event.11.a
+    add_treasury = -999
+  }
+} 
+
+#good boy
+country_event = { 
+  id = Cirno_yuyu_damaoxian_event.12
+  title = Cirno_yuyu_damaoxian_event.12.t
+  desc = Cirno_yuyu_damaoxian_event.12.desc
+  picture = Cirno_yuyu_damaoxian_eventPicture12
+  major = yes
+  is_triggered_only = yes
+ 
+  option = {
+    name = Cirno_yuyu_damaoxian_event.12.a
+    custom_tooltip = Cirno_yuyu_damaoxian_event_12a_tooltip
+		if = {
+			limit = { has_country_flag = Cirno_evtmod_sakuya1 }
+			add_country_modifier = { name = Cirno_evtmod_sakuya_Power_of_Love1 duration = -1 }
+		}
+		else_if = {
+			limit = { has_country_flag = Cirno_evtmod_sakuya2 }
+			add_country_modifier = { name = Cirno_evtmod_sakuya_Power_of_Love2 duration = -1 }
+		}
+		else_if = {
+			limit = { has_country_flag = Cirno_evtmod_sakuya3 }
+			add_country_modifier = { name = Cirno_evtmod_sakuya_Power_of_Love3 duration = -1 }
+		}
+		#↑双倍buff
+		#↓自动打赢复活赛
+		else_if = {
+			limit = { has_country_flag = Cirno_evtmod_sakuya4 }
+			hidden_effect = { 
+				set_country_flag = Cirno_evtmod_sakuya_Power_of_Love4
+    		country_event = { id = Cirno_hidden_event.4 } 
+    	}
+		}
+  }
+} 

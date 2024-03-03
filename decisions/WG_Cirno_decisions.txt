@@ -1,0 +1,66 @@
+country_decisions = {
+	#找舰娘贷款
+	decisions_WarShipGirl_loan = { 
+		major = yes
+		potential = {
+			has_estate = estate_warshipgirls999
+			NOT = { has_country_modifier = WarGirl_loan_mod }
+		}
+		allow = {
+			ai = no
+			has_country_flag = WarShipGirl_Cirno
+		}
+		effect = {
+			add_treasury = 648
+			add_years_of_income = 1 #根据年收入决定
+			add_inflation = 2
+			add_estate_loyalty = {
+			  estate = estate_warshipgirls999
+			  loyalty = 25
+			}
+			add_country_modifier = { 
+   			name = Kidney_deficiency_mod
+    		duration = 180
+    	}
+    	hidden_effect = {
+    		add_country_modifier = {
+    			name = WarGirl_loan_mod
+    			duration = 7300
+    			hidden = yes
+    		}
+    	}
+		}
+		ai_will_do = { factor = 1 }
+	}
+	#解锁舰娘理念组
+	decisions_WarShipGirlIdeas_adm = {
+		major = yes
+		potential = { ai = no not = { adm_tech = 10 } not = { has_idea_group = hm_warshipgirls_adm_ideas } }
+		allow = { not = { adm_tech = 10 } }
+		effect = {
+			adm_power_cost = 99 #这个词条吃全点数花费
+			add_idea_group = hm_warshipgirls_adm_ideas
+		}
+		ai_will_do = { factor = 0 }
+	}	
+	decisions_WarShipGirlIdeas_dip = {
+		major = yes
+		potential = { ai = no not = { adm_tech = 10 } not = { has_idea_group = hm_warshipgirls_dip_ideas } }
+		allow = { not = { adm_tech = 10 } }
+		effect = {
+			dip_power_cost = 99
+			add_idea_group = hm_warshipgirls_dip_ideas
+		}
+		ai_will_do = { factor = 0 }
+	}	
+	decisions_WarShipGirlIdeas_mil = {
+		major = yes
+		potential = { ai = no not = { adm_tech = 10 } not = { has_idea_group = hm_warshipgirls_mil_ideas } }
+		allow = { not = { adm_tech = 10 } }
+		effect = {
+			mil_power_cost = 99
+			add_idea_group = hm_warshipgirls_mil_ideas
+		}
+		ai_will_do = { factor = 0 }
+	}	
+}
