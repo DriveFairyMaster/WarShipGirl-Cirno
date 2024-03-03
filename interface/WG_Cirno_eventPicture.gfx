@@ -1,0 +1,43 @@
+spriteTypes = {
+	spriteType = {name = "Cirno_yuyu_damaoxian_eventPicture1" texturefile = "gfx//eventPicture//Cirno_yuyu_damaoxian_eventPicture1.png" }
+	spriteType = {name = "Cirno_yuyu_damaoxian_eventPicture2" texturefile = "gfx//eventPicture//Cirno_yuyu_damaoxian_eventPicture2.png" }
+	spriteType = {name = "Cirno_yuyu_damaoxian_eventPicture3" texturefile = "gfx//eventPicture//Cirno_yuyu_damaoxian_eventPicture3.png" }
+	spriteType = {name = "Cirno_yuyu_damaoxian_eventPicture4" texturefile = "gfx//eventPicture//Cirno_yuyu_damaoxian_eventPicture4.png" }
+	spriteType = {name = "Cirno_yuyu_damaoxian_eventPicture5" texturefile = "gfx//eventPicture//Cirno_yuyu_damaoxian_eventPicture5.png" }
+	spriteType = {name = "Cirno_yuyu_damaoxian_eventPicture6" texturefile = "gfx//eventPicture//Cirno_yuyu_damaoxian_eventPicture6.png" }
+	spriteType = {name = "Cirno_yuyu_damaoxian_eventPicture7" texturefile = "gfx//eventPicture//Cirno_yuyu_damaoxian_eventPicture7.png" }
+	spriteType = {name = "Cirno_yuyu_damaoxian_eventPicture8" texturefile = "gfx//eventPicture//Cirno_yuyu_damaoxian_eventPicture8.png" }
+	spriteType = {name = "Cirno_yuyu_damaoxian_eventPicture9" texturefile = "gfx//eventPicture//Cirno_yuyu_damaoxian_eventPicture9.png" }
+	spriteType = {name = "Cirno_yuyu_damaoxian_eventPicture10" texturefile = "gfx//eventPicture//Cirno_yuyu_damaoxian_eventPicture10.png" }
+	spriteType = {name = "Cirno_yuyu_damaoxian_eventPicture11" texturefile = "gfx//eventPicture//Cirno_yuyu_damaoxian_eventPicture11.png" }
+	spriteType = {name = "Cirno_yuyu_damaoxian_eventPicture12" texturefile = "gfx//eventPicture//Cirno_yuyu_damaoxian_eventPicture12.png" }
+	
+	
+	spriteType = { name = "Cirno_eventPicture1" texturefile = "gfx//eventPicture//Cirno_eventPicture1.png" }
+	
+	spriteType = { name = "Cirno_estate_eventPicture1" texturefile = "gfx//eventPicture//Cirno_estate_eventPicture1.png" }
+	spriteType = { name = "Cirno_estate_eventPicture2" texturefile = "gfx//eventPicture//Cirno_estate_eventPicture2.png" }
+	spriteType = { name = "Cirno_estate_eventPicture3" texturefile = "gfx//eventPicture//Cirno_estate_eventPicture3.png" }
+	spriteType = { name = "Cirno_estate_eventPicture4" texturefile = "gfx//eventPicture//Cirno_estate_eventPicture4.png" }
+	spriteType = { name = "Cirno_estate_eventPicture5" texturefile = "gfx//eventPicture//Cirno_estate_eventPicture5.png" }
+	spriteType = { name = "Cirno_estate_eventPicture3" texturefile = "gfx//eventPicture//Cirno_estate_eventPicture3.png" }
+	spriteType = { name = "Cirno_estate_eventPicture7" texturefile = "gfx//eventPicture//Cirno_estate_eventPicture7.png" }
+	spriteType = { name = "Cirno_estate_eventPicture8" texturefile = "gfx//eventPicture//Cirno_estate_eventPicture8.png" }
+	spriteType = { name = "Cirno_estate_eventPicture9" texturefile = "gfx//eventPicture//Cirno_estate_eventPicture9.png" }
+	
+	spriteType = { name = "Cirno_policy_eventPicture1" texturefile = "gfx//eventPicture//Cirno_policy_eventPicture1.png" }
+	
+	spriteType = {name = "Cirno_sex_eventPicture1" texturefile = "gfx//eventPicture//Cirno_sex_eventPicture1.png" }
+	spriteType = {name = "Cirno_sex_eventPicture2" texturefile = "gfx//eventPicture//Cirno_sex_eventPicture2.png" }
+	spriteType = {name = "Cirno_sex_eventPicture3" texturefile = "gfx//eventPicture//Cirno_sex_eventPicture3.png" }
+	spriteType = {name = "Cirno_sex_eventPicture4" texturefile = "gfx//eventPicture//Cirno_sex_eventPicture4.png" }
+	spriteType = {name = "Cirno_sex_eventPicture5" texturefile = "gfx//eventPicture//Cirno_sex_eventPicture5.png" }
+	spriteType = {name = "Cirno_sex_eventPicture6" texturefile = "gfx//eventPicture//Cirno_sex_eventPicture6.png" }
+	spriteType = {name = "Cirno_sex_eventPicture7" texturefile = "gfx//eventPicture//Cirno_sex_eventPicture7.png" }
+	spriteType = {name = "Cirno_sex_eventPicture8" texturefile = "gfx//eventPicture//Cirno_sex_eventPicture8.png" }
+	spriteType = {name = "Cirno_sex_eventPicture9" texturefile = "gfx//eventPicture//Cirno_sex_eventPicture9.png" }
+	spriteType = {name = "Cirno_sex_eventPicture100" texturefile = "gfx//eventPicture//Cirno_sex_eventPicture100.png" }
+	spriteType = {name = "Cirno_sex_eventPicture101" texturefile = "gfx//eventPicture//Cirno_sex_eventPicture101.png" }
+	
+	
+}

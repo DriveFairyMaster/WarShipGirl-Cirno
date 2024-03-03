@@ -1,0 +1,37 @@
+spriteTypes = {
+	#特权
+	#6小时
+	spriteType = {name = "GFX_estate_warshipgirls_6h"                            texturefile = "gfx/estates/estate_warshipgirls_6h.png" }
+	#电子厂
+	spriteType = {name = "GFX_estate_warshipgirls_12h"                           texturefile = "gfx/estates/estate_warshipgirls_12h.png" }
+	#镇守府
+	spriteType = {name = "GFX_estate_warshipgirls_port"                          texturefile = "gfx/estates/estate_warshipgirls_port.png" }
+	#鱼鱼探险队
+	spriteType = {name = "GFX_estate_warshipgirls_yuyu"                          texturefile = "gfx/estates/estate_warshipgirls_yuyu.png" }
+	#桑提
+	spriteType = {name = "GFX_estate_warshipgirls_sangti"                        texturefile = "gfx/estates/estate_warshipgirls_sangti.png" }
+	#水之心
+	spriteType = {name = "GFX_estate_warshipgirls_fisher"                        texturefile = "gfx/estates/estate_warshipgirls_fisher.png" }
+	#水之心
+	spriteType = {name = "GFX_estate_warshipgirls_canteen"                       texturefile = "gfx/estates/estate_warshipgirls_canteen.png" }
+	#萨拉可乐
+	spriteType = {name = "GFX_estate_warshipgirls_saracola"                      texturefile = "gfx/estates/estate_warshipgirls_saracola.png" }
+	#建造船坞
+	spriteType = {name = "GFX_estate_warshipgirls_navy_dock"                     texturefile = "gfx/estates/estate_warshipgirls_navy_dock.png" }
+	#戒指工厂
+	spriteType = {name = "GFX_estate_warshipgirls_ring_factory"                  texturefile = "gfx/estates/estate_warshipgirls_ring_factory.png" }
+	#江南皮革厂
+	spriteType = {name = "GFX_estate_warshipgirls_jiangnan_leather"              texturefile = "gfx/estates/estate_warshipgirls_jiangnan_leather.png" }
+	#解放奴隶
+	spriteType = {name = "GFX_estate_warshipgirls_liberation_of_slaves"          texturefile = "gfx/estates/estate_warshipgirls_liberation_of_slaves.png" }
+	#妖巴克
+	spriteType = {name = "GFX_estate_warshipgirls_starsapphire_bucks_coffee"     texturefile = "gfx/estates/estate_warshipgirls_starsapphire_bucks_coffee.png" }
+	#联通骑士团
+	spriteType = {name = "GFX_estate_warshipgirls_The_Knights_of_Paediatrics"    texturefile = "gfx/estates/estate_warshipgirls_The_Knights_of_Paediatrics.png" }
+	#提尔比茨的艺术
+	spriteType = {name = "GFX_estate_warshipgirls_patronage_of_the_arts_Tirpitz" texturefile = "gfx/estates/estate_warshipgirls_patronage_of_the_arts_Tirpitz.png" }
+	#舰娘陆战队
+	spriteType = {name = "GFX_estate_warshipgirls_marine"                        texturefile = "gfx/estates/estate_warshipgirls_marine.png" }
+	#晃眼！好马闺女
+	spriteType = {name = "GFX_estate_warshipgirls_uma"                           texturefile = "gfx/estates/estate_warshipgirls_uma.png" }
+}

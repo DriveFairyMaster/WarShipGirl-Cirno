@@ -1,0 +1,40 @@
+spriteTypes = {
+	# 理念
+	spriteType = { # 行政
+		name = "GFX_idea_hm_warshipgirls_adm_ideas"
+		texturefile = "gfx//interface//ideas//hm_warshipgirls_adm_ideas.png"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = { # 外交
+		name = "GFX_idea_hm_warshipgirls_dip_ideas"
+		texturefile = "gfx//interface//ideas//hm_warshipgirls_dip_ideas.png"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = { # 军事
+		name = "GFX_idea_hm_warshipgirls_mil_ideas"
+		texturefile = "gfx//interface//ideas//hm_warshipgirls_mil_ideas.png"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = { # 献忠
+		name = "GFX_idea_hm_warshipgirls_xianzhong_ideas"
+		texturefile = "gfx//interface//ideas//hm_warshipgirls_xianzhong_ideas.png"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = { # 大明科技
+		name = "GFX_idea_hm_warshipgirls_Ming_Black_Technology_ideas"
+		texturefile = "gfx//interface//ideas//hm_warshipgirls_Ming_Black_Technology_ideas.png"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	# 政策
+		spriteType = { # 行政
+		name = "GFX_idea_hm_warshipgirls_adm_ideas_policy"
+		texturefile = "gfx//interface//ideas//hm_warshipgirls_adm_ideas.png"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+}

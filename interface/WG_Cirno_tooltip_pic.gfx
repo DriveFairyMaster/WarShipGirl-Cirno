@@ -1,0 +1,322 @@
+spriteTypes = {
+	spriteType = { #六小时工作制
+		name = "GFX_tooltip_6h"
+		texturefile = "gfx/tooltip/tooltip_6h.png"
+		legacy_lazy_load = no
+	}
+	spriteType = { #夺命电子厂
+		name = "GFX_tooltip_12h"
+		texturefile = "gfx/tooltip/tooltip_12h.png"
+		legacy_lazy_load = no
+	}
+	spriteType = { #镇守府
+		name = "GFX_tooltip_port"
+		texturefile = "gfx/tooltip/tooltip_port.png"
+		legacy_lazy_load = no
+	}
+	spriteType = { #鱼鱼探险队
+		name = "GFX_tooltip_yuyu"
+		texturefile = "gfx/tooltip/tooltip_yuyu.png"
+		legacy_lazy_load = no
+	}
+	spriteType = { #桑提经商
+		name = "GFX_tooltip_sangti"
+		texturefile = "gfx/tooltip/tooltip_sangti.png"
+		legacy_lazy_load = no
+	}
+	spriteType = { #水之心
+		name = "GFX_tooltip_fisher"
+		texturefile = "gfx/tooltip/tooltip_fisher.png"
+		legacy_lazy_load = no
+	}
+	spriteType = { #大饭堂
+		name = "GFX_tooltip_canteen"
+		texturefile = "gfx/tooltip/tooltip_canteen.png"
+		legacy_lazy_load = no
+	}
+	spriteType = { #萨拉可乐
+		name = "GFX_tooltip_saracola"
+		texturefile = "gfx/tooltip/tooltip_saracola.png"
+		legacy_lazy_load = no
+	}
+	spriteType = { #建造船坞
+		name = "GFX_tooltip_navy_dock"
+		texturefile = "gfx/tooltip/tooltip_navy_dock.png"
+		legacy_lazy_load = no
+	}
+	spriteType = { #戒指工厂
+		name = "GFX_tooltip_ring_factory"
+		texturefile = "gfx/tooltip/tooltip_ring_factory.png"
+		legacy_lazy_load = no
+	}
+	spriteType = { #江南皮革厂
+		name = "GFX_tooltip_jiangnan_leather"
+		texturefile = "gfx/tooltip/tooltip_jiangnan_leather.png"
+		legacy_lazy_load = no
+	}
+	spriteType = { #解放奴隶
+		name = "GFX_tooltip_liberation_of_slaves"
+		texturefile = "gfx/tooltip/tooltip_liberation_of_slaves.png"
+		legacy_lazy_load = no
+	}
+	spriteType = { #妖巴克
+		name = "GFX_tooltip_starsapphire_bucks_coffee"
+		texturefile = "gfx/tooltip/tooltip_starsapphire_bucks_coffee.png"
+		legacy_lazy_load = no
+	}
+	spriteType = { #炼铜骑士团
+		name = "GFX_tooltip_The_Knights_of_Paediatrics"
+		texturefile = "gfx/tooltip/tooltip_The_Knights_of_Paediatrics.png"
+		legacy_lazy_load = no
+	}
+	spriteType = { #北宅
+		name = "GFX_tooltip_patronage_of_the_arts_Tirpitz"
+		texturefile = "gfx/tooltip/tooltip_patronage_of_the_arts_Tirpitz.png"
+		legacy_lazy_load = no
+	}
+	spriteType = { #舰娘陆战队
+		name = "GFX_tooltip_marine"
+		texturefile = "gfx/tooltip/tooltip_marine.png"
+		legacy_lazy_load = no
+	}
+	spriteType = { #晃眼！好马闺女
+		name = "GFX_tooltip_uma"
+		texturefile = "gfx/tooltip/tooltip_uma.png"
+		legacy_lazy_load = no
+	}
+	spriteType = { #特雷森
+		name = "GFX_tooltip_uma_mod"
+		texturefile = "gfx/tooltip/tooltip_uma_mod.png"
+		legacy_lazy_load = no
+	}
+	
+	# 决议
+	spriteType = { #舍命陪淑女
+		name = "GFX_tooltip_decisions_WarGirl_loan"
+		texturefile = "gfx/tooltip/tooltip_decisions_WarGirl_loan.png"
+		legacy_lazy_load = no
+	}
+	
+	#event
+	spriteType = { #好马闺女
+		name = "GFX_tooltip_Cirno_estate_event1a"
+		texturefile = "gfx/tooltip/tooltip_Cirno_estate_event1a.png"
+		legacy_lazy_load = no
+	}
+	spriteType = { #巨乳咲夜
+		name = "GFX_tooltip_Cirno_yuyu_damaoxian_event12a"
+		texturefile = "gfx/tooltip/tooltip_Cirno_yuyu_damaoxian_event12a.png"
+		legacy_lazy_load = no
+	}
+	spriteType = { #爆草女巫
+		name = "GFX_tooltip_Cirno_sex_event101c"
+		texturefile = "gfx/tooltip/tooltip_Cirno_sex_event101c.png"
+		legacy_lazy_load = no
+	}
+	
+	
+	#event buff
+	spriteType = { #超级舰女人
+		name = "GFX_tooltip_marine_mod"
+		texturefile = "gfx/tooltip/tooltip_marine_mod.png"
+		legacy_lazy_load = no
+	}
+	spriteType = { #正生育
+		name = "GFX_tooltip_hm_warshipgirls_tidu_fertility_mod_good"
+		texturefile = "gfx/tooltip/tooltip_hm_warshipgirls_tidu_fertility_mod_good.png"
+		legacy_lazy_load = no
+	}
+	spriteType = { #负生育
+		name = "GFX_tooltip_hm_warshipgirls_tidu_fertility_mod_bad"
+		texturefile = "gfx/tooltip/tooltip_hm_warshipgirls_tidu_fertility_mod_bad.png"
+		legacy_lazy_load = no
+	}
+	
+	
+	
+	#理念
+	spriteType = {
+		name = "GFX_tooltip_hm_warshipgirls_adm_idea1"
+		texturefile = "gfx/tooltip/tooltip_hm_warshipgirls_adm_idea1.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_tooltip_hm_warshipgirls_adm_idea2"
+		texturefile = "gfx/tooltip/tooltip_hm_warshipgirls_adm_idea2.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_tooltip_hm_warshipgirls_adm_idea3"
+		texturefile = "gfx/tooltip/tooltip_hm_warshipgirls_adm_idea3.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_tooltip_hm_warshipgirls_adm_idea4"
+		texturefile = "gfx/tooltip/tooltip_hm_warshipgirls_adm_idea4.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_tooltip_hm_warshipgirls_adm_idea5"
+		texturefile = "gfx/tooltip/tooltip_hm_warshipgirls_adm_idea5.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_tooltip_hm_warshipgirls_adm_idea6"
+		texturefile = "gfx/tooltip/tooltip_hm_warshipgirls_adm_idea6.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_tooltip_hm_warshipgirls_adm_idea7"
+		texturefile = "gfx/tooltip/tooltip_hm_warshipgirls_adm_idea7.png"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_tooltip_hm_warshipgirls_dip_idea1"
+		texturefile = "gfx/tooltip/tooltip_hm_warshipgirls_dip_idea1.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_tooltip_hm_warshipgirls_dip_idea2"
+		texturefile = "gfx/tooltip/tooltip_hm_warshipgirls_dip_idea2.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_tooltip_hm_warshipgirls_dip_idea3"
+		texturefile = "gfx/tooltip/tooltip_hm_warshipgirls_dip_idea3.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_tooltip_hm_warshipgirls_dip_idea4"
+		texturefile = "gfx/tooltip/tooltip_hm_warshipgirls_dip_idea4.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_tooltip_hm_warshipgirls_dip_idea5"
+		texturefile = "gfx/tooltip/tooltip_hm_warshipgirls_dip_idea5.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_tooltip_hm_warshipgirls_dip_idea6"
+		texturefile = "gfx/tooltip/tooltip_hm_warshipgirls_dip_idea6.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_tooltip_hm_warshipgirls_dip_idea7"
+		texturefile = "gfx/tooltip/tooltip_hm_warshipgirls_dip_idea7.png"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_tooltip_hm_warshipgirls_mil_idea1"
+		texturefile = "gfx/tooltip/tooltip_hm_warshipgirls_mil_idea1.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_tooltip_hm_warshipgirls_mil_idea2"
+		texturefile = "gfx/tooltip/tooltip_hm_warshipgirls_mil_idea2.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_tooltip_hm_warshipgirls_mil_idea3"
+		texturefile = "gfx/tooltip/tooltip_hm_warshipgirls_mil_idea3.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_tooltip_hm_warshipgirls_mil_idea4"
+		texturefile = "gfx/tooltip/tooltip_hm_warshipgirls_mil_idea4.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_tooltip_hm_warshipgirls_mil_idea5"
+		texturefile = "gfx/tooltip/tooltip_hm_warshipgirls_mil_idea5.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_tooltip_hm_warshipgirls_mil_idea6"
+		texturefile = "gfx/tooltip/tooltip_hm_warshipgirls_mil_idea6.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_tooltip_hm_warshipgirls_mil_idea7"
+		texturefile = "gfx/tooltip/tooltip_hm_warshipgirls_mil_idea7.png"
+		legacy_lazy_load = no
+	}
+	
+	# 大明科技
+	spriteType = {
+		name = "GFX_tooltip_hm_warshipgirls_MingBT_idea1"
+		texturefile = "gfx/tooltip/tooltip_hm_warshipgirls_MingBT_idea1.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_tooltip_hm_warshipgirls_MingBT_idea2"
+		texturefile = "gfx/tooltip/tooltip_hm_warshipgirls_MingBT_idea2.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_tooltip_hm_warshipgirls_MingBT_idea3"
+		texturefile = "gfx/tooltip/tooltip_hm_warshipgirls_MingBT_idea3.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_tooltip_hm_warshipgirls_MingBT_idea4"
+		texturefile = "gfx/tooltip/tooltip_hm_warshipgirls_MingBT_idea4.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_tooltip_hm_warshipgirls_MingBT_idea5"
+		texturefile = "gfx/tooltip/tooltip_hm_warshipgirls_MingBT_idea5.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_tooltip_hm_warshipgirls_MingBT_idea6"
+		texturefile = "gfx/tooltip/tooltip_hm_warshipgirls_MingBT_idea6.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_tooltip_hm_warshipgirls_MingBT_idea7"
+		texturefile = "gfx/tooltip/tooltip_hm_warshipgirls_MingBT_idea7.png"
+		legacy_lazy_load = no
+	}
+	
+	
+	
+	# 将领头像
+	spriteType = {
+		name = "GFX_tooltip_WG_CIRNO_leader_trait_sakuya"
+		texturefile = "gfx/tooltip/tooltip_WG_CIRNO_leader_trait_sakuya.png"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_tooltip_WG_CIRNO_leader_trait_MIMIMI"
+		texturefile = "gfx/tooltip/tooltip_WG_CIRNO_leader_trait_MIMIMI.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_tooltip_WG_CIRNO_leader_trait_PrinzEugen"
+		texturefile = "gfx/tooltip/tooltip_WG_CIRNO_leader_trait_PrinzEugen.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_tooltip_WG_CIRNO_leader_trait_JoanofArc"
+		texturefile = "gfx/tooltip/tooltip_WG_CIRNO_leader_trait_JoanofArc.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_tooltip_WG_CIRNO_leader_trait_GrassWonder"
+		texturefile = "gfx/tooltip/tooltip_WG_CIRNO_leader_trait_GrassWonder.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_tooltip_WG_CIRNO_leader_trait_Angela"
+		texturefile = "gfx/tooltip/tooltip_WG_CIRNO_leader_trait_Angela.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_tooltip_WG_CIRNO_leader_trait_ChiangKaiShek"
+		texturefile = "gfx/tooltip/tooltip_WG_CIRNO_leader_trait_ChiangKaiShek.png"
+		legacy_lazy_load = no
+	}
+}
