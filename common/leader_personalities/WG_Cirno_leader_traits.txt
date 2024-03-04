@@ -1,7 +1,7 @@
 WG_CIRNO_leader_trait_sakuya = {
 	allow = { always = no }
-	siege_ability = 0.5 #Ê±Í£¿³ÊØ¾ü
-	morale_damage = 0.5 #Ê±Í£ÃëÖ¸»Ó¹Ù
+	siege_ability = 0.5 #æ—¶åœç å®ˆå†›
+	morale_damage = 0.5 #æ—¶åœç§’æŒ‡æŒ¥å®˜
 }
 
 WG_CIRNO_leader_trait_MIMIMI = {
@@ -13,10 +13,10 @@ WG_CIRNO_leader_trait_MIMIMI = {
 }
 WG_CIRNO_leader_trait_PrinzEugen = {
 	allow = { always = no }
-	fire_damage = -0.2
-	shock_damage = -0.2
-	fire_damage_received = -0.2
-	shock_damage_received = -0.2
+	fire_damage = -0.25
+	shock_damage = -0.25
+	fire_damage_received = -0.25
+	shock_damage_received = -0.25
 	morale_damage_received = -0.5
 }
 WG_CIRNO_leader_trait_JoanofArc = {
@@ -28,10 +28,9 @@ WG_CIRNO_leader_trait_JoanofArc = {
 }
 WG_CIRNO_leader_trait_GrassWonder = {
 	allow = { always = no }
-	shock_damage = 0.3
-	shock_damage_received = 0.3 #Á¦µÄ×÷ÓÃÊÇÏà»¥µÄ
-	cavalry_power = 0.25
-	movement_speed = 0.25
+	shock_damage = 0.2
+	cavalry_power = 0.1
+	movement_speed = 0.2
 	cav_to_inf_ratio = 1
 	cavalry_flanking = 1
 }
