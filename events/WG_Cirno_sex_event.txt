@@ -8,32 +8,19 @@ country_event = {
 	is_triggered_only = yes
 	trigger = {
 	  ai = no
-		#NOT = { has_country_flag = Cirno_sex_event_flag1 } #½ö´¥·¢Ò»´Î
+		NOT = { has_country_flag = Cirno_sex_event_flag1 } #ä»…è§¦å‘ä¸€æ¬¡
 		FROM = {
 			fort_level = 1
-			development = 20
+			development = 30
 			owner = { NOT = { tag = ROOT } }
-			OR = { #ÎåÊ®ÄêÒ»´Î
-				NOT = { has_country_flag = Cirno_sex_event_flag1 }
-				had_country_flag = { flag = Cirno_sex_event_flag1 days = 18250 }
-			}
-			OR = { #±»Î§¹¥Ê¡·İÎåÊ®ÄêÄÚ²»ÄÜÔÙ´Î´¥·¢
-				NOT = { has_province_flag = Cirno_SexSiegeWon_province_flag }
-				had_province_flag = { flag = Cirno_SexSiegeWon_province_flag days = 18250 }
-			}
 		}
 	}
-	immediate = {
-		hidden_effect = {
-			set_country_flag = Cirno_sex_event_flag1
-			FROM = { set_province_flag = Cirno_SexSiegeWon_province_flag }
-		}
-	}
-	#mean_time_to_happen = { days = 1 }
+	immediate = { hidden_effect = { set_country_flag = Cirno_sex_event_flag1 } }
 	option = {
 		name = Cirno_sex_event.1.a
 		add_dip_power = 6
 		add_sailors = 1
+		
 	}
 	option = {
 		name = Cirno_sex_event.1.b
@@ -54,26 +41,15 @@ country_event = {
 	is_triggered_only = yes
 	trigger = {
 	  ai = no
+		NOT = { has_country_flag = Cirno_sex_event_flag2 }
 		FROM = {
 			fort_level = 1
-			development = 20
+			development = 30
 			owner = { NOT = { tag = ROOT } }
-			OR = { #ÎåÊ®ÄêÒ»´Î
-				NOT = { has_country_flag = Cirno_sex_event_flag2 }
-				had_country_flag = { flag = Cirno_sex_event_flag2 days = 18250 }
-			}
-			OR = { #±»Î§¹¥Ê¡·İÎåÊ®ÄêÄÚ²»ÄÜÔÙ´Î´¥·¢
-				NOT = { has_province_flag = Cirno_SexSiegeWon_province_flag }
-				had_province_flag = { flag = Cirno_SexSiegeWon_province_flag days = 18250 }
-			}
+			NOT = { has_country_flag = Cirno_sex_event_flag2 }
 		}
 	}
-	immediate = {
-		hidden_effect = {
-			set_country_flag = Cirno_sex_event_flag2
-			FROM = { set_province_flag = Cirno_SexSiegeWon_province_flag }
-		}
-	}
+	immediate = { hidden_effect = { set_country_flag = Cirno_sex_event_flag2 } }
 	option = {
 		name = Cirno_sex_event.2.a
 		add_dip_power = 10
@@ -98,26 +74,14 @@ country_event = {
 	is_triggered_only = yes
 	trigger = {
 	  ai = no
+		NOT = { has_country_flag = Cirno_sex_event_flag3 }
 		FROM = {
 			fort_level = 1
 			development = 30
 			owner = { NOT = { tag = ROOT } }
-			OR = { #ÎåÊ®ÄêÒ»´Î
-				NOT = { has_country_flag = Cirno_sex_event_flag3 }
-				had_country_flag = { flag = Cirno_sex_event_flag3 days = 18250 }
-			}
-			OR = { #±»Î§¹¥Ê¡·İÎåÊ®ÄêÄÚ²»ÄÜÔÙ´Î´¥·¢
-				NOT = { has_province_flag = Cirno_SexSiegeWon_province_flag }
-				had_province_flag = { flag = Cirno_SexSiegeWon_province_flag days = 18250 }
-			}
 		}
 	}
-	immediate = {
-		hidden_effect = {
-			set_country_flag = Cirno_sex_event_flag3
-			FROM = { set_province_flag = Cirno_SexSiegeWon_province_flag }
-		}
-	}
+	immediate = { hidden_effect = { set_country_flag = Cirno_sex_event_flag3 } }
 	option = {
 		name = Cirno_sex_event.3.a
 		add_dip_power = 10
@@ -145,8 +109,8 @@ country_event = {
   major = yes
   trigger = {
 	  ai = no
-    NOT = { has_country_flag = Cirno_sex_event_flag100 }         #ÉĞÎ´´¥·¢´ËÊÂ¼ş
-    had_country_flag = { flag = WarShipGirl_Cirno days = 18250 } #ÒÑ¿ª¾ÖÎåÊ®Äê
+    NOT = { has_country_flag = Cirno_sex_event_flag100 }         #å°šæœªè§¦å‘æ­¤äº‹ä»¶
+    had_country_flag = { flag = WarShipGirl_Cirno days = 18250 } #å·²å¼€å±€äº”åå¹´
   }
   mean_time_to_happen = { months = 240 }
 	immediate = { hidden_effect = { set_country_flag = Cirno_sex_event_flag100 } }
@@ -169,21 +133,27 @@ country_event = {
 	option = {
 		name = Cirno_sex_event.101.a
     custom_tooltip = Cirno_sex_event.101a_tooltip
-  	trigger = { dip = 6 }
-  	dip_power_cost = 5
+  	trigger = { 
+  		dip = 6 
+  		NOT = { has_ruler_modifier = Cirno_evtmod_TD } 
+  	}
+  	dip_power_cost = 9
 	}
 	option = {
 		name = Cirno_sex_event.101.b
-  	trigger = { NOT = { dip = 6 } }
     custom_tooltip = Cirno_sex_event.101b_tooltip
+  	trigger = { 
+  		NOT = { dip = 6 }
+  		NOT = { has_ruler_modifier = Cirno_evtmod_TD }  
+  	}
     adm_power_cost = 200
     dip_power_cost = 200
     mil_power_cost = 200
 	}
 	option = {
 		name = Cirno_sex_event.101.c
-  	trigger = { has_ruler_modifier = Cirno_evtmod_TD }
     custom_tooltip = Cirno_sex_event.101c_tooltip
+  	trigger = { has_ruler_modifier = Cirno_evtmod_TD }
 		add_sailors = 1
     add_dip_power = 100
   	add_country_modifier = {
