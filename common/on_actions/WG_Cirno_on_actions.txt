@@ -4,8 +4,11 @@ on_startup = {
 	}
 }
 on_siege_won_country = { #围攻胜利
-	events = {
-		Cirno_sex_event.1
+	random_events = {
+		1000 = 0
+		100 = Cirno_sex_event.1
+		100 = Cirno_sex_event.2
+		100 = Cirno_sex_event.3
 	}
 }
 
