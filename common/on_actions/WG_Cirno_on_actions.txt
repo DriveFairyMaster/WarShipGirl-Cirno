@@ -3,6 +3,11 @@ on_startup = {
 		Cirno_hidden_event.999
 	}
 }
+on_yearly_pulse = {
+	events = {
+		Cirno_hidden_event.999
+	}
+}
 on_siege_won_country = { #围攻胜利
 	random_events = {
 		1000 = 0
