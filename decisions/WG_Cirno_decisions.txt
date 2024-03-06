@@ -8,7 +8,6 @@ country_decisions = {
 		}
 		allow = {
 			ai = no
-			has_country_flag = WarShipGirl_Cirno
 		}
 		effect = {
 			add_treasury = 648
