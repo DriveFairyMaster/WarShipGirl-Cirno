@@ -6,7 +6,6 @@ estate_warshipgirls_6h = {
 	#与夺命电子厂互斥，如果同时点了俩个一天后就会消失 笑死
 	penalties = { 
 		global_tax_modifier = -0.1
-		production_efficiency = -0.1
 	}
 	benefits = {
 		idea_cost = -0.1
@@ -29,8 +28,8 @@ estate_warshipgirls_12h = {
 	}
 	benefits = {
 		global_tax_modifier = 0.5
-		production_efficiency = 0.2
-		global_trade_goods_size_modifier = 0.2
+		production_efficiency = 0.25
+		global_trade_goods_size_modifier = 0.25
 	}
 	cooldown_years = 50
 	ai_will_do = { factor = 0 }
@@ -88,42 +87,13 @@ estate_warshipgirls_sangti = {
 		land_forcelimit_modifier = -0.2   #军队经商
 	}
 	benefits = {
-		light_ship_cost = -0.5
-		trade_efficiency = 0.2
+		light_ship_cost = -0.75
+		trade_efficiency = 0.25
 		global_tax_modifier = 0.5
-		global_ship_trade_power = 2
-		global_trade_goods_size = 0.2
+		global_ship_trade_power = 9
+		global_trade_goods_size = 0.5
 	}
 	cooldown_years = 50
-	ai_will_do = { factor = 0 }
-}
-
-#水之心
-estate_warshipgirls_fisher = {
-	icon = GFX_estate_warshipgirls_fisher
-	influence = 0.05
- 	is_valid = { 
-		OR = { 
- 	  	fish = 1     #鱼
- 	  }
- 	}
-	on_granted = { custom_tooltip = estate_warshipgirls_fisher_tooltip }
-	on_granted_province = {
-		if = {
-			limit = { 
-				OR = { 
-			  	trade_goods = fish  #鱼
-			  }
-			}
-			add_province_modifier = { name = estate_warshipgirls_fisher_mod duration = -1 }
-		}
-		else_if = {
-			limit = { has_province_modifier = estate_warshipgirls_fisher_mod }
-			remove_province_modifier = estate_warshipgirls_fisher_mod
-		}
-	}
-	on_revoked_province = { if = { limit = { has_province_modifier = estate_warshipgirls_fisher_mod } remove_province_modifier = estate_warshipgirls_fisher_mod } }
-	on_invalid_province = { if = { limit = { has_province_modifier = estate_warshipgirls_fisher_mod } remove_province_modifier = estate_warshipgirls_fisher_mod } }
 	ai_will_do = { factor = 0 }
 }
 
@@ -133,6 +103,7 @@ estate_warshipgirls_canteen = {
 	influence = 0.05
  	is_valid = { 
 		OR = { 
+ 	  	fish = 1      #鱼
  	  	salt = 1      #盐
  	  	wine = 1      #酒
  	  	grain = 1     #谷物
@@ -149,6 +120,7 @@ estate_warshipgirls_canteen = {
 		if = {
 			limit = { 
 				OR = { 
+					trade_goods = fish      #鱼
 			  	trade_goods = salt      #盐
 			  	trade_goods = wine      #酒
 			  	trade_goods = grain     #谷物
@@ -168,39 +140,6 @@ estate_warshipgirls_canteen = {
 	on_invalid_province = { if = { limit = { has_province_modifier = estate_warshipgirls_canteen_mod } remove_province_modifier = estate_warshipgirls_canteen_mod } }
 	ai_will_do = { factor = 0 }
 }
-
-#萨拉可乐
-estate_warshipgirls_saracola = {
-	icon = GFX_estate_warshipgirls_saracola
-	loyalty = 0.05
-	influence = 0.05
- 	is_valid = { 
- 	  OR = { 
- 	    sugar = 1   #糖
- 	    cloves = 1  #丁香
- 	  } 
- 	}
-	on_granted = { custom_tooltip = estate_warshipgirls_saracola_tooltip }
-	on_granted_province = {
-		if = {
-			limit = { 
-				OR = { 
-					trade_goods = sugar   #糖
-					trade_goods = cloves  #丁香
-				} 
-			}
-			add_province_modifier = { name = estate_warshipgirls_saracola_mod duration = -1 }
-		}
-		else_if = {
-			limit = { has_province_modifier = estate_warshipgirls_saracola_mod }
-			remove_province_modifier = estate_warshipgirls_saracola_mod
-		}
-	}
-	on_revoked_province = { if = { limit = { has_province_modifier = estate_warshipgirls_saracola_mod } remove_province_modifier = estate_warshipgirls_saracola_mod } }
-	on_invalid_province = { if = { limit = { has_province_modifier = estate_warshipgirls_saracola_mod } remove_province_modifier = estate_warshipgirls_saracola_mod } }
-	ai_will_do = { factor = 0 }
-}
-
 
 #建造船坞
 estate_warshipgirls_navy_dock = {
@@ -343,6 +282,8 @@ estate_warshipgirls_starsapphire_bucks_coffee = {
  		OR = { 
  		  tea = 1        #茶叶
  		  cocoa = 1      #可可
+ 	    sugar = 1      #糖
+ 	    cloves = 1     #丁香
  		  coffee = 1     #咖啡
  			livestock = 1  #牲畜
  		}
@@ -354,6 +295,8 @@ estate_warshipgirls_starsapphire_bucks_coffee = {
 				OR = { 
  		   		trade_goods = tea       #茶叶
  		   		trade_goods = cocoa     #可可
+					trade_goods = sugar     #糖
+					trade_goods = cloves    #丁香
  		   		trade_goods = coffee    #咖啡
  			 		trade_goods = livestock #牲畜
 				} 
