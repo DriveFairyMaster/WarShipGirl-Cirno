@@ -140,6 +140,6 @@ hm_warshipgirls_mil_policy3 = {
 		add_country_modifier = { name = hm_warshipgirls_mil_policy3_hidden_buff duration = -1 hidden = yes }
 	}
 	removed_effect = { remove_country_modifier = hm_warshipgirls_mil_policy3_hidden_buff } 
-	heir_chance = -1
+	heir_chance = -0.5
 	warshipgirls999_loyalty_modifier = 0.2
 }
