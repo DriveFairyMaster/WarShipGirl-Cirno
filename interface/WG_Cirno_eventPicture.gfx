@@ -15,6 +15,9 @@ spriteTypes = {
 	
 	spriteType = { name = "Cirno_eventPicture1" texturefile = "gfx//eventPicture//Cirno_eventPicture1.png" }
 	
+	
+	spriteType = { name = "Cirno_GreatProjectPicture1" texturefile = "gfx//eventPicture//Cirno_GreatProjectPicture1.png" }
+	
 	spriteType = { name = "Cirno_estate_eventPicture1" texturefile = "gfx//eventPicture//Cirno_estate_eventPicture1.png" }
 	spriteType = { name = "Cirno_estate_eventPicture2" texturefile = "gfx//eventPicture//Cirno_estate_eventPicture2.png" }
 	spriteType = { name = "Cirno_estate_eventPicture3" texturefile = "gfx//eventPicture//Cirno_estate_eventPicture3.png" }

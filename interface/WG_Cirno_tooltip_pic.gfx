@@ -24,19 +24,9 @@ spriteTypes = {
 		texturefile = "gfx/tooltip/tooltip_sangti.png"
 		legacy_lazy_load = no
 	}
-	spriteType = { #水之心
-		name = "GFX_tooltip_fisher"
-		texturefile = "gfx/tooltip/tooltip_fisher.png"
-		legacy_lazy_load = no
-	}
 	spriteType = { #大饭堂
 		name = "GFX_tooltip_canteen"
 		texturefile = "gfx/tooltip/tooltip_canteen.png"
-		legacy_lazy_load = no
-	}
-	spriteType = { #萨拉可乐
-		name = "GFX_tooltip_saracola"
-		texturefile = "gfx/tooltip/tooltip_saracola.png"
 		legacy_lazy_load = no
 	}
 	spriteType = { #建造船坞
@@ -89,6 +79,14 @@ spriteTypes = {
 		texturefile = "gfx/tooltip/tooltip_uma_mod.png"
 		legacy_lazy_load = no
 	}
+	
+	#政策
+	spriteType = { #舍命陪淑女
+		name = "GFX_tooltip_hm_warshipgirls_mil_policy2"
+		texturefile = "gfx/tooltip/tooltip_hm_warshipgirls_mil_policy2.png"
+		legacy_lazy_load = no
+	}
+	
 	
 	# 决议
 	spriteType = { #舍命陪淑女
@@ -170,6 +168,16 @@ spriteTypes = {
 		texturefile = "gfx/tooltip/tooltip_hm_warshipgirls_adm_idea7.png"
 		legacy_lazy_load = no
 	}
+	spriteType = {
+		name = "GFX_tooltip_hm_warshipgirls_adm_idea8"
+		texturefile = "gfx/tooltip/tooltip_hm_warshipgirls_adm_idea8.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_tooltip_hm_warshipgirls_adm_idea9"
+		texturefile = "gfx/tooltip/tooltip_hm_warshipgirls_adm_idea9.png"
+		legacy_lazy_load = no
+	}
 	
 	spriteType = {
 		name = "GFX_tooltip_hm_warshipgirls_dip_idea1"
@@ -206,6 +214,16 @@ spriteTypes = {
 		texturefile = "gfx/tooltip/tooltip_hm_warshipgirls_dip_idea7.png"
 		legacy_lazy_load = no
 	}
+	spriteType = {
+		name = "GFX_tooltip_hm_warshipgirls_dip_idea8"
+		texturefile = "gfx/tooltip/tooltip_hm_warshipgirls_dip_idea8.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_tooltip_hm_warshipgirls_dip_idea9"
+		texturefile = "gfx/tooltip/tooltip_hm_warshipgirls_dip_idea9.png"
+		legacy_lazy_load = no
+	}
 	
 	spriteType = {
 		name = "GFX_tooltip_hm_warshipgirls_mil_idea1"
@@ -240,6 +258,16 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_tooltip_hm_warshipgirls_mil_idea7"
 		texturefile = "gfx/tooltip/tooltip_hm_warshipgirls_mil_idea7.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_tooltip_hm_warshipgirls_mil_idea8"
+		texturefile = "gfx/tooltip/tooltip_hm_warshipgirls_mil_idea8.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_tooltip_hm_warshipgirls_mil_idea9"
+		texturefile = "gfx/tooltip/tooltip_hm_warshipgirls_mil_idea9.png"
 		legacy_lazy_load = no
 	}
 	

@@ -10,12 +10,8 @@ spriteTypes = {
 	spriteType = {name = "GFX_estate_warshipgirls_yuyu"                          texturefile = "gfx/estates/estate_warshipgirls_yuyu.png" }
 	#桑提
 	spriteType = {name = "GFX_estate_warshipgirls_sangti"                        texturefile = "gfx/estates/estate_warshipgirls_sangti.png" }
-	#水之心
-	spriteType = {name = "GFX_estate_warshipgirls_fisher"                        texturefile = "gfx/estates/estate_warshipgirls_fisher.png" }
-	#水之心
+	#大饭堂
 	spriteType = {name = "GFX_estate_warshipgirls_canteen"                       texturefile = "gfx/estates/estate_warshipgirls_canteen.png" }
-	#萨拉可乐
-	spriteType = {name = "GFX_estate_warshipgirls_saracola"                      texturefile = "gfx/estates/estate_warshipgirls_saracola.png" }
 	#建造船坞
 	spriteType = {name = "GFX_estate_warshipgirls_navy_dock"                     texturefile = "gfx/estates/estate_warshipgirls_navy_dock.png" }
 	#戒指工厂
