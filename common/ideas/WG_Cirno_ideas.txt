@@ -22,7 +22,14 @@ hm_warshipgirls_adm_ideas = {
 		global_spy_defence = 0.5
 	}
 	hm_warshipgirls_adm_idea7 = {
-		administrative_efficiency = 0.05
+		state_governing_cost = -0.1
+	}
+	hm_warshipgirls_adm_idea8 = {
+		heir_chance = 0.5
+	}
+	hm_warshipgirls_adm_idea9 = {
+		administrative_efficiency = 0.1
+		stability_cost_modifier = -0.2
 	}
 	bonus = {
 		country_admin_power = 1
@@ -46,18 +53,27 @@ hm_warshipgirls_dip_ideas = {
 		naval_maintenance_modifier = -0.25
 	}
 	hm_warshipgirls_dip_idea4 = {
-		naval_morale_constant = 1
+		naval_morale = 0.2
 		warshipgirls999_loyalty_modifier = 0.05
 	}
 	hm_warshipgirls_dip_idea5 = {
-		heavy_ship_number_of_cannons_modifier = 3.81
-		heavy_ship_cost = 3.81
+		number_of_cannons_modifier = 1
+		may_perform_slave_raid_on_same_religion = yes
+		capture_ship_chance = -1
 	}
 	hm_warshipgirls_dip_idea6 = {
-		hull_size_modifier = 0.5
+		hull_size_modifier = 1
+		global_ship_recruit_speed = 1
 	}
 	hm_warshipgirls_dip_idea7 = {
 		diplomatic_reputation = 2
+	}
+	hm_warshipgirls_dip_idea8 = {
+		global_trade_goods_size = 0.2
+	}
+	hm_warshipgirls_dip_idea9 = {
+		monthly_gold_inflation_modifier = 0.25
+		gold_depletion_chance_modifier = -1
 	}
 	bonus = {
 		country_diplomatic_power = 1
@@ -70,8 +86,7 @@ hm_warshipgirls_mil_ideas = {
 	category = MIL
 	trigger = { ai = no }
 	hm_warshipgirls_mil_idea1 = {
-		army_tradition = 0.5
-		land_morale_constant = 0.5
+		military_tactics = 0.2
 	}
 	hm_warshipgirls_mil_idea2 = {
 		loot_amount = -2
@@ -80,14 +95,13 @@ hm_warshipgirls_mil_ideas = {
 	}
 	hm_warshipgirls_mil_idea3 = {
 		can_bypass_forts = yes
-		military_tactics = 0.25
 	}
 	hm_warshipgirls_mil_idea4 = {
-		siege_ability = 0.2
+		siege_ability = 0.25
 	}
 	hm_warshipgirls_mil_idea5 = {
-		war_exhaustion = -0.05
-		stability_cost_to_declare_war = -1
+		war_exhaustion = -0.2
+		stability_cost_to_declare_war = -2
 	}
 	hm_warshipgirls_mil_idea6 = {
 		fire_damage = -0.5
@@ -99,6 +113,14 @@ hm_warshipgirls_mil_ideas = {
 	hm_warshipgirls_mil_idea7 = {
 		fire_damage_received = -0.1
 		shock_damage_received = -0.1
+	}
+	hm_warshipgirls_mil_idea8 = {
+		land_morale = 0.2
+		land_maintenance_modifier = -0.1
+	}
+	hm_warshipgirls_mil_idea9 = {
+		production_efficiency = 0.2
+		global_regiment_cost = -0.2
 	}
 	bonus = {
 		country_military_power = 1
