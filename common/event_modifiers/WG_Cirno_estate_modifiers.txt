@@ -51,19 +51,10 @@ estate_warshipgirls_uma_mod3 = {
 	local_development_cost = -0.2
 }
 
-#水之心
-estate_warshipgirls_fisher_mod = {
-	trade_goods_size = 1
-	local_development_cost = -0.5
-}
+
 #大饭堂
 estate_warshipgirls_canteen_mod = {
 	land_forcelimit = 1
-	local_development_cost = -0.5
-	local_production_efficiency = 0.5
-}
-#萨拉可乐
-estate_warshipgirls_saracola_mod = {
 	local_development_cost = -0.5
 	local_production_efficiency = 0.5
 }
@@ -187,7 +178,7 @@ hm_warshipgirls_mil_policy2_hidden_buff = {
 	is_marine_modifier = yes
 }
 hm_warshipgirls_mil_policy3_hidden_buff = {
-	discipline = 0.1
-	land_maintenance_modifier = -0.5
+	discipline = 0.05
+	land_maintenance_modifier = -0.25
 	is_marine_modifier = yes
 }
