@@ -33,9 +33,7 @@ estate_warshipgirls999 = {
 		estate_warshipgirls_12h                            #夺命电子厂
 		estate_warshipgirls_port                           #镇守府
 		estate_warshipgirls_sangti                         #桑提经商
-		estate_warshipgirls_fisher                         #水之心
 		estate_warshipgirls_canteen                        #大饭堂
-		estate_warshipgirls_saracola                       #萨拉可乐
 		estate_warshipgirls_navy_dock                      #建造船坞
 		estate_warshipgirls_ring_factory                   #戒指工厂
 		estate_warshipgirls_jiangnan_leather               #裙子工厂
