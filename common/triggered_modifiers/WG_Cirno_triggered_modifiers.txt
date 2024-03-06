@@ -28,10 +28,10 @@ hm_warshipgirls_dip_idea1_mod01 = { potential = { has_idea = hm_warshipgirls_dip
 hm_warshipgirls_dip_idea1_mod02 = { potential = { has_idea = hm_warshipgirls_dip_idea1 NOT = { has_global_modifier_value = { which = culture_conversion_cost value = 1.00 } } has_global_modifier_value = { which = culture_conversion_cost value = 0.75 } } trigger = { has_global_modifier_value = { which = culture_conversion_cost value = 0.75 } } global_missionary_strength = 0.02 diplomatic_reputation = 2 }
 hm_warshipgirls_dip_idea1_mod03 = { potential = { has_idea = hm_warshipgirls_dip_idea1                                                                                        has_global_modifier_value = { which = culture_conversion_cost value = 1.00 } } trigger = { has_global_modifier_value = { which = culture_conversion_cost value = 1.00 } } global_missionary_strength = 0.03 diplomatic_reputation = 3 }
 #舰炮外交
-hm_warshipgirls_dip_idea7_mod01 = { potential = { has_idea = hm_warshipgirls_dip_idea7 NOT = { num_of_heavy_ship = 100 } num_of_heavy_ship = 50  } trigger = { num_of_heavy_ship = 50  } diplomatic_reputation = 2 }
-hm_warshipgirls_dip_idea7_mod02 = { potential = { has_idea = hm_warshipgirls_dip_idea7 NOT = { num_of_heavy_ship = 150 } num_of_heavy_ship = 100 } trigger = { num_of_heavy_ship = 100 } diplomatic_reputation = 4 }
-hm_warshipgirls_dip_idea7_mod03 = { potential = { has_idea = hm_warshipgirls_dip_idea7 NOT = { num_of_heavy_ship = 200 } num_of_heavy_ship = 150 } trigger = { num_of_heavy_ship = 150 } diplomatic_reputation = 6 }
-hm_warshipgirls_dip_idea7_mod04 = { potential = { has_idea = hm_warshipgirls_dip_idea7                                   num_of_heavy_ship = 200 } trigger = { num_of_heavy_ship = 200 } diplomatic_reputation = 8 }
+hm_warshipgirls_dip_idea7_mod01 = { potential = { has_idea = hm_warshipgirls_dip_idea7 NOT = { num_of_heavy_ship = 50  } num_of_heavy_ship = 25  } trigger = { num_of_heavy_ship = 25  } diplomatic_reputation = 2 }
+hm_warshipgirls_dip_idea7_mod02 = { potential = { has_idea = hm_warshipgirls_dip_idea7 NOT = { num_of_heavy_ship = 75  } num_of_heavy_ship = 50  } trigger = { num_of_heavy_ship = 50  } diplomatic_reputation = 4 }
+hm_warshipgirls_dip_idea7_mod03 = { potential = { has_idea = hm_warshipgirls_dip_idea7 NOT = { num_of_heavy_ship = 100 } num_of_heavy_ship = 75  } trigger = { num_of_heavy_ship = 75  } diplomatic_reputation = 6 }
+hm_warshipgirls_dip_idea7_mod04 = { potential = { has_idea = hm_warshipgirls_dip_idea7                                   num_of_heavy_ship = 100 } trigger = { num_of_heavy_ship = 100 } diplomatic_reputation = 8 }
 
 
 #政策
