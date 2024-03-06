@@ -6,12 +6,14 @@ country_decisions = {
 		}
 		allow = {
 			OR = {
+				has_country_flag = WarShipGirl_Cirno
 				has_idea_group = hm_warshipgirls_adm_ideas
 				has_idea_group = hm_warshipgirls_dip_ideas
 				has_idea_group = hm_warshipgirls_mil_ideas
 			}
 		}
 		effect = {
+			clr_country_flag = WarShipGirl_Cirno
 			remove_idea_group = hm_warshipgirls_adm_ideas
 			remove_idea_group = hm_warshipgirls_dip_ideas
 			remove_idea_group = hm_warshipgirls_mil_ideas
