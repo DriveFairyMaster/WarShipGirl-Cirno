@@ -1,6 +1,6 @@
 on_startup = {
 	events = {
-		Cirno_hidden_event.999
+		Cirno_event.99
 	}
 }
 on_yearly_pulse = {
