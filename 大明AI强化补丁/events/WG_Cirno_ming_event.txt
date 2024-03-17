@@ -1,0 +1,17 @@
+namespace = Cirno_ming_event
+country_event = {
+  id = Cirno_ming_event.1
+  title = Cirno_ming_event.1.title
+  desc = Cirno_ming_event.1.desc
+  picture = Cirno_ming_eventPicture1
+  major = yes
+  is_triggered_only = yes
+  trigger = {
+    ai = no
+    NOT = { tag = MNG }
+    NOT = { has_country_flag = Cirno_ming_event1 }
+  }
+  immediate = { hidden_effect = { set_country_flag = Cirno_ming_event1 } }
+  option = { name = Cirno_ming_event.1.a }
+  option = { name = Cirno_ming_event.1.b }
+}

@@ -1,0 +1,24 @@
+country_decisions = {
+	decisions_warshipgirls_MingIdeaGroup = { 
+		major = yes
+		potential = {
+			ai = yes
+		}
+		allow = {
+			tag = MNG
+			NOT = { has_country_flag = WarShipGirlCirno_Ming_Strong_flag }
+		}
+		effect = {
+			set_country_flag = WarShipGirlCirno_Ming_Strong_flag
+			add_idea_group = hm_warshipgirls_Ming_Black_Technology_ideas
+    	add_country_modifier = { name = Cirno_Mingmod_inward_perfection duration = -1 }
+    	#士绅优待
+    	add_country_modifier = { name = Cirno_Mingmod_The_Eight_Banners duration = -1 }
+    	#效仿八旗
+    	add_country_modifier = { name = Cirno_Mingmod_Westernization duration = -1 }
+    	#西方化
+			add_mil_power = 999
+		}
+		ai_will_do = { factor = 999999999 }
+	}
+}
