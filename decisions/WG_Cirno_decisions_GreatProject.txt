@@ -38,17 +38,56 @@ country_decisions = {
 		}
 		allow = {
 			is_at_war = no     #不在战争状态
+			custom_trigger_tooltip = {
+				tooltip = WG_Cirno_GreatProject_build_trigger
+				any_owned_province = { WG_Cirno_GreatProject_build_trigger = yes }
+			}
 		}
 		effect = {
 			adm_power_cost = 99
 			dip_power_cost = 99
 			mil_power_cost = 99
-			capital_scope = {
-				add_great_project = { type = Cirno_GreatProject2 instant = yes }
-				set_province_flag = Cirno_GreatProject_flag2
-			}	
-    	hidden_effect = { set_global_flag = Cirno_GreatProject2 }
+			hidden_effect = {
+				random_owned_province = {
+					limit = { WG_Cirno_GreatProject_build_trigger = yes }
+					add_great_project = { type = Cirno_GreatProject2 instant = yes }
+					set_province_flag = Cirno_GreatProject_flag2
+				}
+    		set_global_flag = Cirno_GreatProject2
+			}
 		}
 		ai_will_do = {factor = 0 }
 	}
+	decisions_WarShipGirlCirno_GreatProject3 = { #糜三庙
+		color = { 192 56 127 }
+		potential = {
+			ai = no
+			has_estate = estate_warshipgirls999
+			NOT = { has_global_flag = Cirno_GreatProject3 }
+		}
+		allow = {
+			is_at_war = no     #不在战争状态
+			custom_trigger_tooltip = {
+				tooltip = WG_Cirno_GreatProject_build_trigger
+				any_owned_province = { WG_Cirno_GreatProject_build_trigger = yes }
+			}
+		}
+		effect = {
+			adm_power_cost = 33
+			dip_power_cost = 33
+			mil_power_cost = 33
+			hidden_effect = {
+				random_owned_province = {
+					limit = { WG_Cirno_GreatProject_build_trigger = yes }
+					add_great_project = { type = Cirno_GreatProject3 instant = yes }
+					set_province_flag = Cirno_GreatProject_flag3
+				}
+    		set_global_flag = Cirno_GreatProject3 
+    		country_event = { id = Cirno_Leader.34 }
+    		country_event = { id = Cirno_GreatProject.3 }
+			}
+		}
+		ai_will_do = {factor = 0 }
+	}
+	
 }

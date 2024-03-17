@@ -1,4 +1,20 @@
 country_decisions = {
+	#妖精的世界
+	decisions_WarShipGirl_FairyWorld_FAMO = { 
+		major = yes
+		potential = {
+			ai = no
+			has_country_flag = WarShipGirl_Cirno
+		}
+		allow = {
+			ai = no
+		}
+		effect = {
+			country_event = { id = Cirno_event.100 }
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
 	#找舰娘贷款
 	decisions_WarShipGirl_loan = { 
 		major = yes

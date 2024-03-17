@@ -1,16 +1,16 @@
 country_decisions = {
-	#-?pNYIm^
 	decisions_Cirno_revive = {
 		major = yes
 		potential = {
 			ai = no
 			OR = {
-				AND = { has_country_flag = Cirno_Leader1 NOT = { has_leader = "‹|	NS–Y" } }
-				AND = { has_country_flag = Cirno_Leader2 NOT = { has_leader = "'k9h≤Nãs" } }
-				AND = { has_country_flag = Cirno_Leader3 NOT = { has_leader = "ç∑V" } }
-				AND = { has_country_flag = Cirno_Leader4 NOT = { has_leader = "IÉNﬁò" } }
-				AND = { has_country_flag = Cirno_Leader5 NOT = { has_leader = "âRm…b" } }
-				AND = { has_country_flag = Cirno_Leader6 NOT = { has_leader = "ÚNck" } }
+				AND = { has_country_flag = Cirno_Leader2      NOT = { has_leader = "'k9h≤Nãs" } }
+				AND = { has_country_flag = Cirno_Leader3      NOT = { has_leader = "ç∑V" } }
+				AND = { has_country_flag = Cirno_Leader4      NOT = { has_leader = "IÉNﬁò" } }
+				AND = { has_country_flag = Cirno_Leader5      NOT = { has_leader = "âRm…b" } }
+				AND = { has_country_flag = Cirno_Leader6      NOT = { has_leader = "ÚNck" } }
+				AND = { has_country_flag = Cirno_Leader_IDEAL NOT = { has_leader = "X2-AI.DEAL" } }
+				AND = { has_country_flag = Cirno_Leader33     NOT = { has_leader = "Lu.‹|	NS–Y" } }
 			}
 		}
 		allow = { ai = no }
