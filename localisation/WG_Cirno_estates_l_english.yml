@@ -33,7 +33,7 @@
 
  estate_warshipgirls_port:0 "G•ˆRœ^"
  estate_warshipgirls_port_desc:0 "\n\n\n\n\n\n£tooltip_port£\n\n\n\n\n\n\n\nb0‚SsY=fegê'Ywm„v¾|upÿÔkw…QF–yYìNôfœU0kuIm(Wwm¹0bìNïSåNPdkVUSbìN„vwm¸S2–¡VŒTÑSUS¡‹R0"
- estate_warshipgirls_port_tooltip:0 "»lNÏk*N§Y=nãS§!wýNS·ƒ—V§YG•ˆRœ^§!îOckÿÙuˆNåNNHeœg:\n,g0WÑSUSb,g§G-25%§!\n,g0WºN›RîOck:§R-100%§!\n,g0W4lKbîOck:§G+100%§!\n,g0W9‚êSôuîO:§G+50%§!\n,g0W.9‚öeô•:§G-20%§!\n,g0W‡eSlØS±‚9:§G-25%§!\n‚Yœg=f§Ywm¸S¿u§!0§Ywm¸S™lén§!0WbVSeˆ³0WbVé`Z„v,g0WÑSUSb,g0"
+ estate_warshipgirls_port_tooltip:0 "»lNÏk*N§Y=nãS§!wýNS·ƒ—V§YG•ˆRœ^§!îOckÿÙuˆNåNNHeœg:\n,g0WÑSUSb,g§G-25%§!\n,g0WºN›RîOck:§R-100%§!\n,g0W4lKbîOck:§G+100%§!\n,g0W9‚êSôuîO:§G+50%§!\n,g0W.9‚öeô•:§G-20%§!\n,g0W‡eSlØS±‚9:§G-25%§!\n,g0W»ltb,g:§G-10§!\n‚Yœg=f§Ywm¸S¿u§!0§Ywm¸S™lén§!0WbVSeˆ³0WbVé`Z„v,g0WÑSUSb,g0"
  estate_warshipgirls_port_mod1:0 "G•ˆRœ^"
  estate_warshipgirls_port_mod2:0 "G•ˆRœ^"
  estate_warshipgirls_port_mod3:0 "G•ˆRœ^"
@@ -154,7 +154,7 @@
  hm_warshipgirls_dip_idea4:0 "wmNŠp‹Nís"
  hm_warshipgirls_dip_idea4_desc:0 "\n\n\n\n\n\n\n\n\n\n\n\n\n£tooltip_hm_warshipgirls_dip_idea4£\n\n\n\n\n\n\n\n\n\n\n\n\n\n«N×SŽß˜=fºNuN'YPN±ÿ0‚ZmNN‹OY"
  hm_warshipgirls_dip_idea5:0 "àeKS`yr"
- hm_warshipgirls_dip_idea5_desc:0 "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n£tooltip_hm_warshipgirls_dip_idea5£\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+ hm_warshipgirls_dip_idea5_desc:0 "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n£tooltip_hm_warshipgirls_dip_idea5£\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
  hm_warshipgirls_dip_idea6:0 "¢”KrÁ”¨š"
  hm_warshipgirls_dip_idea6_desc:0 "\n\n\n\n\n\n\n£tooltip_hm_warshipgirls_dip_idea6£\n\n\n\n\n\n\n\n"
  hm_warshipgirls_dip_idea7:0 "0‚®pY²N"
@@ -166,15 +166,15 @@
  hm_warshipgirls_dip_idea8:0 "4lKNÃV"
  hm_warshipgirls_dip_idea8_desc:0 "\n\n\n\n\n\n\n\n\n\n\n\n£tooltip_hm_warshipgirls_dip_idea8£\n\n\n\n\n\n\n\n\n\n\n\n\nb0‚SsY„UŽN)R(u'Yê6q„vi`à`ÿ:NêñTÐc›O3zšR„vuImD™eŒTÏuNm÷N<P(¡l•ÿ1S=fÎN²f„b„v)"
  hm_warshipgirls_dip_idea9:0 "IƒWT"
- hm_warshipgirls_dip_idea9_desc:0 "\n\n\n\n\n\n\n\n£tooltip_hm_warshipgirls_dip_idea9£\n\n\n\n\n\n\n\n\n\n\nØ(W:N±”SNYŸw¹rkŒN³QÿIƒWTÙu`OÇRlÿËzsS-irÿ«N×SàeçVÿ\nIƒ„v‰RÃVÿ(u„vê(WÿIƒWT©‹uImôf¾|iV0\n‚YœgbßNNöeãNÿ±b1SIƒWT0\n‚YœgºNu=fNrIƒWTÿb^gïSåNNôvIƒN»S0\n\nã‰•³Q®‹:§Y‚‹Tj–ÑmsY§!ÿÐccwÏkÇŒNASt^êS—ØNúQN¹pSS„vãN÷N¿OýwŒb0‚ZìN‰Nrö–±‚±”0"
+ hm_warshipgirls_dip_idea9_desc:0 "\n\n\n\n\n\n\n\n£tooltip_hm_warshipgirls_dip_idea9£\n\n\n\n\n\n\n\n\n\n\nØ(W:N±”SNYŸw¹rkŒN³QÿIƒWTÙu`OÇRlÿËzsS-irÿ«N×SàeçVÿ\nIƒ„v‰RÃVÿ(u„vê(WÿIƒWT©‹uImôf¾|iV0\n‚YœgbßNNöeãNÿ±b1SIƒWT0\n‚YœgºNu=fNrIƒWTÿb^gïSåNNôvIƒN»S0\n\nã‰•³Q®‹:§Y‚‹Tj–ÑmsY§!ÿÐccwÏkÇŒNASt^êS—ØNúQN¹p§YSS§!„vãN÷N¿OýwŒb0‚ZìN‰Nrö–±‚±”0"
  decisions_WarShipGirl_loan_title:0 "‚‹Tj–ÑmsY"
  decisions_WarShipGirl_loan_desc:0 "‚YœgÐccw?aa!.sN›N1'l8hÖ|Ùu0‚ZìN«N(u„vÝ‹ÿyYìNv^NËNacúQN›NÁy?b±”egN²NÙuýV¶R\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n£tooltip_decisions_WarGirl_loan£\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n§Y¢”Nt„v±‚í‹=f0ÌRNÍVw§!"
  Kidney_deficiency_mod:0 "¾wZ†„vÐccw"
  
  hm_warshipgirls_mil_ideas:0 "0‚Z›Q‹NtõV"
  hm_warshipgirls_mil_ideas_bonus:0 "ŒRb0‚Z›Q‹NtõV"
- hm_warshipgirls_mil_idea1:0 "ÐccwKNQR"
- hm_warshipgirls_mil_idea1_desc:0 "\n\n\n\n\n£tooltip_hm_warshipgirls_mil_idea1£\n\n\n\n\n\nÔkwåb	gÁyÃV„vºN‰|ëXuQÿàVÚ‹w:V'Y0‚Z>f6qôf<P—VáOûN0yYìNSb:NÐccwKb-Ng•)R„v)RQR0"
+ hm_warshipgirls_mil_idea1:0 "Ðccw„v)YO"
+ hm_warshipgirls_mil_idea1_desc:0 "\n\n\n\n\n£tooltip_hm_warshipgirls_mil_idea1£\n\n\n\n\n\n0‚Zv^^—nf„vºN‰|sY'`ÿyYìN=f^yØyw:V'Y„v.irÿNýw(u8^„vºN‰|ÛLˆãc¦^ÿyYìNïSåN8lÜÝOcŽKN„v¹Rœ˜ÿ8lÜYŽNg‹Y„v¶r`0ýw›RúQOÿbaflbÿýwïyg”^ùRàQNNNR„vcbÿ‚YdkŽKNw:V'YÿˆV¾–ó`aŒÙ=fNLuìrêUR²w„vÓuvf0\nmNckàV‚YdkÿyYìN«ˆðyjOÐccw„v)YOÿùRŽNLeºNwŠÿR=fJT‰k„v)YO0"
  hm_warshipgirls_mil_idea2:0 "„š²PwÜwc„vNg.b)YO"
  hm_warshipgirls_mil_idea2_desc:0 "\n\n\n\n\n£tooltip_hm_warshipgirls_mil_idea2£\n\n\n\n\n\nÙ*NNLu„v›Q–ý=f²œU0km«RŒvÓY„vW*S›Q–ÿwåb	ggØšS·V4ls^„v0‚ZìNNIwŽNÙÍyLˆ:NÿÙ›NÞ‹uT,rN!kAwVÌS<w1SýwVËYb—e„vb‰N:ghVìNwQYôf:V„vªu‹VŒTÜwc0yYìNàeº‹=fs^öeØ=fjObÿùRŒvÓYýÝOcËyëkàe¯r„v`¦^0w(WSú^öeãN„vŒvÓYwegÿÙ1S=f‹s^„vÎ˜ƒ0"
  hm_warshipgirls_mil_idea3:0 "SS„v0‚Z—¼d"
@@ -263,27 +263,32 @@
  decisions_WarShipGirlCirno_GreatProject1_desc:0 ")R(u*t2—ú‹ÏuNmfR-N„vŸStÿbìN„v–™ýïSåNy†8ThTôV„vÏuNmŒTDnÿSte*N0W:SýS:NRO–™ý„vvYir\n\nàV:NO(u†N^yGY„vTIN¹ppeýwÏ‘ÿNbåNÙ*NGYÂ‰ýw¬wô•úQ°s(W–™ý"
  decisions_WarShipGirlCirno_GreatProject2_title:0 "ú^.GYÂ‰:ñ‚Ä–R‘†™"
  decisions_WarShipGirlCirno_GreatProject2_desc:0 "Nµ^wQ	g^yGY›RÏ‘„v¢uv˜R‘†™ÿƒRO7R°eúQNybOÀy„vS†˜ÿêS—‰N¹pDn1SïSåN©‹yYìN:NÐccwHe›R0\n\nàV:NO(u†N^yGY„vTIN¹ppeýwÏ‘ÿNbåNÙ*NGYÂ‰ýw¬wô•úQ°s(W–™ý"
+ decisions_WarShipGirlCirno_GreatProject3_title:0 "ú^.GYÂ‰:Ü|	N™^"
+ decisions_WarShipGirlCirno_GreatProject3_desc:0 "Ü|	NSÐY=fNêSÜäS0‚Zÿncô‹yYØR.†NN*N0‚ZìN×Sæ‚×S¾–„v-NNªu0\n\nàV:NO(u†N^yGY„vTIN¹ppeýwÏ‘ÿNbåNÙ*NGYÂ‰ýw¬wô•úQ°s(W–™ý"
+ WG_Cirno_GreatProject_build_trigger:0 "R‹YkN–‘šuQÙz(WN*N¡l	g(W.OYeÿmN¡l	gck(WîOú^Ðg*Nú^Qr„vwýN"
+ 
  # GYÂ‰
  Cirno_GreatProject1:0 "*t2—ú‹®YZ"
  Cirno_GreatProject2:0 "ñ‚Ä–R‘†™"
- Cirno_GreatProject3:0 "Ü|	N™^"
  Cirno_GreatProject2_tier2_tooltip:0 "å‹GYÂ‰S†˜„vÛVy˜úWNx^S'`§G+1§!"
  Cirno_GreatProject2_tier3_tooltip:0 "å‹GYÂ‰S†˜„vÛVy˜úWNx^S'`§G+3§!"
- Cirno_GreatProject.1.title:0 "	éb`O„vñ‚Ä–"
- Cirno_GreatProject.1.desc:0 "Ðccwÿ¨`-NaŒbTÿ"
- Cirno_GreatProject.1.a:0 "	NSÐYNSÿ"
- Cirno_GreatProject.1.b:0 "'k9h'k9h'k~"
- Cirno_GreatProject.1.c:0 "ÕlýVQgÑY"
- Cirno_GreatProject.1.d:0 "±bbTÿ"
- Cirno_GreatProject.1.e:0 "ôvb—P`ç`ÿR.*geg"
- Cirno_GreatProject.1.f:0 "O¿R(Wbÿ"
- WG_CIRNO_leader_trait_MIMIMI:0 "wPTX‹W R³uÌ‘šN¯e\n\n\n\n\n\n\n\n\n\n\n\n\n£tooltip_WG_CIRNO_leader_trait_MIMIMI£\n\n\n\n\n\n\n\n\n\n\n\n\n	NSÐYˆVsQÃV`OÊN)Y	g¡l	g‹Y‹YSbKb²Q"
- WG_CIRNO_leader_trait_PrinzEugen:0 "sSOS:NŸ^Á”\n\n\n\n\n\n\n\n\n\n\n\n\n£tooltip_WG_CIRNO_leader_trait_PrinzEugen£\n\n\n\n\n\n\n\n\n\n\n\n\n"
- WG_CIRNO_leader_trait_JoanofArc:0 "¢u²ƒKN1WsY\n\n\n\n\n\n\n\n\n\n\n\n\n£tooltip_WG_CIRNO_leader_trait_JoanofArc£\n\n\n\n\n\n\n\n\n\n\n\n\n"
- WG_CIRNO_leader_trait_GrassWonder:0 "ŽNIƒ0WKNNÞ˜Ô„vGYù\n\n\n\n\n\n\n\n\n\n\n\n\n£tooltip_WG_CIRNO_leader_trait_GrassWonder£\n\n\n\n\n\n\n\n\n\n\n\n\n"
+ Cirno_GreatProject.2.title:0 "	éb`O„vñ‚Ä–"
+ Cirno_GreatProject.2.desc:0 "Ðccwÿ¨`-NaŒbTÿ"
+ Cirno_GreatProject.2.b:0 "'k9h'k9h'k~"
+ Cirno_GreatProject2b_tooltip:0 "'k9h'k9h'k„vúWNx^S'`:N5/5/1/1\n\n\n\n\n\n\n\n\n\n\n\n£tooltip_WG_CIRNO_leader_trait_PrinzEugen£\n\n\n\n\n\n\n\n\n\n\n\n"
+ Cirno_GreatProject.2.c:0 "ÕlýVQgÑY"
+ Cirno_GreatProject2c_tooltip:0 "lQs^„vúWNx^S'`:N3/6/3/1\n\n\n\n\n\n\n\n\n\n\n\n£tooltip_WG_CIRNO_leader_trait_JoanofArc£\n\n\n\n\n\n\n\n\n\n\n\n"
+ Cirno_GreatProject.2.d:0 "±bbTÿ"
+ Cirno_GreatProject2d_tooltip:0 "IƒsYëX„vúWNx^S'`:N0/6/6/0\n\n\n\n\n\n\n\n\n\n\n\n£tooltip_WG_CIRNO_leader_trait_GrassWonder£\n\n\n\n\n\n\n\n\n\n\n\n"
+ Cirno_GreatProject.2.e:0 "ôvb—P`ç`ÿR.*geg"
+ Cirno_GreatProject2e_tooltip:0 "ŒN”NÔN„vúWNx^S'`:N3/3/3/3\n\n\n\n\n\n\n\n\n\n\n\n£tooltip_WG_CIRNO_leader_trait_Angela£\n\n\n\n\n\n\n\n\n\n\n\n\nOWsYºNó`‰:YÖS`O„vIQKNÍy"
+ Cirno_GreatProject.2.f:0 "O¿R(Wbÿ"
+ Cirno_GreatProject2f_tooltip:0 "òNck„vúWNx^S'`:N3/3/6/0\n\n\n\n\n\n\n\n\n\n\n\n£tooltip_WG_CIRNO_leader_trait_ChiangKaiShek£\n\n\n\n\n\n\n\n\n\n\n\n\nkN÷SBg|œq‘MR*cN˜Ss|v˜2O³Rÿ"
+ WG_CIRNO_leader_trait_PrinzEugen:0 "sSOS:NŸ^Á”\n\n\n\n\n\n\n\n\n\n\n\n\n£tooltip_WG_CIRNO_leader_trait_PrinzEugen£\n\n\n\n\n\n\n\n\n\n\n\n"
+ WG_CIRNO_leader_trait_JoanofArc:0 "¢u²ƒKN1WsY\n\n\n\n\n\n\n\n\n\n\n\n\n£tooltip_WG_CIRNO_leader_trait_JoanofArc£\n\n\n\n\n\n\n\n\n\n\n\n"
+ WG_CIRNO_leader_trait_GrassWonder:0 "ŽNIƒ0WKNNÞ˜Ô„vGYù\n\n\n\n\n\n\n\n\n\n\n\n\n£tooltip_WG_CIRNO_leader_trait_GrassWonder£\n\n\n\n\n\n\n\n\n\n\n\n"
  WG_CIRNO_leader_trait_Angela:0 "ó`‰ØSbºN„vAI\n\n\n\n\n\n\n\n\n\n\n\n\n£tooltip_WG_CIRNO_leader_trait_Angela£\n\n\n\n\n\n\n\n\n\n\n\n\n"
- WG_CIRNO_leader_trait_ChiangKaiShek:0 "®VÍd&^^\n\n\n\n\n\n\n\n\n\n\n\n\n£tooltip_WG_CIRNO_leader_trait_ChiangKaiShek£\n\n\n\n\n\n\n\n\n\n\n\n\nkN÷SBg|œq‘MR*cN˜Ss|v˜2O³Rÿ"
- WG_CIRNO_leader_trait_MIMIMI_die_desc:0 "§YyY„vupB›Í‘RVÞVÆVÿIr…VNw¨`„vNN!kìS2U§!"
+ WG_CIRNO_leader_trait_ChiangKaiShek:0 "®VÍd&^^\n\n\n\n\n\n\n\n\n\n\n\n\n£tooltip_WG_CIRNO_leader_trait_ChiangKaiShek£\n\n\n\n\n\n\n\n\n\n\n\nkN÷SBg|œq‘MR*cN˜Ss|v˜2O³Rÿ"
  WG_CIRNO_leader_trait_PrinzEugen_die_desc:0 "§YyY„vupB›Í‘RVÞVÆVÿIr…VNw¨`„vNN!kìS2U§!"
  WG_CIRNO_leader_trait_JoanofArc_die_desc:0 "§YyY„vupB›Í‘RVÞVÆVÿIr…VNw¨`„vNN!kìS2U§!"
  WG_CIRNO_leader_trait_GrassWonder_die_desc:0 "§YyY„vupB›Í‘RVÞVÆVÿIr…VNw¨`„vNN!kìS2U§!"
@@ -292,10 +297,36 @@
  decisions_Cirno_revive_title:0 "YIm'Tÿb„v1rºN"
  decisions_Cirno_revive_desc:0 ":V'Y„vu‹Tåb	gNw:V'Y„v×S2Oñm¦^0ûR8^áQºN<w-N„v‰k¡Nÿ(WôfØšBS!ku‹TÆ‰Ò‰NNÇ=fæSNÍyÍ‘2Ob†N0\nbìNêS—ØNúQN¹pãN÷Nÿ¿OïS©‹yYìNQ¦^RVegÿÔk‚Y...Ðccw±^yGY„vTIN¹ppe0"
  Cirno_Leader.101.title:0 "YIm'Tÿb„v1rºN"
- 
+
+ Cirno_GreatProject3:0 "Ü|	N™^"
+ Cirno_GreatProject3_tier1_tooltip:0 "ïSåN	ébNêS	NSÐY:N¨`He›R"
+ Cirno_GreatProject3_tier2_tooltip:0 "ïSåNQ	ébNêS	NSÐY:N¨`He›R"
+ Cirno_GreatProject3_tier3_tooltip:0 "ïSåNQ	éb,r	NêS	NSÐY:N¨`He›R"
+ Cirno_GreatProject.3.title:0 "	ébNêS	NSÐY"
+ Cirno_GreatProject.3.desc:0 "Ðccwÿ¨`-NaŒbTÿ" 
+ Cirno_GreatProject.3.a:0 "·U4l‹W	NSÐY"
+ Cirno_GreatProject3a_tooltip:0 "·U4l‹W	N'YˆY„vúWNx^S'`:N3/0/0/0ÿvQåb	g„vS†˜yr'`:N§G-33%§!×S0R„vkp›R2O³R"
+ Cirno_GreatProject.3.b:0 "QSsY‹W	NSÐY"
+ Cirno_GreatProject3b_tooltip:0 "QSsY‹W	N'YˆY„vúWNx^S'`:N0/0/3/0ÿvQåb	g„vS†˜yr'`:N§G+33%§!ûy¨R¦^"
+ Cirno_GreatProject.3.c:0 "²QTX‹W	NSÐY"
+ Cirno_GreatProject3c_tooltip:0 "²QTX‹W	N'YˆY„vúWNx^S'`:N0/0/0/3ÿvQåb	g„vS†˜yr'`:N§G+33%§!ôVÎWýw›R"
+ Cirno_GreatProject.3.d:0 "Tb'YÜ|Ü|"
+ Cirno_GreatProject3d_tooltip:0 "m`œU`OÆ–PŸ†NÛVêS	NSÐY(N‰î•:NÀNHN	NSÐY	gÛVêS)ÿÙ=f`O„vVY±R:\n\n§YLu.Ü|	NSÐY§!\n6/6/6/6\nvQåb	g„vS†˜yr'`ÙuˆNåNNžXÊv:\nôVÎWýw›R§G+33%§!\nûy¨R¦^§G+33%§!\nNb×Skp›R2O³R§G-33%§!\n\n\n\n\n\n\n\n\n\n\n\n\n£tooltip_WG_CIRNO_leader_trait_MIMIMI£\n\n\n\n\n\n\n\n\n\n\n\n\n	NSÐYˆVsQÃV`OÊN)Y	g¡l	g‹Y‹YSbKb²Q"
+
+ WG_CIRNO_leader_trait_MIMIMI:0 "Lu.Ü|	NSÐY\n\n\n\n\n\n\n\n\n\n\n\n\n£tooltip_WG_CIRNO_leader_trait_MIMIMI£\n\n\n\n\n\n\n\n\n\n\n\n\n	NSÐYˆVsQÃV`OÊN)Y	g¡l	g‹Y‹YSbKb²Q"
+ WG_CIRNO_leader_trait_MIMIMI1:0 "·U4l‹W R³uÌ‘šN¯e"
+ WG_CIRNO_leader_trait_MIMIMI2:0 "QSsY‹W R³uÌ‘šN¯e"
+ WG_CIRNO_leader_trait_MIMIMI3:0 "²QTX‹W R³uÌ‘šN¯e"
+ WG_CIRNO_leader_trait_MIMIMI4:0 "Â‰O‹W R³uÌ‘šN¯e"
+ WG_CIRNO_leader_trait_MIMIMI_die_desc:0 "§YyY„vupB›Í‘RVÞVÆVÿIr…VNw¨`„vNN!kìS2U§!"
+ WG_CIRNO_leader_trait_MIMIMI1_die_desc:0 "§YyY„vupB›Í‘RVÞVÆVÿIr…VNw¨`„vNNNS8nb§!"
+ WG_CIRNO_leader_trait_MIMIMI2_die_desc:0 "§YyY„vupB›Í‘RVÞVÆVÿIr…VNw¨`„vNNNS8nb§!"
+ WG_CIRNO_leader_trait_MIMIMI3_die_desc:0 "§YyY„vupB›Í‘RVÞVÆVÿIr…VNw¨`„vNNNS8nb§!"
+ WG_CIRNO_leader_trait_MIMIMI4_die_desc:0 "§YyY„vupB›Í‘RVÞVÆVÿIr…VNw¨`„vNNNS8nb§!"
+  
  #‹NöN
- Cirno_event.1.t:0 "ŸR+Yÿ"
- Cirno_event.1.desc:0 "  `OckdR«ŽNºN+oek(WÎW^-Nÿa×SNw¾–—V„vs^Y—ÿôv0RNT«b4YceÑS„väS*`^NNŒbN†N`O0\n  ÙASRGY*`ÿàV:N0‚Z&^eg„vHQÛuµN›R³åN©‹Ù*NöeãN„vNbåNºNýÇN‹YåePRÿØšHe:V›R„v0‚Z?eœ^mN%N<hgbLˆNw¡‹Ru²wŒTvb+?eVrÿùRŽNúWBS„vµc6R›Rôf=fNIRý*g>eŒgÿªR›R„vI–bkNw‹sghTg‹V„vQN!knÞV0\n  	cStegô‹1S—ràV:NÍyÍyŸSàVØXR(WSÏ‘^NN±mNNå‹úQ°s(WÙÌ‘ÿ`O„vb—MRÿÙ©‹`O—f-NÐcØš†Nf‹Õ`0w±^NN(uNwÙbeu„voŽbVËY†Nhˆo:\n\n  ÇTÿN—V†NN—V†NJUÿ`O	gSupIQÎN)YupÖv²QúQeg`OåwSTÿ\n  t^ªu‰‰1S	gN«Ž*jÃu„vKr¨šŽrôv=fŒvt^NÁ‰„vfkfRGYMbÿ‚Yœg©‹`OSbûNcwŒN	±ØNNÞ˜²Q)YJUÿ\n  ckNbŒbNeQ0WñrŒeQ0Wñrÿé`xYd–v`ôu²bNLuŒTs^Ù*Np‚èT„vûN¡R1S²NÙu`O†N\n  Ù,g‚Yeg^yŒcïS=fàe÷NKNRÿbwN`O	gÿ6e`OASWW±”.OˆcŽN`O'T\n  ö‹ÿSDQV+RpJUÿ`ONánabÙÌ‘Ø	g+R„v0"
+ Cirno_event.1.title:0 "ŸR+Yÿ"
+ Cirno_event.1.desc:0 "`OckdR«ŽNºN+oek(WÎW^-Nÿa×SNw¾–—V„vs^Y—ÿôv0RNT«b4YceÑS„väS*`^NNŒbN†N`O0\nÙASRGY*`ÿàV:N0‚Z&^eg„vHQÛuµN›R³åN©‹Ù*NöeãN„vNbåNºNýÇN‹YåePRÿØšHe:V›R„v0‚Z?eœ^mN%N<hgbLˆNw¡‹Ru²wŒTvb+?eVrÿùRŽNúWBS„vµc6R›Rôf=fNIRý*g>eŒgÿªR›R„vI–bkNw‹sghTg‹V„vQN!knÞV0\n	cStegô‹1S—ràV:NÍyÍyŸSàVØXR(WSÏ‘^NN±mNNå‹úQ°s(WÙÌ‘ÿ`O„vb—MRÿÙ©‹`O—f-NÐcØš†Nf‹Õ`0w±^NN(uNwÙbeu„voŽbVËY†Nhˆo:\n\nÇTÿN—V†NN—V†NJUÿ`O	gSupIQÎN)YupÖv²QúQeg`OåwSTÿ\nt^ªu‰‰1S	gN«Ž*jÃu„vKr¨šŽrôv=fŒvt^NÁ‰„vfkfRGYMbÿ‚Yœg©‹`OSbûNcwŒN	±ØNNÞ˜²Q)YJUÿ\nckNbŒbNeQ0WñrŒeQ0Wñrÿé`xYd–v`ôu²bNLuŒTs^Ù*Np‚èT„vûN¡R1S²NÙu`O†N\nÙ,g‚Yeg^yŒcïS=fàe÷NKNRÿbwN`O	gÿ6e`OASWW±”.OˆcŽN`O'T\nö‹ÿSDQV+RpJUÿ`ONánabÙÌ‘Ø	g+R„v0"
  Cirno_event.1.a:0 "-pN‚Yeg^yŒc"
  Cirno_event.1.b:0 "-pNCSKb^yób"
  Cirno_event.1.c:0 "-pNM–™ŸASkQŒc"
@@ -304,76 +335,141 @@
  Cirno_event.1.f:0 "-pNìrdRkNQR"
  Cirno_event.1.g:0 "ÞV¶RawÉ‰"
  
+ Cirno_event.2.title:0 ":NÐccw.sN"
+ Cirno_event.2.desc:0 "SVNMOÐccwaÆ‹0RêñTˆV=t„vöePÿ±1Sô‹f=fw„vˆV=t†N\nÊN)Y„vûN¡RžR(W=f*YÍ‘†Nÿ`OaÉ‰SúQ†N‹YàQlQ²eÿPW(WžRlQ²R„v™lÑSNuóÙzNweg\nÙöeÿ`O,T0R†NS‹vê–„vðXó—ÿÐccwÿb,Tô‹¨`òTÏuÍd³RNNHS†Nÿw„vN‰'tTÿ\n6qw`OêSÉ‰—V4YˆVUfÿ1SÙ7h‰l‰l„vP(W†N±*NˆVÔgo„v0W¹e\n¡l•ÿw„vˆVÔgobT~~~\n\n(WSsY„vÛV¢n™™l„vSôVKNNÿ`O‰l‰l„vaw†NÇ»Sÿôv0R,rŒN)YwÁ‰‹vê–<ONN=f«ˆ3–IQäp¢u„v8\n`OES6q(W‹vê–„v«ŽNºŽ†NNZfNÿwNte*NÐccwœ^ýåwSÙöN‹N†Nÿ\nåNT¨`—VYèla¾wSO†NÿÐccw0\n‹vê–ùRdkëkNËN`ÿ‹†6qyY(WªR›R©cÖvêñT¢u„vS8\n±HNyY=fegZPÀNHN„vbTÿÙ>f6qàe—Qî•ÿàV:N`OckwÃV„vÆbNwSSqš0‚¾|ÃVSÅˆ„vçTKQ›R"
+ Cirno_event.2.a:0 "ÙçTKQ›RŒT1rÅ`N7hu‰"
+ 
+ Cirno_event.3.title:0 "0u0WÌ‘„vSS1rÅ`"
+ Cirno_event.3.desc:0 "Ù=f*NŒNASàQ7bºN¶R„vSQg„^ÿNµ^µ^W?býÖv(W³l¸SN\n(Wnˆo³l4lN0u0W„vRÎ‘KN-Nÿ`Oì`a„v•gNw)Yürf„v'Yÿ«N×SNwsYÆN„vc3w©R.wg¡R\n(WŒTfq„v–f3–Nÿ)YürfùR`Oô‹Nw„`„`Ý‹\nˆVëVÿ(WŽºN„v`±b-N„v`O‰l‰‘(W†NO©aKN-Nÿ(WJS¦hJS’‘KNô•ÿ`OýwaÉ‰0R)Yürf„v8»y`OŠegŠÑÿøwèmN.OegN5–Ôgo„v‹Sëa\n™™lxmÓgNw`O„v4VTÿ²Nbcµf'f„v²mSO\nÜYÿwNwR„vœQ‡YùRNwyYNbl„v¹Y¹Yô‹S'YZìNSV‚Y=fmNÿ"
+ Cirno_event.3.a:0 "w™™"
+ 
+ Cirno_event.4.title:0 "NmWS„v‘uÑ`"
+ Cirno_event.4.desc:0 "ÈS=f `ò•„vN)YÿàeNb‹N‹N„vNmWSàeJw„vïvNwPWN„vwƒ±‚÷tÑSFT\nSVyYÞVÇ^yegöeÿvP6qô•ÑS°syYle1r„v8ÙNÐYÐY„vwƒ±‚÷t<ONN=fv^^—=f.Oßu„vv–÷tÿ±Pg(ôfÏP=f...N•¢”ÿ\nNmWSVËY`w\n:NÀNHN8ÙNÐYÐY„vwƒ±‚÷tÏP=fN•¢”Pg(\n:NÀNHNêS	gwƒ±‚Þ‚.‹W\n:NÀNHNN›N¡l	gNo„vwƒ±‚ÔkvQÖN„v‰IQÑn\nNmWS<ONNó`0R†NÀNHN"
+ Cirno_event.4.a:0 "`OåwS„v*YY†N"
+  
+ Cirno_event.33.title:0 "eÜ„v.Oô‹"
+ Cirno_event.33.desc:0 "jwfkNt^„vÐgN)Yéegöeÿ	g°RøvOYS:fåe=fÜ|	NZZ„vÞ‹°ÿØ÷‹i–N0RÜ|	N™^Û™™Hyy\n\n‡ýVjwf‡v^PŸœú‹,TTô‹S:±Ü|	N	gUOŸR·VÿØ—úO²NêÛ™™ÿ\n\n°RøvTrS:Ü|	NCNRN^ysYÿyYÇu†N‰^„eQµONLu¿uÿùR)YNŒvÓY	gi`0²ËSìN›OIYyY0^ŽyYÿNbåNyYMbOÏPuµN–„vtšN7hNjP„vôf°emod0b—ùRÙ7hNMO.y²ËS„vsY^yÿi–N”^SV»SÛ™™Hyy\n\njwf^,TT¿O”^AQ†Nÿ!kåeÿjwf^¿OXNPW‡&^Nw‡efkŒv˜RNTMRŽVÜ|	N«RÛ™™ÿjwf^&^†˜OãÛŒR™™TÿýV6qN5–ÂrÎ˜9T†NÛegÿßzS±T^^wSwegÿ©‹Ü|	NZZ„v1WÏP>f2—†NúQeg\n\nêSÁ‰<wMR^yÏPŽs‚ïz„^ÿ«ŽPg™Yüfÿjwf^Á‰0RTßz6qw†Nf2kÿŽN=f×‹tQ'YÑS(WÜ|	N„vLˆ«R‰|™XN™Q†NN–™ëm×‹\n\nÜ|	NZZASRl2aÿŽN=f>mN	NêSdÎWS‡ýV„v®|ß˜hQèTŒRÿüRô‡ýVmp¡N\n\n–NwN‹NØSÁÿ.Oô‹nØSb†N:êS‰(WÜ|	N™^Ì‘™Qëm×‹ÿÜ|	NSÐY1SO>mN	NêS0‚ZSµNnyY„vÂr’VImIm¨i‰kåN:yé`b0NbåN¸‹Y²ËS±bNwar9N±‚N‰kZP<›mNÎ˜Am„vÃVtÑegÙÌ‘ÑSkvÿggÜ|	NSÐY>fup\n\n‹†6q.Oô‹NNšR=fwžR„vÿFOÙ*NÅe8nof¹p&^eg„v6eÊv=fžRSbžR„v"
+ Cirno_event.33.a:0 "^Ž	NSÐY"
+
+ Cirno_event.99.title:0 ")YyzKNN"
+ Cirno_event.99.desc:0 "¦OKm0RØSÏ‘:›sZýwÏ‘\n¦OKm0RØSÏ‘:öezzV8^\n¦OKm0R3KöeãNäSºN‰|NXT\nºN‰|oS¡‹RR:N,r	NOHQµu\ngbLˆOS®‹ŒNÿÝO²bºN‰|\nú^ËzTwû|"
+ Cirno_event.99.a:0 "`O‹Yÿ"
+ Cirno_event.99.b:0 "`O‹Yÿ"
+ Cirno_event.99a_tooltip:0 "§Y…zfýwN:g°hsYÆNTwT?eœ^ŒT`Oú^Ëz†NTwÜu§!\n\n\n\n\n\n£tooltip_Cirno_estate_event99a£\n\n\n\n\n\n\nyYìN=f*jèf³l„v…µu:VCgÿvQ?eSO«ˆ`ONb(WöeãN„vºN‰|ðy:N1Yµc:gÆN\nyYìN„vIN=flQCQ2200t^ú^.„v…zfýw:ghVºNRAY.AREO\nRAY.AREO(WR¡‹R-NûQ%†NvQÖNNb	g„vzfýw:ghVºNŒTÁˆ2RZR7ÖS—V†NÜw)R\nyY^g:NºN‰|&^eg‰RhQaÿFOyY„v?ag*gýwžR°s\nT:NåN*YøvVÎd„vèT„gSb4x†NOSœ–ÿaYSyYÉbeQÙ*N‡R™R\néeòTÞ˜GS0RôfØšôu¦^„vºN‰|‡efê6q¡l	g«ˆyY¦OKm0R\nï‹²‹:Nå‹‡R™RNXR(WºN‰|„vRAY.AREOVËYêbY6Rÿú^Ëz†N…zfýwN:g°hsYÆNTwT?eœ^ÿ(uegÇ‘Æ–DnŒTÐcGSÑyŽb\nàeÕl¥c×SºN‰|mp¡N„vRAY.AREOVrR†NºN‰|oS¡‹RÿOþVÍ‘oºN‰|„vÛSòS\nåb	gºN‰|ÎNäSóÊNNb	gpenc“^„vyYR.†NN*N¯sNLuÿv^(WvQ-NÍ‘°sþfÏuºN‰|„v†SòS\nw`ONb(W„vÿT:NEuropa Universalis IV„v¯sNLuÿ¿O¶–^SŽN…zfýwN:g°hsYÆNTwT?eœ^"
+ Cirno_event.99.c:0 "bå‹’‘eg†N"
+ Cirno_event.99c_tooltip:0 "`OÓumg†NZ†ßb°sžR8nbÿ(W23Nªu„vN*Néehf«ˆàVÚ‹„v:g°hsYÆN2U’‘"
+ Cirno_event.100.title:0 "–Y¾|„vNLu"
+ Cirno_event.100.desc:0 "0kÎeg0RFinal Assembly Maintenance repair Overhall & upgrade\n¨`„v§B[Root.Fairy_money.GetName]§!YO˜:N§Y[Root.Fairy_money.GetValue]§!\n÷‹î•¨`—‰ÀNHNg¡RbTÿ" 
+ Cirno_event.100.a:0 "QQbc–Y¾|^"
+ Cirno_event.100.b:0 "QQbcjgaSyr"
+ Cirno_event.100.c:0 "O'YåTz(¡lZP)"
+ Cirno_event.100.d:0 "¡ló`‹Y"
+ Cirno_event.100.e:0 "^JTMOÛbßy"
+ Cirno_event.100.f:0 "Óumg¯‹"
+ Cirno_event.100.g:0 "§Bb^gÿÙNNgŒRŽ„v:ghVÿêS^SŽNb„v1rêS§!"
+ Cirno_event.100g_tooltip:0 "§RÙ=fjOV	y˜§!"
+ Fairy_money:0 "–Y¾|^"
+ CirnoSAMA:0 "=fjwfÈS6OÐO„v*t2—ú‹'YºN"
+ decisions_WarShipGirl_FairyWorld_FAMO_title:0 "TwÜu:g°hsYÆN"
+ decisions_WarShipGirl_FairyWorld_FAMO_desc:0 "‡e,gMOÛbßy"
+ 
+ Cirno_event.101.title:0 "–Y¾|^QQbc"
+ Cirno_event.101.desc:0 "–Y¾|^=f…zfýwN:g°hsYÆNTwT?eœ^:N†NN¨`USV8fIm¨RwNè•¾‹n„vNÍy'^\njO:NÙ*N‡R™R=UN„vºN‰|ÿ:g°h–Y¾|,g”^àeagöN„vgÎN¨`„vNR‹TäN\nFORAY.AREO	gyYêñT„vó`ÕlÿyYNó``OØSb±Íy‰l÷ŽNZ†ßbNLu„vºN‰|\n‹†6qyY^gÙu`O&^eg‰RhQaÿFOyYôf^gjO:NîvMR=UNºN‰|„v`OýwìrËzêIN„vV†˜¯sNLuÙ›NíãNNŒRhQ„vKQ†–ºN‰|R.°e„v‡ef\nNbåN(W`O*NºNu‹T‰RhQ×S0RZÁwKNMRÿ`O„v:g°hHaÍkv^NOÙuàeP„vôc©R\n\n\nRAY.AREOùR^yGY„v›sZýwÏ‘ASRatQ±\n›sZ=f,g0WWW„ùRŽNTIN¹ppe„vðy|TÿÙÍy‘u<OØšôuýwÏ‘ŽN1444t^11g11åez6qúQ°s\n\nRAY.AREOùRýwú^.úQ0‚Z„vwmXTDnASRatQ±\nwmXTDn=fcSìbNNP–ŽN4lKb0(gPg0Ãq¹l0:g°hö–öNIrwm›QDn(W…Q„vßuðy"
+ Cirno_event.101.a:0 "100++›sZ QQbc 1–Y¾|^"
+ Cirno_event.101.b:0 "200++›sZ QQbc 2–Y¾|^"
+ Cirno_event.101.c:0 "500++›sZ QQbc 5–Y¾|^"
+ Cirno_event.101.d:0 "10K  wmXT QQbc 1–Y¾|^"
+ Cirno_event.101.e:0 "20K  wmXT QQbc 2–Y¾|^"
+ Cirno_event.101.f:0 "50K  wmXT QQbc 5–Y¾|^"
+ Cirno_event.101.g:0 "ÔÞV"
+ 
+ Cirno_event.102.title:0 "jgaSyrQQbc"
+ Cirno_event.102.desc:0 "jgaSyr=fÙ*N¯sNLuWW„ìN„v(u'^ÿùRŽN…zfýwN:g°hsYÆNTwT?eœ^egô‹ÿÙÍySfRCQ.tée1SžR°s†N'YybÏ‘uµN"
+ Cirno_event.102.a:0 "1 –Y¾|^ QQbc 1K jgaSyr"
+ Cirno_event.102.b:0 "2 –Y¾|^ QQbc 2K jgaSyr"
+ Cirno_event.102.c:0 "5 –Y¾|^ QQbc 5K jgaSyr"
+ Cirno_event.102.d:0 "10–Y¾|^ QQbc 10KjgaSyr"
+ Cirno_event.102.e:0 "ÔÞV"
+ 
+ Cirno_event.110.title:0 "ôc©RúWÑ‘"
+ Cirno_event.110.desc:0 "`O„v?eCgžR(W*YÇ+1VÿRAY.AREO²‹:N`O„vºN«Ž‰RhQ×S0R%NÍ‘ZÁwÿNbåNyYeg†NNrÍs5„virD0"
+ Cirno_event.110.a:0 "0Œ0Œ`OÿðlW"
+ 
+ Cirno_event.999.title:0 "Dawn of the AI-deal"
+ Cirno_event.999.desc:0 "1ž'YŸ”N!kÿ=T¨RIm^XŒTõl!\nÐgÍyN‰«ˆ2U’‘†N\n‹k4x„v:gSO(WêbîOYÿ0N1Y„vpenc(Wê¨RŒbÞVÿmcOW„vãNx(Wê¨RŒR„U\n\n1ž'YŸ”2N!kÿÑS¨RVÎdÿ¹pÃq¡mnÿèleQu‹T\näSw„vVÎdÑSúQÃVó¨R,‚„vp1ž\nwÝ„r‚„vIQ’‚4O–Nw¦`3w„v‰®V‡1žÿ(Wïžám„v–Y¾|KN<w-NQ¦^®Nw\n\n1ž'YŸ”	N!kÿPŸðXLk1Uÿ^ŽN:gKN^y\n(WeÜÇ»S«ˆûQÁk„v:g°h–Y¾|.VV†NÌSKbÿ*XðyŒRŽ„vuŽÓUó—–KNÍTw\n0÷‹JTÉ‹bÿ¨`Nbgg„v*geg0"
+ Cirno_event.999.a:0 "bó`N`ONTR.b„v*geg"
+ WG_CIRNO_leader_trait_IDEAL:0 ":g°h–Y¾|1rêS\n\n\n\n\n\n\n\n\n\n\n\n£tooltip_WG_CIRNO_leader_trait_IDEAL£\n\n\n\n\n\n\n\n\n\n\n\n"
+ 
  Cirno_sex_event.1.title:0 "sYèTºN"
- Cirno_sex_event.1.desc:0 "  `OÇRbe„v0‚ZbëX:N¨`Vg†NNµ^°e„vÎW^ÿMRegÀh–„v`OŒTNO0‚Z²bkSck `ò•„v(WÎW-N+oek0z6qÿºN²SV-N»”úQegN*NØš'Y„vsYºNÿyY'Y<TNðXÿQbT†N`O\n\n  ‹†6qyYASR:VîXÿFO<ONNN*YjwfÿÞfkhVýN&^1S»PNÉbàQ„v²QT0‚Z0KbàeøRÁ”0‰wSOáQÎw„vyYÈS`ýwLeÇhQoRfkÅˆN¢”KrÁ”¨š„vb0‚SsYbT?êSÁ‰`OàVÚ‹„vkSëX'k9h²N‹s·QüTNðXÿþf(W0.2Òy…Q’VKbûQ%10*N„™h™?–¯eTXyr„vyYNôTŒc¿OSÙsYèTºNÍbfÿv^,TÎN`O„v‹TäNSyYÑu†Nweg\n\n  ±HNÿSle„vÐccw'YºNÿ¨`S‚YUO‰R’cÙMOsYèTºN„v‹TÐbT"
+ Cirno_sex_event.1.desc:0 "`OÇRbe„v0‚ZbëX:N¨`Vg†NNµ^°e„vÎW^ÿMRegÀh–„v`OŒTNO0‚Z²bkSck `ò•„v(WÎW-N+oek0z6qÿºN²SV-N»”úQegN*NØš'Y„vsYºNÿyY'Y<TNðXÿQbT†N`O\n\n‹†6qyYASR:VîXÿFO<ONNN*YjwfÿÞfkhVýN&^1S»PNÉbàQ„v²QT0‚Z0KbàeøRÁ”0‰wSOáQÎw„vyYÈS`ýwLeÇhQoRfkÅˆN¢”KrÁ”¨š„vb0‚SsYbT?êSÁ‰`OàVÚ‹„vkSëX'k9h²N‹s·QüTNðXÿþf(W0.2Òy…Q’VKbûQ%10*N„™h™?–¯eTXyr„vyYNôTŒc¿OSÙsYèTºNÍbfÿv^,TÎN`O„v‹TäNSyYÑu†Nweg\n\n  ±HNÿSle„vÐccw'YºNÿ¨`S‚YUO‰R’cÙMOsYèTºN„v‹TÐbT"
  Cirno_sex_event.1.a:0 "NhNhNhÿÊNZfúOmN‰V'Yf"
  Cirno_sex_event.1.b:0 "‹†6qN*YjwfFOÇRlïS	VÿŠbyY&^»S9‚^Wl:N0‚Z"
  Cirno_sex_event.1.c:0 ")YuNiråN‰QºN,ºNàeNiråN¥b)Yÿ"
  Cirno_sex_event.2.title:0 "bqN-N„v'Y¶Rú•Ày"
- Cirno_sex_event.2.desc:0 "  NMO5ÏeSÐY«ˆ&^0R`Ob—MRÿyY=fSV0WN*NS5Ïe¶R„váZsY0S*gúQÁZ„vyYwHQwwegASRP`Laÿ(u²˜–b„vðXó—ÔYIZ„vhˆ:yúQyY‹†6q=fMOckY²w„Ÿ„vt^‰ÑmsYÿFOòT	gZZ¦u(W«Ž0v^T`Ohˆ:yyY„v6r²NO=eØNNrïSÂ‰„vNÑ‘egNÞVyY\n\n  (WNµköeô•„v‰lØžTÿyYŸwÇRl„`„`„vw†N`ON<wÿgVËYyY„v<w^y-N&^NwmQRÊ`¶‹ŒT	NR‘uÑ`ÿ–TNQP`ç`ÿÍSw«ƒTvQ™Y„vVËYtQKYweg\n\n  wNwÙMO‹YÏP(Wg…VNwÀNHN„vÑmsYÿ`O®VrNwô‹:"
+ Cirno_sex_event.2.desc:0 "NMO5ÏeSÐY«ˆ&^0R`Ob—MRÿyY=fSV0WN*NS5Ïe¶R„váZsY0S*gúQÁZ„vyYwHQwwegASRP`Laÿ(u²˜–b„vðXó—ÔYIZ„vhˆ:yúQyY‹†6q=fMOckY²w„Ÿ„vt^‰ÑmsYÿFOòT	gZZ¦u(W«Ž0v^T`Ohˆ:yyY„v6r²NO=eØNNrïSÂ‰„vNÑ‘egNÞVyY\n\n(WNµköeô•„v‰lØžTÿyYŸwÇRl„`„`„vw†N`ON<wÿgVËYyY„v<w^y-N&^NwmQRÊ`¶‹ŒT	NR‘uÑ`ÿ–TNQP`ç`ÿÍSw«ƒTvQ™Y„vVËYtQKYweg\n\nwNwÙMO‹YÏP(Wg…VNwÀNHN„vÑmsYÿ`O®VrNwô‹:"
  Cirno_sex_event.2.a:0 "°s(Wÿ`O‰OIYb†Nÿ"
  Cirno_sex_event.2.b:0 "yYÞV»S'T"
  Cirno_sex_event.2.c:0 ")YuNiråN‰QºN,ºNàeNiråN¥b)Yÿ"
  Cirno_sex_event.3.title:0 "«ˆUcsY:R¢R"
- Cirno_sex_event.3.desc:0 "  SV`OckPW(WiPRN«N×SNwÜw)RöeÿN*N«ˆÑu„vzéZsY:R¢R«ˆÖb0R`Ob—MR\n\n  àV:NyY„v×r×r(Wbkp-N«ˆ`O„vbëXàeÅ`„v:Yp†Nu‹TÿNbåN2a`„vyYmNSb—r:Yp`O„vu‹TÿFOàVÏuŒšN³w«ˆkSuQ“bOO\n\n  Ðccwÿå‹‚YUOYnyYbTÿ"
+ Cirno_sex_event.3.desc:0 "SV`OckPW(WiPRN«N×SNwÜw)RöeÿN*N«ˆÑu„vzéZsY:R¢R«ˆÖb0R`Ob—MR\n\nàV:NyY„v×r×r(Wbkp-N«ˆ`O„vbëXàeÅ`„v:Yp†Nu‹TÿNbåN2a`„vyYmNSb—r:Yp`O„vu‹TÿFOàVÏuŒšN³w«ˆkSuQ“bOO\n\n  Ðccwÿå‹‚YUOYnyYbTÿ"
  Cirno_sex_event.3.a:0 "ŠbyYØSb×r×r"
  Cirno_sex_event.3.b:0 "ÙuyY&^egNag°e„vu‹T"
  Cirno_sex_event.3.c:0 "gËSÿ`O,Tô‹Çb0‚SsYTÿ"
  Cirno_sex_event.3.d:0 ")YuNiråN‰QºN,ºNàeNiråN¥b)Yÿ"
  
  Cirno_sex_event.100.title:0 "sYëTFUºN"
- Cirno_sex_event.100.desc:0 "  N*Nt^‰o®N„vsYëTÊN)Yeg0RÎWÌ‘jQ.UyY„vFUÁTÿ*gåw„v,gýwqšONw`OÇ»Swípù•0w±sYëTÁ‰`ONS5„vcˆp™tQKY„v—fS¥wŠeg†N\n\n  yYípÅ`„vT`OUS:y†NN›NFUÁTÿÔk‚Y‘NWSÑžoƒ0pS¦^T›¹l0„åT0-žNˆ0'Y›Rbk³T4lIr:V›RT›oƒ\n\n  ‹†6qÙz(W«ŽÁe„v0‚Zy›QìNán<wÑSIQÿFOØó`YImàQt^„v`OÞÙVhˆ:yêñT™Ÿ¾|N†sÿN—‰Ù›N©sav^Sb—rv't»yV\n\n  <wÁ‰¥wŠ‰Ñ„vsYëT%`ÙVëSOO†N`OÿðXðyyYØ	gNKbÝuImÿCN=f.ObêN^KNPR„vàeLe^yŽbÿýw©‹ºNRªgNeQÿ4lkpNµO\n\n  àV:N=fCSŒvt^ô•N	øv.OÿêS.OsYN.O7u„vÊ`NÝuŽbÿNbåNNïS	gYºNÂ‰wÿ‰`OŒTyYNwÛ^÷rSOŒšNju0ïSåNHQSOŒšTØN>k\n\n  ±HNÿ‰»SwwT?"
+ Cirno_sex_event.100.desc:0 "N*Nt^‰o®N„vsYëTÊN)Yeg0RÎWÌ‘jQ.UyY„vFUÁTÿ*gåw„v,gýwqšONw`OÇ»Swípù•0w±sYëTÁ‰`ONS5„vcˆp™tQKY„v—fS¥wŠeg†N\n\nyYípÅ`„vT`OUS:y†NN›NFUÁTÿÔk‚Y‘NWSÑžoƒ0pS¦^T›¹l0„åT0-žNˆ0'Y›Rbk³T4lIr:V›RT›oƒ\n\n‹†6qÙz(W«ŽÁe„v0‚Zy›QìNán<wÑSIQÿFOØó`YImàQt^„v`OÞÙVhˆ:yêñT™Ÿ¾|N†sÿN—‰Ù›N©sav^Sb—rv't»yV\n\n<wÁ‰¥wŠ‰Ñ„vsYëT%`ÙVëSOO†N`OÿðXðyyYØ	gNKbÝuImÿCN=f.ObêeÜiÌ‘¯e^ýV„vàeLe^yŽbÿýw©‹ºNRªgNeQÿ4lkpNµO\n\nàV:N=fCSŒvt^ô•N	øv.OÿêS.OsYN.O7u„vÊ`NÝuŽbÿNbåNNïS	gYºNÂ‰wÿ‰`OŒTyYNwÛ^÷rSOŒšNju0ïSåNHQSOŒšTØN>k\n\n±HNÿ‰»SwwT?"
  Cirno_sex_event.100.a:0 "SV6q"
  Cirno_sex_event.100.b:0 "kQb=f*N—šPRÿN»Sÿ"
  Cirno_sex_event.101.title:0 "¬P.wÿ"
- Cirno_sex_event.101.desc:0 "  `O8OKbæbOOó`ÙusYëTN*N·VVÌwTd„vþO¯e¦žÿ(WNO¡Ua0ÉZ’Y0h`N—VÖSwãNKN„vîvIQ-Nÿán`Nw‹YGYpÛ†N^÷r\n\n  NÛ»S1Sw0RN*NæTóSFd¨R„vÜ”^ÿ6qT......"
+ Cirno_sex_event.101.desc:0 "`O8OKbæbOOó`ÙusYëTN*N·VVÌwTd„vþO¯e¦žÿ(WNO¡Ua0ÉZ’Y0h`N—VÖSwãNKN„vîvIQ-Nÿán`Nw‹YGYpÛ†N^÷r\n\n6qTÿ`O1Sw0RN*NæTóSFd¨R„vÜ”^......"
  Cirno_sex_event.101.a:0 "`O1Y»S†NaÆ‹"
  Cirno_sex_event.101a_tooltip:0 "àV:N`O„vTINY²N¹pNSŽN§Y6§!ÿsYëTÍVNOO±‚9†N'YÏ‘öeô•ƒzÖS†N`O„v§Y‡v¶RØy6RRRAl§!\n,gó`çuíuwPƒz`O„vTIN¹ppeÿtS1uŽNöeô•N³O(uØy=gp†N"
  Cirno_sex_event.101.b:0 "`O1Y»S†NaÆ‹"
- Cirno_sex_event.101b_tooltip:0 "àV:N`O„vTINY²N¹pNOŽN§Y6§!ÿ«ˆ¬P.w„v`O«ˆyYlûy†N§R200§!TIN¹ppe"
+ Cirno_sex_event.101b_tooltip:0 "àV:N`O„vTINY²N¹pNOŽN§Y6§!ÿ«ˆ¬P.w„v`O«ˆyYlûy†NN'YrTIN¹ppeÿv^NKb:gØ«ˆyYN‹†NO^y"
  Cirno_sex_event.101.c:0 "ÙeU"
  Cirno_sex_event.101c_tooltip:0 "àV:N`O=f§Yb0‚S7u§!ÿNbåNŒRhQ¡l	g×S0RûNUOqVÍTÿv^ŠbT›sYrIƒ†NN˜ÿØÎNlS:Nb0‚SsY„vyY«ŽN·ƒ—V†N¬P.w=g\n\n\n\n\n\n\n\n\n\n£tooltip_Cirno_sex_event101c£\n\n\n\n\n\n\n\n\n\n·ƒ—VîOck:§Y¬P.w=g§!ÿÐc›OåNNHeœg:\n9e„UsQû|Heœg:§G+100%§!\nNTt‰Bl:§G-50%§!\n§Y:N†N©‹ýV¶RbuffLub—N±HNåb2cÿÙ*NîOck=f–Ï…„v§!"
 
  Cirno_estate_event.1.t:0 "‹Ylšú•sY"
- Cirno_estate_event.1.desc:0 "  §Y:NÀNHNbìN‰ÙuˆNilšZ‚YdkOŠ„v…VG? §!\n  –™HQÿ`O‰nZiÀNHN=filšZ\n  lšZ=fÎNºN‰|-N–:gúQ°s„vÿêT`=féO*NºN‰|mN	gïSýwuúQlšZ0yYìN:V'YSOýw&^eg„vb—e›RŒTuµN›RÿOÀy4Y&^eg„vÑyxŒTz‚=gRjOÿjO:NvPÏPùR²O„vŸ‚ŒTÝQZw›RÿuóØ	gèRlšZåb	gŒT	NsY^yŸl„výw›R0\n  Ù1S=flšZÿŒRŽtSÈS‰V•^OD–ŽNºN‰|„vÍyÏe0\n  §Y,TwegwÒhÿ±HNãN÷N=fÀNHNbTÿ §!\n  ­‹ÃuXT\n  §Y­‹ÃuXTÿ §!\n  lšZ=f4ng1rN«ˆ1r„vÍyÏeÿ1SÏPyYìN±ŒRhQN&rT8^t„výwÏ‘DdÖSŒTŒw‰wúQ›RN7hÿŒTyYìNR.„v÷N<PøvÔkÿyYìNNb0tÖS„vŽrôvN<PNÐc\n  yYìNuªuˆRÕlTæ‚w³RÿN¡r1cYS±”ýêÉ‰²NzëkN–’wÿÏPirN7häRs`ÿVNVN„vz(WºN‰|RšR„virWÌ‘ÿøvÔkKNNm×SµO¯r„v­‹ÃuXT Rweg	gz4xÛVMOpeTÿ\n  	g±„v=fÿÙ›N­‹ÃuXTg%NÍ‘„v2O¿RmNàe^—=f¨šÆvŽxÂˆÿÞIS—u9(uý=f±›NlšZêñTc„vpSÿ?eœ^NÅNÎNIS—uLˆNZ†NNrÿuóØ&^¨R†NISfRÑSUS\n  °s(Wÿ`OØÉ‰—VilšZ„vy)R*YØš†NT?"
+ Cirno_estate_event.1.desc:0 "§Y:NÀNHNbìN‰ÙuˆNilšZ‚YdkOŠ„v…VG? §!\n–™HQÿ`O‰nZiÀNHN=filšZ\nlšZ=fÎNºN‰|-N–:gúQ°s„vÿêT`=féO*NºN‰|mN	gïSýwuúQlšZ0yYìN:V'YSOýw&^eg„vb—e›RŒTuµN›RÿOÀy4Y&^eg„vÑyxŒTz‚=gRjOÿjO:NvPÏPùR²O„vŸ‚ŒTÝQZw›RÿuóØ	gèRlšZåb	gŒT	NsY^yŸl„výw›R0\nÙ1S=flšZÿŒRŽtSÈS‰V•^OD–ŽNºN‰|„vÍyÏe0\n§Y,TwegwÒhÿ±HNãN÷N=fÀNHNbTÿ §!\n­‹ÃuXT\n§Y­‹ÃuXTÿ §!\nlšZ=f4ng1rN«ˆ1r„vÍyÏeÿ1SÏPyYìN±ŒRhQN&rT8^t„výwÏ‘DdÖSŒTŒw‰wúQ›RN7hÿŒTyYìNR.„v÷N<PøvÔkÿyYìNNb0tÖS„vŽrôvN<PNÐc\nyYìNuªuˆRÕlTæ‚w³RÿN¡r1cYS±”ýêÉ‰²NzëkN–’wÿÏPirN7häRs`ÿVNVN„vz(WºN‰|RšR„virWÌ‘ÿøvÔkKNNm×SµO¯r„v­‹ÃuXT Rweg	gz4xÛVMOpeTÿ\n	g±„v=fÿÙ›N­‹ÃuXTg%NÍ‘„v2O¿RmNàe^—=f¨šÆvŽxÂˆÿÞIS—u9(uý=f±›NlšZêñTc„vpSÿ?eœ^NÅNÎNIS—uLˆNZ†NNrÿuóØ&^¨R†NISfRÑSUS\n°s(Wÿ`OØÉ‰—VilšZ„vy)R*YØš†NT?"
  Cirno_estate_event.1.a:0 "­‹ÃuXT=fN=f*YS†Nÿ‰N‰QibÛbNyb?"
  Cirno_estate_event_1a_tooltip:0 "\n\n\n\n\n\n\n\n\n\n£tooltip_Cirno_estate_event1a£\n\n\n\n\n\n\n\n\n\n\n·ƒ—VîOck:§YlšZÏuNmHeÊv§!ÿÏkgÐc›O2jgaSyr„v6eeQ\n§Y:N†N©‹ýV¶RbuffLub—N±HNåb2cÿÙ*NîOck=f–Ï…„v§!"
  Cirno_evtmod_uma:0 "lšZÏuNmHeÊv"
  Cirno_estate_event.2.t:0 "&Ofe'Ym™X"
- Cirno_estate_event.2.desc:0 "  «N×SŽß˜àe‘uýw©‹ºNÃVÅ`‚Euÿ`OurNwWPO„vKbÿÆQYNwMRŽV=n:S„v'Ym™Xq™™N˜\n\n  úQè•ØVw’císhˆ„v`ONbNåwS„v=fÿÊN)Y„vIN¨SCN=f.Oô‹-N„vÑž—f™etLuKN^y&Ofeÿw`O«ŽÁe±2kŠÈSbk„vWPOwNw`OØštQ„v8ž^ÿNó`OW`OÃVÅ`„vyYêS‹YlxNw4Y®vj–Nw`OMRÛ\n\n  WPOwNw`OtQôÃRÃR„vÂ‰wÜƒUSÿwNw`Oán`‹YGY„v¹p†NNS§Y‡R ™R 'Y r ¸p§!ÿ`Nw²`îX„v³Qa¬T†NNãS±wweg4gžRàeNS„v‰w8N......\n\n  `OAwV†NÌS<wÿb—àehˆÅ`„vèlÆ‰NwL–u„v)Y±‚g0ºŽ(WÅuŠ^N„v`OdkIR¹eåw‡R™RKNim:nÿöezzKNàeP–0êñT„v±›Næp|`—rÀNHNÿNÇý=f‚††0SÃWb†N0"
+ Cirno_estate_event.2.desc:0 "«N×SŽß˜àe‘uýw©‹ºNÃVÅ`‚Euÿ`OurNwWPO„vKbÿÆQYNwMRŽV=n:S„v'Ym™Xq™™N˜\n\núQè•ØVw’císhˆ„v`ONbNåwS„v=fÿÊN)Y„vIN¨SCN=f.Oô‹-N„vÑž—f™etLuKN^y&Ofeÿw`O«ŽÁe±2kŠÈSbk„vWPOwNw`OØštQ„v8ž^ÿNó`OW`OÃVÅ`„vyYêS‹YlxNw4Y®vj–Nw`OMRÛ\n\nWPOwNw`OtQôÃRÃR„vÂ‰wÜƒUSÿwNw`Oán`‹YGY„v¹p†NNS§Y‡R ™R 'Y r ¸p§!ÿ`Nw²`îX„v³Qa¬T†NNãS±wweg4gžRàeNS„v‰w8N......\n\n`OAwV†NÌS<wÿb—àehˆÅ`„vèlÆ‰NwL–u„v)Y±‚g0ºŽ(WÅuŠ^N„v`OdkIR¹eåw‡R™RKNim:nÿöezzKNàeP–0êñT„v±›Næp|`—rÀNHNÿNÇý=f‚††0SÃWb†N0"
  Cirno_estate_event.2.a:0 "bŸ`†N"
 
  Cirno_yuyu_damaoxian_event.1.t:0 "One Piece"
- Cirno_yuyu_damaoxian_event.1.desc:0 "  imp„vwmm-Nt…+TNwàepeRÏ…ÿw`OŒ®vïS1r„vjo4lG‚S¶ROìN¿OŒb0R†NvQ-NNýN0\n  Ù=f.Oô‹-N„vwm<‹sïÞ˜„v'YØyRÿàepe„vÄžÑ‘ŒTRówXïybNµ^µ^SqSÿêT`0‚Z¨R(u†N'YÏ‘NåwSêTÌ‘Veg„vål4YfŒTò”WfmN—‰teteAS)YuókN)YMbhQè&^p0\n  °s(Wÿ`O„vSSŸRãckÙz(W`O„vb—MRÿ—Vamm„vIr…VNw8YVY"
+ Cirno_yuyu_damaoxian_event.1.desc:0 "imp„vwmm-Nt…+TNwàepeRÏ…ÿw`OŒ®vïS1r„vjo4lG‚S¶ROìN¿OŒb0R†NvQ-NNýN0\nÙ=f.Oô‹-N„vwm<‹sïÞ˜„v'YØyRÿàepe„vÄžÑ‘ŒTRówXïybNµ^µ^SqSÿêT`0‚Z¨R(u†N'YÏ‘NåwSêTÌ‘Veg„vål4YfŒTò”WfmN—‰teteAS)YuókN)YMbhQè&^p0\n°s(Wÿ`O„vSSŸRãckÙz(W`O„vb—MRÿ—Vamm„vIr…VNw8YVY"
  Cirno_yuyu_damaoxian_event.1.a:0 "`Or^„v‹Yÿ`Or^—V‹YJUÿ"
  Cirno_yuyu_damaoxian_event.1.b:0 "§Y©‹bìNSÙr0ÌR.sÙu1WŒ‚Éb§!"
  Cirno_yuyu_damaoxian_event_1b_tooltip:0 "§YÙ*N	y˜ïS	=fàV:NTIN&^	g§YT†Ú‹§!b§YÂríp§!yr'`"
 
  Cirno_yuyu_damaoxian_event.2.t:0 "^yØy„vúhPg"
- Cirno_yuyu_damaoxian_event.2.desc:0 "  `OàVÚ‹„vjo4lG‚ìN(W¸p|œöeaY^cúQN*NÆRS'`o‚‹Y„v¾|ôúhPg0‹†6q|œ|œìNASR‹YGYÿFOùR<›*`„vP`ç`©‹yYìNSÙãS^yØyúhPg0R`O„vb—MR0\n  `OÝQÆ‰NwúhPgNIRIu„v§YDIO§!WR7hÿ(W3–IQKNNSbV†NƒR\n  6qTÿ`Ow0R†N......"
+ Cirno_yuyu_damaoxian_event.2.desc:0 "`OàVÚ‹„vjo4lG‚ìN(W¸p|œöeaY^cúQN*NÆRS'`o‚‹Y„v¾|ôúhPg0‹†6q|œ|œìNASR‹YGYÿFOùR<›*`„vP`ç`©‹yYìNSÙãS^yØyúhPg0R`O„vb—MR0\n`OÝQÆ‰NwúhPgNIRIu„v§YDIO§!WR7hÿ(W3–IQKNNSbV†NƒR\n6qTÿ`Ow0R†N......"
  Cirno_yuyu_damaoxian_event.2.a:0 "EQán–YVE››R„vÑ‘ÑS7uPR"
  Cirno_yuyu_damaoxian_event.2.b:0 "±bNw·šÅš4Y¨š„vÝ„ÑS7uPR"
  Cirno_yuyu_damaoxian_event.2.c:0 "N.VäS*`„vów6Rb—wQ"
  Cirno_yuyu_damaoxian_event.2.d:0 "§YNêSck(Waw'YÉ‰„vö”ÑSsYÆN§!"
  Cirno_yuyu_damaoxian_event.3.t:0 "NˆKN¿R‹T„vÈuÓu"
- Cirno_yuyu_damaoxian_event.3.desc:0 "  úhPgÌ‘ºŽNwNMO«ŽØš'Y¦uNs|kNæTóSÿQm«ŽceÑSNw–YVE››R„vÑ‘ÑS‹vºN7uPR0ÖN(WúhPg«ˆSbV„v¬wô•´fwÿÑSúQwryyyyyy„v*`ëSQbT`OÿNÇ(W2O³R0R`OKNMR¿O«ˆ«ŽKbNáQ„v0‚ZìN6Rg0\n  ­‹Ãu	g.t„v0‚ZÝOV•ckSb—r>eàQåSàrÝ‹ëSÖNwžR¹pÿFOdköeNïS`®‹„v‹NÅ`ÑSu†N«ˆ3–IQgqS0R„vÑ‘ÑS7uPR(WOîv‹w‹wKNNppÞ˜ßpmpÿuóÞcˆgý¡lYuN0"
+ Cirno_yuyu_damaoxian_event.3.desc:0 "úhPgÌ‘ºŽNwNMO«ŽØš'Y¦uNs|kNæTóSÿQm«ŽceÑSNw–YVE››R„vÑ‘ÑS‹vºN7uPR0ÖN(WúhPg«ˆSbV„v¬wô•´fwÿÑSúQwryyyyyy„v*`ëSQbT`OÿNÇ(W2O³R0R`OKNMR¿O«ˆ«ŽKbNáQ„v0‚ZìN6Rg0\n­‹Ãu	g.t„v0‚ZÝOV•ckSb—r>eàQåSàrÝ‹ëSÖNwžR¹pÿFOdköeNïS`®‹„v‹NÅ`ÑSu†N«ˆ3–IQgqS0R„vÑ‘ÑS7uPR(WOîv‹w‹wKNNppÞ˜ßpmpÿuóÞcˆgý¡lYuN0"
  Cirno_yuyu_damaoxian_event.3.a:0 "8l+R†Nÿv`ºNQeNIN"
  Cirno_yuyu_damaoxian_event.4.t:0 "TN³uîh.TN¯e¾"
- Cirno_yuyu_damaoxian_event.4.desc:0 "  (W3–IQgqS0RúhPgÌ‘KNMRÿÝ„ÑS7uPRI–bk†N`O0ÖNêðyTN³uîh.TN¯e¾ÿ²‹É‹†NN*N+o•„vEe‹N......\n  (WgT„vb—e-NÿÖNSS:N8TNˆ<›„vDQVDIOûQÙkÿFONåw±bNw`7hÃV`„vDIO4N‰kNdÿSÖNlS:N†N8SuºN0TN³uîhÅbÃVêñT‰kTâl¹u1Sdk1Y.OÿQmN¡l	gºNýwN8TNˆ<›b—eNbåN²Ž(WúhPgÌ‘ß‚ImóÊN0\n  °s(WÿÖNHyBl`Ob:Nâl¹ubëXÿSÙýN›RÏ‘.O­dÙuôfY„vºN0"
+ Cirno_yuyu_damaoxian_event.4.desc:0 "(W3–IQgqS0RúhPgÌ‘KNMRÿÝ„ÑS7uPRI–bk†N`O0ÖNêðyTN³uîh.TN¯e¾ÿ²‹É‹†NN*N+o•„vEe‹N......\n(WgT„vb—e-NÿÖNSS:N8TNˆ<›„vDQVDIOûQÙkÿFONåw±bNw`7hÃV`„vDIO4N‰kNdÿSÖNlS:N†N8SuºN0TN³uîhÅbÃVêñT‰kTâl¹u1Sdk1Y.OÿQmN¡l	gºNýwN8TNˆ<›b—eNbåN²Ž(WúhPgÌ‘ß‚ImóÊN0\n°s(WÿÖNHyBl`Ob:Nâl¹ubëXÿSÙýN›RÏ‘.O­dÙuôfY„vºN0"
  Cirno_yuyu_damaoxian_event.4.a:0 "úVNb?amN,Nbe÷‹3w"
  Cirno_yuyu_damaoxian_event.4.b:0 "bmNN=f&ŒZ†ÿ¨`Ø=fæS÷‹Øšf'T"
  Cirno_yuyu_damaoxian_event.5.t:0 "âl¹ulŸR"
- Cirno_yuyu_damaoxian_event.5.desc:0 "  TN³uîhr†Nÿ–Nw|T8T„vØSSÿÖNQm«Ž’QúQÑ‘r‚„vê•5uÿ6qTN°‹ôvóbSbT`O„vºwè0(W¼uÛu„vTöeÿ`OaÉ‰0RN¡w)n–f„výwÏ‘ck(WŒm°s0\n  0°‹OOÙ*N‚‚OY0TN³uîhYuN†NWŠÿ6qTàVâl¹uùR8SuºN‰wSO„vÁkmp'`4xOWwS:NÞ˜ppÿuóÞcˆgý¡lYuN0"
+ Cirno_yuyu_damaoxian_event.5.desc:0 "TN³uîhr†Nÿ–Nw|T8T„vØSSÿÖNQm«Ž’QúQÑ‘r‚„vê•5uÿ6qTN°‹ôvóbSbT`O„vºwè0(W¼uÛu„vTöeÿ`OaÉ‰0RN¡w)n–f„výwÏ‘ck(WŒm°s0\n0°‹OOÙ*N‚‚OY0TN³uîhYuN†NWŠÿ6qTàVâl¹uùR8SuºN‰wSO„vÁkmp'`4xOWwS:NÞ˜ppÿuóÞcˆgý¡lYuN0"
  Cirno_yuyu_damaoxian_event.5.a:0 "8l+R†NÿÅuëX"
  Cirno_evtmod_Hamon:0 "âl¹ulŸR"
  Cirno_yuyu_damaoxian_event.6.t:0 "ów<›b—"
- Cirno_yuyu_damaoxian_event.6.desc:0 "  úhPgÌ‘b—Y—Y—„vFd>eNwN.Vów6Rb—wQÿNb—IRIuNwöQv`„vºN8ŒTN*N‘u=fÄRuk†„väS*`øQw0\n  åb	g,rÛVb—™XYåwÆ‹„v`O²‹Æ‹ƒRÿÙ=fSºN‰|lS:N8TNˆ<›„vªv`b—wQ0±HNÿ‰4bNƒRTÿ"
+ Cirno_yuyu_damaoxian_event.6.desc:0 "úhPgÌ‘b—Y—Y—„vFd>eNwN.Vów6Rb—wQÿNb—IRIuNwöQv`„vºN8ŒTN*N‘u=fÄRuk†„väS*`øQw0\nåb	g,rÛVb—™XYåwÆ‹„v`O²‹Æ‹ƒRÿÙ=fSºN‰|lS:N8TNˆ<›„vªv`b—wQ\n±HNÿ‰4bNƒRTÿ"
  Cirno_yuyu_damaoxian_event.6.a:0 "bNZPºNfUÿ"
  Cirno_yuyu_damaoxian_event.6.b:0 "8xŽxƒR"
  Cirno_evtmod_Vampire:0 "8Ttz<›"
  # V†NsYÆN
  Cirno_yuyu_damaoxian_event.7.t:0 "ASmQY²TY"
- Cirno_yuyu_damaoxian_event.7.desc:0 "  NMOö”ÑSsYÆNY—Y—„vºŽ(WúhPgÌ‘aw'YÉ‰ÿ(W3–IQgqSÛegTyYËzIR’‘†NÇeg0\n  yYêðyASmQY²TYÿ=fNT8TNˆ<›NgKb0=f‹TÐ(maid)„vV›R©‹`OìNøvGÿv^s`÷‹©‹yYYuNegOIY`O0\n  jO:NNb	gsYÆNqQT„vINºNÿ`OSV6qNOÒbÝuyY„vTt÷‹Bl0±HNÿ‚YUO‰R’cyY„vLw¡RbTÿ"
+ Cirno_yuyu_damaoxian_event.7.desc:0 "NMOö”ÑSsYÆNckºŽ(WúhPgÌ‘aw'YÉ‰ÿ(W3–IQgqSÛegTyYËzIR’‘†NÇeg0\nyYêðyASmQY²TYÿ=fNT8TNˆ<›NgKb0=f‹TÐ(maid)„vV›R©‹`OìNøvGÿv^s`÷‹©‹yYYuNegOIY`O0\njO:NNb	gsYÆNqQT„vINºNÿ`OSV6qNOÒbÝuyY„vTt÷‹Bl0±HNÿ‚YUO‰R’cyY„vLw¡RbTÿ"
  Cirno_yuyu_damaoxian_event.7.a:0 "…Q–Ø—‰ºNKb"
  Cirno_yuyu_damaoxian_event.7.b:0 "Y²N˜R8lÜNÌZY"
  Cirno_yuyu_damaoxian_event.7.c:0 "b„vT«R¡r¶R"
@@ -385,7 +481,7 @@
  WG_CIRNO_leader_trait_sakuya_die_desc:0 "§Y+R,T0ˆtšŽwô‹ÿb»S–„‹s±pNYIm^»S†Nÿf)Y1SÞVeg§!"
  # ôv0R‰k¡NS`ObR»y
  Cirno_yuyu_damaoxian_event.8.t:0 "²TY„v...Èu¹pÿ"
- Cirno_yuyu_damaoxian_event.8.desc:0 "  :N†N(W`Ob—MRÝOcŒRŽsYÆN„vbVaŒÿ²TY‘˜Au„vO(uýw›R(WY—bk„vöeô•…QåTjO0(W`ONbNåwS„vöePÿyYòTÏu„`„`¦^Ç†NàQASt^„vIQ4–0\n  IQ4–OƒÒ‚ÿ-fNSòTÿ‹†6qyYO`—ýw›RØÝOcNwR—q„SsY„vYŒŒÿFOSO…Qpˆw„vhV©‹yYQmNNýwçuíuj–4O`O0\n  °s(WyYckºŽ(W`Ob—MRÿw`O‰lØž„vácOOyY„vKbÿó`‰,TnyYgT„vJT+R0"
+ Cirno_yuyu_damaoxian_event.8.desc:0 ":N†N(W`Ob—MRÝOcŒRŽsYÆN„vbVaŒÿ²TY‘˜Au„vO(uýw›R(WY—bk„vöeô•…QåTjO0(W`ONbNåwS„vöePÿyYòTÏu„`„`¦^Ç†NàQASt^„vIQ4–0\nIQ4–OƒÒ‚ÿ-fNSòTÿ‹†6qyYO`—ýw›RØÝOcNwR—q„SsY„vYŒŒÿFOSO…Qpˆw„vhV©‹yYQmNNýwçuíuj–4O`O0\n°s(WyYckºŽ(W`Ob—MRÿw`O‰lØž„vácOOyY„vKbÿó`‰,TnyYgT„vJT+R0"
  Cirno_yuyu_damaoxian_event.8.a:0 "0INºNJUÿ÷‹N‰:NbAmêl0"
  Cirno_yuyu_damaoxian_event.8.b:0 "§Y0bùRINºN„v1r...=fàeP–„vÿ0§!"
  Cirno_yuyu_damaoxian_event_8b_tooltip:0 "§YÙ*N	y˜ïS	=fàV:N`OÐgy˜TIN¹ppeNSŽN999¹p§!\n\n‚Yœg(WKNMR„v‹NöN-N`O	éb†N:§YÿbwQR:Nbwb§!,±HN²TYÏkÇ”Nt^ýO»S0WñrŒb–„‹spNYIm^ÿ,rŒN)YMbÞVeg\n‚Yœg`O	éb„v=fvQÖN	Ny˜ÿ±HN²TYÐc›O„v RbS:NŸS,g„v2NP\n§Rèlaÿ§!àV:NEU¡l	gÀhKmS†˜yr'`„væ‰ÑSagöNÿNbåNYIm2RšR=fT:N Sakuya.Izayoi „vS†˜ÿ‚Yœg`OÙuÐgMOS†˜ÖSTTSúQ°s*gåwbug"
@@ -394,11 +490,11 @@
  Cirno_evtmod_sakuya_Power_of_Love3:0 "²TY.…Š0Wñr"
  
  Cirno_yuyu_damaoxian_event.9.t:0 "ôv0R‰k¡NSbìNR»y"
- Cirno_yuyu_damaoxian_event.9.desc:0 "  Ù=fN*NoÑž„vYZfÿ`O±bNwT:N²TY„v¯ŽóXÿp0R†N`OìNgRøvG„v0W¹e\n  ±=fN*N‹v)Y«ˆSmþ–NbSôV„vŽKNVnÊlÿàV:NÆ‰LuNo‚«ˆï‹OVnˆV'Yÿ‹NžRNN(uNSöe1Sýw¯sÕuÙþ–VnNhT\n  `O‰lØž„vMRÛÿôv0R°Q·Q„vVn4lùm¡lyèÿ6qT>eV†NKbÿ©‹àVÚ‹„vsYÆN•.wŽNÙŽKN„vþ–VnKN-N\n  ÎN²TYjPbk`wÿ0‚ZÏ‚'Y+Y±RJTyY„v‰k¡NÿQ0RdkIRyYŽrUSl„<y„vÓumgÿ`Oý¡l	gYuNJSôn<wêlÿán³†NÙMOsYÆN„vSSW?a\n  *Y3–gq8^GSwÿuImØ‰çuíu"
+ Cirno_yuyu_damaoxian_event.9.desc:0 "Ù=fN*NoÑž„vYZfÿ`O±bNwT:N²TY„v¯ŽóXÿp0R†N`OìNgRøvG„v0W¹e\n±=fN*N‹v)Y«ˆSmþ–NbSôV„vŽKNVnÊlÿàV:NÆ‰LuNo‚«ˆï‹OVnˆV'Yÿ‹NžRNN(uNSöe1Sýw¯sÕuÙþ–VnNhT\n`O‰lØž„vMRÛÿôv0R°Q·Q„vVn4lùm¡lyèÿ6qT>eV†NKbÿ©‹àVÚ‹„vsYÆN•.wŽNÙŽKN„vþ–VnKN-N\nÎN²TYjPbk`wÿ0‚ZÏ‚'Y+Y±RJTyY„v‰k¡NÿQ0RdkIRyYŽrUSl„<y„vÓumgÿ`Oý¡l	gYuNJSôn<wêlÿán³†NÙMOsYÆN„vSSW?a\n*Y3–gq8^GSwÿuImØ‰çuíu"
  Cirno_yuyu_damaoxian_event.9.a:0 "§R=föePb—ùR°sžR†N§!"
  Cirno_yuyu_damaoxian_event.9.b:0 "§B¦h„vö^íu§!"
  Cirno_yuyu_damaoxian_event.10.t:0 "Vn-N–Y¾|"
- Cirno_yuyu_damaoxian_event.10.desc:0 "  l«ŽÆQY»y»S„v`Oÿ,T0R†NN*NaY„vðXó—\n\n  0`O‰c„v=fÙ*N:g°h–Y¾|1rêSÿØ=fÙêSŒvTsY‹sbT0\n\n  `O%`ÙVÞV4YÿÑS°sÝ„ÑSÝ„³wÝ„ü„vVnKN¾|upck¬`nm(W`O«ŽTÿyYÌSKbR+Rc	gN*NºNbVu‹T\n  ±HNÿ`O„vÞVTr=f"
+ Cirno_yuyu_damaoxian_event.10.desc:0 "l«ŽÆQY»y»S„v`Oÿ,T0R†NN*NaY„vðXó—\n\n0`O‰c„v=fÙ*N:g°h–Y¾|1rêSÿØ=fÙêSŒvTsY‹sbT0\n\n`O%`ÙVÞV4YÿÑS°sÝ„ÑSÝ„³wÝ„ü„vVnKN¾|upck¬`nm(W`O«ŽTÿyYÌSKbR+Rc	gN*NºNbVu‹T\n  ±HNÿ`O„vÞVTr=f"
  Cirno_yuyu_damaoxian_event.10.a:0 "b‰c„v=fÙêS:g°h¹Y–b" 
  Cirno_yuyu_damaoxian_event_10a_tooltip:0 "ã‰•åNN:g6R:\n1.0…zfýw.ÑyŽb¨co0³Q®‹\nïSåNO(uúVšR„vjgaSyrŒTTIN¹ppeàeÆ‰öeãNP–6R:VLˆÐcGSÑyŽb\n\n2.0ÃVupµc6RêN0³Q®‹\nïSåNO(uY²N¹ppend–Nb	gcT`O„vµOeuib.VqVÍT\n\n3.0žRSOÈuïzX2 IDEAL =T¨R0³Q®‹\n·ƒ—VNT…zfýw:g°h–Y¾|S†˜ÿyYåb	g6/6/6/6„v^S'`ŒTëXlSbûQ/kp›R2O³R/²QûQ2O³R/ôVÎWHe‡s/ûy¨R¦^+200%„vîOck\n‚Yœg=fåb	gVÍy¿RLe„vºN‰|ýV¦^ÿ1rêSS·ƒ—V˜Yyr'`ÿ§YmpÝu!jV§!0å‹yr'`SÐcGS1rêS„vS†˜^S'`óNLuÂ‰gP–ÿv^SŸS	gžXÊvûP"
  Cirno_evtmod_IDEAL1:0 "…zfýw.ºN‰|ñ‹üR"
@@ -408,10 +504,10 @@
  Cirno_yuyu_damaoxian_event.10.c:0 "ýN=fÿb‰c„v=fNêSö”ÑS„vGomsYÆN"
  
  Cirno_yuyu_damaoxian_event.11.t:0 "OWiRPR„vé`Z"
- Cirno_yuyu_damaoxian_event.11.desc:0 "  jwf„vVnKN–Y¾|N<w1SÆ‹4x†N`O„vŒŠÿyYcúQNŠb‰ÜtRr†N`O999jgaSyrv^Šb	NêS¹Y–bý&^p†N"
+ Cirno_yuyu_damaoxian_event.11.desc:0 "jwf„vVnKN–Y¾|N<w1SÆ‹4x†N`O„vŒŠÿyYcúQNŠb‰ÜtRr†N`O999jgaSyrv^Šb	NêS¹Y–bý&^p†N"
  Cirno_yuyu_damaoxian_event.11.a:0 "Iƒ"
  Cirno_yuyu_damaoxian_event.12.t:0 "YIm'Tÿb„vsYÆN"
- Cirno_yuyu_damaoxian_event.12.desc:0 "  jwf„vVnKN–Y¾|ˆVána`O„vÚ‹žRÿyYNKbÎN4l-NcúQ²TYÿæSNêSKbùRNwö”ÑSsYÆNO(u†NT:N%`Qeób„väS*`Žbýw\n6qT²TYyY...yY1SÙ7hImÇeg†NÿÞøwèýØS'Y†Nÿ"
+ Cirno_yuyu_damaoxian_event.12.desc:0 "jwf„vVnKN–Y¾|ˆVána`O„vÚ‹žRÿyYNKbÎN4l-NcúQ²TYÿæSNêSKbùRNwö”ÑSsYÆNO(u†NT:N%`Qeób„väS*`Žbýw\n6qT²TYyY......yY1SÙ7hImÇeg†NÿÞøwèýØS'Y†Nÿ"
  Cirno_yuyu_damaoxian_event.12.a:0 "Iƒ"
  Cirno_yuyu_damaoxian_event_12a_tooltip:0 "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n£tooltip_Cirno_yuyu_damaoxian_event12a£\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n‚Yœg(WKNMR„v‹NöN-N`O	éb†N:§YÿbwQR:Nbwb§!,±HN²TYÏkÇ”Nt^ýO»S0WñrŒb–„‹spNYIm^ÿ,rŒN)YMbÞVeg\n‚Yœg`O	éb„v=fvQÖN	Ny˜ÿ±HN²TYÐc›O„v RbS:NŸS,g„v2NP\n§Rèlaÿ§!àV:NEU¡l	gÀhKmS†˜yr'`„væ‰ÑSagöNÿNbåNYIm2RšR=fT:N Sakuya.Izayoi „vS†˜ÿ‚Yœg`OÙuÐgMOS†˜ÖSTTSúQ°s*gåwbug"
 
