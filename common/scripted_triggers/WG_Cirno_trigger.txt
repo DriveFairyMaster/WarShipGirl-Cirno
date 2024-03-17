@@ -1,0 +1,7 @@
+#决议
+WG_Cirno_GreatProject_build_trigger = {
+	units_in_province = owner           #是自己的核心
+	cavalry_in_province = 9             #至少九队骑兵
+	NOT = { cavalry_in_province = 10 }  #不到十队骑兵
+	NOT = { has_construction = any }    #没有其他建筑任务
+}
