@@ -1,4 +1,4 @@
-Cirno_GreatProject1 = { #惡쨋킵콜輿
+Cirno_GreatProject1 = { #琪露诺妮娅
 	date = 9999.09.09 time = { months = 0 } build_cost = 0 can_be_moved = no starting_tier = 0 type = monument
 	build_trigger = { 
 		has_global_flag = Cirno_GreatProject1 
@@ -44,7 +44,7 @@ Cirno_GreatProject1 = { #惡쨋킵콜輿
 	}
 }
 
-Cirno_GreatProject2 = { #亶衿아반
+Cirno_GreatProject2 = { #英雄酒馆
 	date = 9999.09.09 time = { months = 0 } build_cost = 0 can_be_moved = no starting_tier = 0 type = monument
 	build_trigger = { 
 		has_global_flag = Cirno_GreatProject2
@@ -62,7 +62,7 @@ Cirno_GreatProject2 = { #亶衿아반
 		}
 		on_upgraded = {
 		  owner = {
-		    country_event = { id = Cirno_GreatProject.1 } 
+		    country_event = { id = Cirno_GreatProject.2 } 
 		    hidden_effect = { 
 		      set_country_flag = Cirno_GreatProject2_tier1 
 		    }
@@ -76,11 +76,11 @@ Cirno_GreatProject2 = { #亶衿아반
 			free_leader_pool = 2
 		}
 		on_upgraded = {
+		  custom_tooltip = Cirno_GreatProject2_tier2_tooltip
 		  owner = { 
-		    country_event = { id = Cirno_GreatProject.1 } 
-		    custom_tooltip = Cirno_GreatProject2_tier2_tooltip
+		    country_event = { id = Cirno_GreatProject.2 } 
 		    hidden_effect = { 
-		      country_event = { id = Cirno_Leader.100 days = 1 }  #섬쇱꿴
+		      country_event = { id = Cirno_Leader.100 days = 1 }  #升级检查
 		      set_country_flag = Cirno_GreatProject2_tier2
 		    }
 		  }
@@ -91,16 +91,92 @@ Cirno_GreatProject2 = { #亶衿아반
 		province_modifiers = {
 			army_tradition = 1
 			free_leader_pool = 3
-			yearly_army_professionalism = 0.1
+			yearly_army_professionalism = 0.01
 		}
 		on_upgraded = {
+		  custom_tooltip = Cirno_GreatProject2_tier3_tooltip
 		  owner = { 
-		    country_event = { id = Cirno_GreatProject.1 } 
-		    custom_tooltip = Cirno_GreatProject2_tier3_tooltip
+		    country_event = { id = Cirno_GreatProject.2 } 
 		    hidden_effect = { 
 		      country_event = { id = Cirno_Leader.100 days = 1 }
 		      set_country_flag = Cirno_GreatProject2_tier3
 		    }
+		  }
+		}
+	}
+}
+
+Cirno_GreatProject3 = { #糜三庙
+	date = 9999.09.09 time = { months = 0 } build_cost = 0 can_be_moved = no starting_tier = 0 type = monument
+	build_trigger = { 
+		has_global_flag = Cirno_GreatProject3
+		has_province_flag = Cirno_GreatProject_flag3
+	}
+	on_built = {
+		has_global_flag = Cirno_GreatProject3
+		has_province_flag = Cirno_GreatProject_flag3
+	}
+	tier_0 = { upgrade_time = { months = 0 } cost_to_upgrade = { factor = 0 } }
+	tier_1 = {
+		upgrade_time = { months = 33 } cost_to_upgrade = { factor = 333 }
+		province_modifiers = {
+			local_tax_modifier = 0.1
+			local_development_cost = -0.1
+			local_missionary_strength = 0.01
+		}
+		country_modifiers = {
+			heir_chance = 0.1
+			free_leader_pool = 1
+		}
+		on_upgraded = {
+		  custom_tooltip = Cirno_GreatProject3_tier1_tooltip
+		  owner = { hidden_effect = { set_country_flag = Cirno_GreatProject3_tier1 country_event = { id = Cirno_GreatProject.3 } } }
+		}
+	}
+	tier_2 = {
+		upgrade_time = { months = 33 } cost_to_upgrade = { factor = 333 }
+		province_modifiers = {
+			local_tax_modifier = 0.2
+			local_development_cost = -0.2
+			local_missionary_strength = 0.2
+		}
+		area_modifier = {
+			local_missionary_strength = 0.02
+		}
+		country_modifiers = {
+			heir_chance = 0.2
+			free_leader_pool = 2
+		}
+		on_upgraded = {
+		  custom_tooltip = Cirno_GreatProject3_tier2_tooltip
+		  owner = { hidden_effect = { set_country_flag = Cirno_GreatProject3_tier2 country_event = { id = Cirno_GreatProject.3 } } }
+		}
+	}
+	tier_3 = {
+		upgrade_time = { months = 33 } cost_to_upgrade = { factor = 333 }
+		province_modifiers = {
+			local_tax_modifier = 0.3
+			local_development_cost = -0.3
+			local_missionary_strength = 3.33
+		}
+		area_modifier = {
+			local_missionary_strength = 0.33
+		}
+		region_modifier = {
+			local_missionary_strength = 0.03
+		}
+		country_modifiers = {
+			heir_chance = 0.3
+			free_leader_pool = 3
+		}
+		on_upgraded = {
+		  custom_tooltip = Cirno_GreatProject3_tier3_tooltip
+		  owner = { 
+		    hidden_effect = { 
+		      set_country_flag = Cirno_GreatProject3_tier3 
+		      country_event = { id = Cirno_event.33 }
+		      country_event = { id = Cirno_GreatProject.3 }
+		    } 
 		  }
 		}
 	}
