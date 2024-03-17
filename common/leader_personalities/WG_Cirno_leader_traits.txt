@@ -6,11 +6,28 @@ WG_CIRNO_leader_trait_sakuya = {
 
 WG_CIRNO_leader_trait_MIMIMI = {
 	allow = { always = no }
-	siege_ability = 0.5
-	movement_speed = 0.5
-	shock_damage_received = 0.25
-	morale_damage_received = 0.25
+	siege_ability = 0.33
+	movement_speed = 0.33
+	fire_damage_received = -0.33
 }
+WG_CIRNO_leader_trait_MIMIMI1 = {
+	allow = { always = no }
+	fire_damage_received = -0.33
+}
+WG_CIRNO_leader_trait_MIMIMI2 = {
+	allow = { always = no }
+	movement_speed = 0.33
+}
+WG_CIRNO_leader_trait_MIMIMI3 = {
+	allow = { always = no }
+	siege_ability = 0.33
+}
+WG_CIRNO_leader_trait_MIMIMI4 = {
+	allow = { always = no }
+	shock_damage_received = 0.33
+	morale_damage_received = 0.33
+}
+
 WG_CIRNO_leader_trait_PrinzEugen = {
 	allow = { always = no }
 	fire_damage = -0.25
@@ -37,12 +54,21 @@ WG_CIRNO_leader_trait_GrassWonder = {
 WG_CIRNO_leader_trait_Angela = {
 	allow = { always = no }
 	reinforce_speed = 25
-	drill_gain_modifier = 25
-	reinforce_cost_modifier = -1
+	military_tactics = 0.25
+	recover_army_morale_speed = 0.25
 }
 WG_CIRNO_leader_trait_ChiangKaiShek = {
 	allow = { always = no }
-	discipline = 0.1
-	movement_speed = 0.2
+	discipline = 0.05
+	movement_speed = 0.25
 	military_tactics = 0.25
+}
+
+WG_CIRNO_leader_trait_IDEAL = {
+	allow = { always = no }
+	morale_damage = 2
+	fire_damage = 2
+	shock_damage = 2
+	siege_ability = 2
+	movement_speed = 2
 }
