@@ -1,9 +1,9 @@
 namespace = Cirno_GreatProject
 country_event = {
-  id = Cirno_GreatProject.1
-  title = Cirno_GreatProject.1.title
-  desc = Cirno_GreatProject.1.desc
-  picture = Cirno_GreatProjectPicture1
+  id = Cirno_GreatProject.2
+  title = Cirno_GreatProject.2.title
+  desc = Cirno_GreatProject.2.desc
+  picture = Cirno_GreatProjectPicture2
   major = yes
   trigger = { 
     ai = no 
@@ -11,29 +11,9 @@ country_event = {
   }
   is_triggered_only = yes
   option = { 
-    name = Cirno_GreatProject.1.a
-    trigger = { hidden_trigger = { NOT = { has_country_flag = Cirno_Leader1 } } }
-		if = {
-			limit = { NOT = { has_country_flag = Cirno_GreatProject2_tier3 } }
-    	hidden_effect = { 
-    		set_country_flag = Cirno_Leader1 
-    		country_event = { id = Cirno_Leader.1 } 
-    	}
-		}
-		else_if = {
-			limit = { has_country_flag = Cirno_GreatProject2_tier3 }
-    	hidden_effect = { 
-    		set_country_flag = Cirno_Leader1
-    		set_country_flag = Cirno_GreatProject2_over
-    		country_event = { id = Cirno_Leader.1 } 
-    	}
-		}
-    hidden_effect = { set_country_flag = Cirno_Leader1 country_event = { id = Cirno_Leader.1 } }
-  }
-  option = { 
-    name = Cirno_GreatProject.1.b
+    name = Cirno_GreatProject.2.b
+    custom_tooltip = Cirno_GreatProject2b_tooltip
     trigger = { hidden_trigger = { NOT = { has_country_flag = Cirno_Leader2 } } }
-    
 		if = {
 			limit = { NOT = { has_country_flag = Cirno_GreatProject2_tier3 } }
     	hidden_effect = { 
@@ -51,7 +31,8 @@ country_event = {
 		}
   }
   option = { 
-    name = Cirno_GreatProject.1.c
+    name = Cirno_GreatProject.2.c
+    custom_tooltip = Cirno_GreatProject2c_tooltip
     trigger = { hidden_trigger = { NOT = { has_country_flag = Cirno_Leader3 } } }
 		if = {
 			limit = { NOT = { has_country_flag = Cirno_GreatProject2_tier3 } }
@@ -70,7 +51,8 @@ country_event = {
 		}
   }
   option = { 
-    name = Cirno_GreatProject.1.d
+    name = Cirno_GreatProject.2.d
+    custom_tooltip = Cirno_GreatProject2d_tooltip
     trigger = { hidden_trigger = { NOT = { has_country_flag = Cirno_Leader4 } } }
 		if = {
 			limit = { NOT = { has_country_flag = Cirno_GreatProject2_tier3 } }
@@ -89,7 +71,8 @@ country_event = {
 		}
   }
   option = { 
-    name = Cirno_GreatProject.1.e
+    name = Cirno_GreatProject.2.e
+    custom_tooltip = Cirno_GreatProject2e_tooltip
     trigger = { hidden_trigger = { NOT = { has_country_flag = Cirno_Leader5 } } }
 		if = {
 			limit = { NOT = { has_country_flag = Cirno_GreatProject2_tier3 } }
@@ -108,7 +91,8 @@ country_event = {
 		}
   }
   option = { 
-    name = Cirno_GreatProject.1.f
+    name = Cirno_GreatProject.2.f
+    custom_tooltip = Cirno_GreatProject2f_tooltip
     trigger = { hidden_trigger = { NOT = { has_country_flag = Cirno_Leader6 } } }
 		if = {
 			limit = { NOT = { has_country_flag = Cirno_GreatProject2_tier3 } }
@@ -125,5 +109,56 @@ country_event = {
     		country_event = { id = Cirno_Leader.6 } 
     	}
 		}
+  }
+}
+
+country_event = {
+  id = Cirno_GreatProject.3
+  title = Cirno_GreatProject.3.title
+  desc = Cirno_GreatProject.3.desc
+  picture = Cirno_GreatProjectPicture3
+  major = yes
+  trigger = { 
+    ai = no 
+    NOT = { has_country_flag = Cirno_GreatProject3_over }
+  }
+  is_triggered_only = yes
+  
+  option = { 
+    name = Cirno_GreatProject.3.a
+    custom_tooltip = Cirno_GreatProject3a_tooltip
+    trigger = { hidden_trigger = { NOT = { has_country_flag = Cirno_Leader30 } } }
+		if = { limit = { has_country_flag = Cirno_GreatProject3_tier3 } }
+    hidden_effect = { country_event = { id = Cirno_Leader.30 } }
+  }
+  option = { 
+    name = Cirno_GreatProject.3.b
+    custom_tooltip = Cirno_GreatProject3b_tooltip
+    trigger = { hidden_trigger = { NOT = { has_country_flag = Cirno_Leader31 } } }
+		if = { limit = { has_country_flag = Cirno_GreatProject3_tier3 } }
+    hidden_effect = { country_event = { id = Cirno_Leader.31 } }
+  }
+  option = { 
+    name = Cirno_GreatProject.3.c
+    custom_tooltip = Cirno_GreatProject3c_tooltip
+    trigger = { hidden_trigger = { NOT = { has_country_flag = Cirno_Leader32 } } }
+		if = { limit = { has_country_flag = Cirno_GreatProject3_tier3 } }
+    hidden_effect = { country_event = { id = Cirno_Leader.32 } }
+  }
+  option = { 
+    name = Cirno_GreatProject.3.d
+    custom_tooltip = Cirno_GreatProject3d_tooltip
+    trigger = { 
+      hidden_trigger = { 
+        has_country_flag = Cirno_Leader30
+        has_country_flag = Cirno_Leader31
+        has_country_flag = Cirno_Leader32
+        has_country_flag = Cirno_Leader34
+      } 
+    }
+    hidden_effect = { 
+      country_event = { id = Cirno_Leader.33 } 
+      set_country_flag = Cirno_GreatProject3_over
+    }
   }
 }

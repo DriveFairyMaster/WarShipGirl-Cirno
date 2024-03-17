@@ -1,33 +1,5 @@
 namespace = Cirno_Leader
-country_event = {
-  id = Cirno_Leader.1
-  hidden = yes
-  is_triggered_only = yes
-  trigger = { ai = no }
-  immediate = {
-    kill_leader = { type = "Ü|	NSĞY" }
-		if = {
-			limit = { 
-				has_country_flag = Cirno_GreatProject2_tier1 
-				NOT = { has_country_flag = Cirno_GreatProject2_tier2 } 
-				NOT = { has_country_flag = Cirno_GreatProject2_tier3 } 
-			}
-			define_conquistador = { name = "Ü|	NSĞY" female = yes trait = WG_CIRNO_leader_trait_MIMIMI fire = 0 shock = 0 manuever = 6 siege = 6 }
-		}
-		if = {
-			limit = { 
-				has_country_flag = Cirno_GreatProject2_tier2
-				NOT = { has_country_flag = Cirno_GreatProject2_tier3 } 
-			}
-			define_conquistador = { name = "Ü|	NSĞY" female = yes trait = WG_CIRNO_leader_trait_MIMIMI fire = 1 shock = 1 manuever = 7 siege = 7 }
-		}
-		if = {
-			limit = { has_country_flag = Cirno_GreatProject2_tier3 }
-			define_conquistador = { name = "Ü|	NSĞY" female = yes trait = WG_CIRNO_leader_trait_MIMIMI fire = 3 shock = 3 manuever = 9 siege = 9 }
-		}
-	}
-  option = { name = Cirno_hidden_event.1.a }
-}
+
 country_event = {
   id = Cirno_Leader.2
   hidden = yes
@@ -169,6 +141,127 @@ country_event = {
   option = { name = Cirno_hidden_event.1.a }
 }
 
+country_event = {
+  id = Cirno_Leader.20
+  hidden = yes
+  is_triggered_only = yes
+  trigger = { ai = no }
+  immediate = {
+		define_conquistador = { 
+      name = "X2-AI.DEAL" 
+      female = yes 
+      trait = WG_CIRNO_leader_trait_IDEAL
+      fire = 6
+      shock = 6
+      manuever = 6
+      siege = 6
+    }
+  }
+  option = { name = Cirno_hidden_event.1.a }
+}
+
+country_event = {
+  id = Cirno_Leader.30
+  hidden = yes
+  is_triggered_only = yes
+  trigger = { ai = no }
+  immediate = {
+    set_country_flag = Cirno_Leader30
+		define_conquistador = { 
+      name = "·U4l‹W	NSĞY" 
+      female = yes 
+      trait = WG_CIRNO_leader_trait_MIMIMI1
+      fire = 3
+      shock = 0
+      manuever = 0
+      siege = 0
+    }
+  }
+  option = { name = Cirno_hidden_event.1.a }
+}
+country_event = {
+  id = Cirno_Leader.31
+  hidden = yes
+  is_triggered_only = yes
+  trigger = { ai = no }
+  immediate = {
+    set_country_flag = Cirno_Leader31
+		define_conquistador = { 
+      name = "QSsY‹W	NSĞY" 
+      female = yes 
+      trait = WG_CIRNO_leader_trait_MIMIMI2
+      fire = 0
+      shock = 0
+      manuever = 3
+      siege = 0
+    }
+  }
+  option = { name = Cirno_hidden_event.1.a }
+}
+country_event = {
+  id = Cirno_Leader.32
+  hidden = yes
+  is_triggered_only = yes
+  trigger = { ai = no }
+  immediate = {
+    set_country_flag = Cirno_Leader32
+		define_conquistador = { 
+      name = "²QTX‹W	NSĞY" 
+      female = yes 
+      trait = WG_CIRNO_leader_trait_MIMIMI3
+      fire = 0
+      shock = 0
+      manuever = 0
+      siege = 3
+    }
+  }
+  option = { name = Cirno_hidden_event.1.a }
+}
+country_event = {
+  id = Cirno_Leader.33
+  hidden = yes
+  is_triggered_only = yes
+  trigger = { ai = no }
+  immediate = {
+    clr_country_flag = Cirno_Leader30
+    clr_country_flag = Cirno_Leader31
+    clr_country_flag = Cirno_Leader32
+    set_country_flag = Cirno_Leader33
+    kill_leader = { type = "·U4l‹W	NSĞY" }
+    kill_leader = { type = "QSsY‹W	NSĞY" }
+    kill_leader = { type = "²QTX‹W	NSĞY" }
+    kill_leader = { type = "Â‰O‹W	NSĞY" }
+		define_conquistador = { 
+      name = "Lu.Ü|	NSĞY" 
+      female = yes 
+      trait = WG_CIRNO_leader_trait_MIMIMI
+      fire = 6
+      shock = 6
+      manuever = 6
+      siege = 6
+    }
+  }
+  option = { name = Cirno_hidden_event.1.a }
+}
+country_event = {
+  id = Cirno_Leader.34
+  hidden = yes
+  is_triggered_only = yes
+  trigger = { ai = no }
+  immediate = {
+    set_country_flag = Cirno_Leader34
+		define_conquistador = { 
+      name = "Â‰O‹W	NSĞY" 
+      female = yes 
+      trait = WG_CIRNO_leader_trait_MIMIMI4
+      fire = 0
+      shock = 0
+      manuever = 0
+      siege = 0
+    }
+  }
+  option = { name = Cirno_hidden_event.1.a }
+}
 
 country_event = {
   id = Cirno_Leader.99
@@ -194,19 +287,17 @@ country_event = {
   }
   option = { name = hidden_event_option }
 }
-country_event = { #GY?GS?u?h?g
+country_event = {
   id = Cirno_Leader.100
   hidden = yes
   is_triggered_only = yes
   trigger = { ai = no }
   immediate = {
-    kill_leader = { type = "Ü|	NSĞY" }
     kill_leader = { type = "'k9h²N‹s" }
     kill_leader = { type = "·V" }
     kill_leader = { type = "IƒNŞ˜" }
     kill_leader = { type = "‰RmÉb" }
     kill_leader = { type = "òNck" }
-    if = { limit = { has_country_flag = Cirno_Leader1 } country_event = { id = Cirno_Leader.1 } }
     if = { limit = { has_country_flag = Cirno_Leader2 } country_event = { id = Cirno_Leader.2 } }
     if = { limit = { has_country_flag = Cirno_Leader3 } country_event = { id = Cirno_Leader.3 } }
     if = { limit = { has_country_flag = Cirno_Leader4 } country_event = { id = Cirno_Leader.4 } }
@@ -223,12 +314,13 @@ country_event = {
   is_triggered_only = yes
   trigger = { ai = no }
   immediate = {
-    if = { limit = { has_country_flag = Cirno_Leader1 NOT = { has_leader = "Ü|	NSĞY" } } country_event = { id = Cirno_Leader.1 } }
-		if = { limit = { has_country_flag = Cirno_Leader2 NOT = { has_leader = "'k9h²N‹s" } } country_event = { id = Cirno_Leader.2 } }
-		if = { limit = { has_country_flag = Cirno_Leader3 NOT = { has_leader = "·V"     } } country_event = { id = Cirno_Leader.3 } }
-    if = { limit = { has_country_flag = Cirno_Leader4 NOT = { has_leader = "IƒNŞ˜"   } } country_event = { id = Cirno_Leader.4 } }
-    if = { limit = { has_country_flag = Cirno_Leader5 NOT = { has_leader = "‰RmÉb"   } } country_event = { id = Cirno_Leader.5 } }
-    if = { limit = { has_country_flag = Cirno_Leader6 NOT = { has_leader = "òNck"     } } country_event = { id = Cirno_Leader.6 } }
+		if = { limit = { has_country_flag = Cirno_Leader2      NOT = { has_leader = "'k9h²N‹s"    } } country_event = { id = Cirno_Leader.2  } }
+		if = { limit = { has_country_flag = Cirno_Leader3      NOT = { has_leader = "·V"        } } country_event = { id = Cirno_Leader.3  } }
+    if = { limit = { has_country_flag = Cirno_Leader4      NOT = { has_leader = "IƒNŞ˜"      } } country_event = { id = Cirno_Leader.4  } }
+    if = { limit = { has_country_flag = Cirno_Leader5      NOT = { has_leader = "‰RmÉb"      } } country_event = { id = Cirno_Leader.5  } }
+    if = { limit = { has_country_flag = Cirno_Leader6      NOT = { has_leader = "òNck"        } } country_event = { id = Cirno_Leader.6  } }
+    if = { limit = { has_country_flag = Cirno_Leader_IDEAL NOT = { has_leader = "X2-AI.DEAL"  } } country_event = { id = Cirno_Leader.20 } }
+		if = { limit = { has_country_flag = Cirno_Leader33     NOT = { has_leader = "Lu.Ü|	NSĞY" } } country_event = { id = Cirno_Leader.33 } }
   }
   option = { name = Cirno_hidden_event.1.a }
 }

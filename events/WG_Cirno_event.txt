@@ -2,7 +2,7 @@ namespace = Cirno_event
 #功夫
 country_event = {
   id = Cirno_event.1
-  title = Cirno_event.1.t
+  title = Cirno_event.1.title
   desc = Cirno_event.1.desc
   picture = Cirno_eventPicture1
   major = yes
@@ -19,4 +19,325 @@ country_event = {
   option = { name = Cirno_event.1.e add_treasury = -10 }
   option = { name = Cirno_event.1.f add_treasury = -10 }
   option = { name = Cirno_event.1.g }
+}
+#为提督献上
+country_event = {
+  id = Cirno_event.2
+  title = Cirno_event.2.title
+  desc = Cirno_event.2.desc
+  picture = Cirno_eventPicture2
+  major = yes
+  trigger = {
+		ai = no
+		has_estate = estate_warshipgirls999
+    NOT = { has_ruler_flag = WarShipBoy }
+    NOT = { has_country_flag = Cirno_event2 }
+  }
+  mean_time_to_happen = { months = 120 }
+  immediate = { hidden_effect = { set_country_flag = Cirno_event2 } }
+  option = { 
+    name = Cirno_event.2.a 
+    add_dip_power = 20
+  }
+}
+#田地里的小小爱情
+country_event = {
+  id = Cirno_event.3
+  title = Cirno_event.3.title
+  desc = Cirno_event.3.desc
+  picture = Cirno_eventPicture3
+  major = yes
+  trigger = {
+		ai = no
+		has_estate = estate_warshipgirls999
+    NOT = { has_country_flag = Cirno_event3 }
+  }
+  mean_time_to_happen = { months = 600 }
+  immediate = { hidden_effect = { set_country_flag = Cirno_event3 } }
+  option = { 
+    name = Cirno_event.3.a 
+    add_dip_power = 20
+  }
+}
+#济南的疑惑
+country_event = {
+  id = Cirno_event.4
+  title = Cirno_event.4.title
+  desc = Cirno_event.4.desc
+  picture = Cirno_eventPicture4
+  major = yes
+  trigger = {
+		ai = no
+		has_estate = estate_warshipgirls999
+    NOT = { has_country_flag = Cirno_event3 }
+  }
+  mean_time_to_happen = { months = 600 }
+  immediate = { hidden_effect = { set_country_flag = Cirno_event4 } }
+  option = { 
+    name = Cirno_event.4.a 
+    add_adm_power = 10
+    add_mil_power = 10
+  }
+}
+
+#糜三传说
+country_event = {
+  id = Cirno_event.33
+  title = Cirno_event.33.title
+  desc = Cirno_event.33.desc
+  picture = Cirno_eventPicture33
+  major = yes
+  is_triggered_only = yes
+  trigger = {
+		ai = no
+		has_estate = estate_warshipgirls999
+    NOT = { has_country_flag = Cirno_event33 }
+  }
+  immediate = { hidden_effect = { set_country_flag = Cirno_event33 } }
+  option = { 
+    name = Cirno_event.33.a 
+    add_treasury = 333
+  }
+}
+
+#开局事件
+country_event = {
+  id = Cirno_event.99
+  title = Cirno_event.99.title
+  desc = Cirno_event.99.desc
+  picture = Cirno_eventPicture99
+  major = yes
+  is_triggered_only = yes
+  trigger = {
+		ai = no
+		has_estate = estate_warshipgirls999
+    NOT = { has_country_flag = WarShipGirl_Cirno }
+  }
+  immediate = { 
+    hidden_effect = { set_country_flag = WarShipGirl_Cirno }
+  }
+  option = { 
+    name = Cirno_event.99.a
+    custom_tooltip = Cirno_event.99a_tooltip
+    trigger = { num_of_cities = 10 }
+    hidden_effect = { set_variable = { which = Fairy_money value = 0 } }
+  }
+  option = { 
+    name = Cirno_event.99.b
+    custom_tooltip = Cirno_event.99a_tooltip
+    trigger = { NOT = { num_of_cities = 10 } }
+    hidden_effect = { set_variable = { which = Fairy_money value = 0 } }
+    hidden_effect = { country_event = { id = Cirno_event.110 } }
+  }
+  option = { 
+    name = Cirno_event.99.c
+    custom_tooltip = Cirno_event.99c_tooltip
+    hidden_effect = { every_owned_province = { decolonize = yes }  }
+  }
+}
+country_event = {
+  id = Cirno_event.100
+  title = Cirno_event.100.title
+  desc = Cirno_event.100.desc
+  picture = Cirno_eventPicture100
+  major = yes
+  is_triggered_only = yes
+  option = { 
+    name = Cirno_event.100.a
+    country_event = { id = Cirno_event.101 }
+    hidden_effect = { set_country_flag = Cirno_event100 }
+  }
+  option = { 
+    name = Cirno_event.100.b
+    country_event = { id = Cirno_event.102 }
+    hidden_effect = { set_country_flag = Cirno_event100 }
+  }
+  option = { 
+    name = Cirno_event.100.c
+    country_event = { id = Cirno_event.103 }
+    hidden_effect = { set_country_flag = Cirno_event100 }
+  }
+  option = { 
+    name = Cirno_event.100.d
+    hidden_effect = { set_country_flag = Cirno_event100 }
+  }
+  option = { 
+    name = Cirno_event.100.e
+    hidden_effect = { set_country_flag = Cirno_event100 }
+  }
+  option = { 
+    name = Cirno_event.100.f
+    hidden_effect = { set_country_flag = Cirno_event100 }
+  }
+  option = { 
+    name = Cirno_event.100.g
+    custom_tooltip = Cirno_event.100g_tooltip
+    trigger = {
+      NOT = { num_of_cities = 2 }
+      NOT = { has_country_flag = Cirno_event100 }
+      is_year = 1444
+      is_month = 11
+    }
+    country_event = { id = Cirno_event.999 }
+    hidden_effect = { set_country_flag = Cirno_event100 }
+  }
+}
+
+country_event = { #妖精币兑换
+  id = Cirno_event.101
+  title = Cirno_event.101.title
+  desc = Cirno_event.101.desc
+  picture = Cirno_eventPicture100
+  major = yes
+  is_triggered_only = yes
+  option = { 
+    name = Cirno_event.101.a
+    trigger = {
+      adm_power = 100
+      dip_power = 100
+      mil_power = 100
+    }
+    adm_power_cost = 100
+    dip_power_cost = 100
+    mil_power_cost = 100
+    change_variable = { which = Fairy_money value = 1 }
+    hidden_effect = { country_event = { id = Cirno_event.100 } }
+  }
+  option = { 
+    name = Cirno_event.101.b
+    trigger = {
+      adm_power = 200
+      dip_power = 200
+      mil_power = 200
+    }
+    adm_power_cost = 200
+    dip_power_cost = 200
+    mil_power_cost = 200
+    change_variable = { which = Fairy_money value = 2 }
+    hidden_effect = { country_event = { id = Cirno_event.100 } }
+  }
+  option = { 
+    name = Cirno_event.101.c
+    trigger = {
+      adm_power = 500
+      dip_power = 500
+      mil_power = 500
+    }
+    adm_power_cost = 500
+    dip_power_cost = 500
+    mil_power_cost = 500
+    change_variable = { which = Fairy_money value = 5 }
+    hidden_effect = { country_event = { id = Cirno_event.100 } }
+  }
+  option = { 
+    name = Cirno_event.101.d
+    trigger = { sailors = 10000 }
+    add_sailors = -10000
+    change_variable = { which = Fairy_money value = 1 }
+    hidden_effect = { country_event = { id = Cirno_event.100 } }
+  }
+  option = { 
+    name = Cirno_event.101.e
+    trigger = { sailors = 20000 }
+    add_sailors = -20000
+    change_variable = { which = Fairy_money value = 2 }
+    hidden_effect = { country_event = { id = Cirno_event.100 } }
+  
+  }
+  option = { 
+    name = Cirno_event.101.f
+    trigger = { sailors = 50000 }
+    add_sailors = -50000
+    change_variable = { which = Fairy_money value = 5 }
+    hidden_effect = { country_event = { id = Cirno_event.100 } }
+  }
+  option = { 
+    name = Cirno_event.101.g
+    hidden_effect = { country_event = { id = Cirno_event.100 } }
+  }
+}
+
+country_event = { #杜卡特兑换
+  id = Cirno_event.102
+  title = Cirno_event.102.title
+  desc = Cirno_event.102.desc
+  picture = Cirno_eventPicture100
+  major = yes
+  is_triggered_only = yes
+  option = { 
+    name = Cirno_event.102.a
+    trigger = {
+      check_variable = { which = Fairy_money value = 1 }
+    }
+    add_treasury = 1000
+    subtract_variable = { which = Fairy_money value = 1 }
+    hidden_effect = { country_event = { id = Cirno_event.100 } }
+  }
+  option = { 
+    name = Cirno_event.102.b
+    trigger = {
+      check_variable = { which = Fairy_money value = 2 }
+    }
+    add_treasury = 2000
+    subtract_variable = { which = Fairy_money value = 2 }
+    hidden_effect = { country_event = { id = Cirno_event.100 } }
+  }
+  option = { 
+    name = Cirno_event.102.c
+    trigger = {
+      check_variable = { which = Fairy_money value = 5 }
+    }
+    add_treasury = 5000
+    subtract_variable = { which = Fairy_money value = 5 }
+    hidden_effect = { country_event = { id = Cirno_event.100 } }
+  }
+  option = { 
+    name = Cirno_event.102.d
+    trigger = {
+      check_variable = { which = Fairy_money value = 10 }
+    }
+    add_treasury = 10000
+    subtract_variable = { which = Fairy_money value = 10 }
+    hidden_effect = { country_event = { id = Cirno_event.100 } }
+  }
+  option = { 
+    name = Cirno_event.102.e
+    hidden_effect = { country_event = { id = Cirno_event.100 } }
+  }
+}
+
+country_event = {
+  id = Cirno_event.110
+  title = Cirno_event.110.title
+  desc = Cirno_event.110.desc
+  picture = Cirno_eventPicture110
+  major = yes
+  is_triggered_only = yes
+  option = { 
+    name = Cirno_event.110.a
+    add_treasury = 6480
+  }
+}
+
+#IDEAL
+country_event = { 
+  id = Cirno_event.999
+  title = Cirno_event.999.title
+  desc = Cirno_event.999.desc
+  picture = Cirno_eventPicture999
+  major = yes
+  is_triggered_only = yes
+  option = { 
+    name = Cirno_event.999.a
+    hidden_effect = { set_country_flag = Cirno_Leader_IDEAL }
+    define_conquistador = { 
+      name = "X2-AI.DEAL" 
+      female = yes 
+      trait = WG_CIRNO_leader_trait_IDEAL
+      fire = 20
+      shock = 20
+      manuever = 20
+      siege = 20
+    }
+  }
 }
