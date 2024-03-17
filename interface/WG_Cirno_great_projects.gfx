@@ -9,4 +9,9 @@ spriteTypes = {
 		name = "GFX_great_project_Cirno_GreatProject2"	
 		texturefile = "gfx//interface//great_projects//Cirno_GreatProject2.png"
 	}
+	# 糜三庙
+	spriteType = { 
+		name = "GFX_great_project_Cirno_GreatProject3"	
+		texturefile = "gfx//interface//great_projects//Cirno_GreatProject3.png"
+	}
 }

@@ -1,0 +1,3 @@
+spriteTypes = {
+	spriteType = {name = "Cirno_ming_eventPicture1" texturefile = "gfx//eventPicture//Cirno_ming_eventPicture1.png" }
+}

@@ -111,7 +111,11 @@ spriteTypes = {
 		texturefile = "gfx/tooltip/tooltip_Cirno_sex_event101c.png"
 		legacy_lazy_load = no
 	}
-	
+	spriteType = { #X1
+		name = "GFX_tooltip_Cirno_estate_event99a"
+		texturefile = "gfx/tooltip/tooltip_Cirno_estate_event99a.png"
+		legacy_lazy_load = no
+	}
 	
 	#event buff
 	spriteType = { #超级舰女人
@@ -345,6 +349,11 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_tooltip_WG_CIRNO_leader_trait_ChiangKaiShek"
 		texturefile = "gfx/tooltip/tooltip_WG_CIRNO_leader_trait_ChiangKaiShek.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_tooltip_WG_CIRNO_leader_trait_IDEAL"
+		texturefile = "gfx/tooltip/tooltip_WG_CIRNO_leader_trait_IDEAL.png"
 		legacy_lazy_load = no
 	}
 }
