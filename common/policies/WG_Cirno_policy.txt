@@ -82,13 +82,13 @@ hm_warshipgirls_dip_policy3 = {
 		OR = { full_idea_group = hm_warshipgirls_adm_ideas full_idea_group = hm_warshipgirls_mil_ideas }
 	}
 	heir_chance = 1
-	advisor_cost = 0.5
-	monarch_admin_power = -3
-	monarch_diplomatic_power = -3
-	monarch_military_power = -3
-	country_admin_power = 3
-	country_diplomatic_power = 3
-	country_military_power = 3
+	advisor_cost = 0.2
+	monarch_admin_power = -1
+	monarch_diplomatic_power = -1
+	monarch_military_power = -1
+	country_admin_power = 1
+	country_diplomatic_power = 1
+	country_military_power = 1
 }
 
 
